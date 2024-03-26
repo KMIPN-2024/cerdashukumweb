@@ -1,6 +1,6 @@
 
-# Computer Based Test Kampus Inovatif
-![Kampus Inovatif Logo](https://github.com/)
+# CerdasHukum Solusi Permasalahan Hukum Perdata
+![Kampus Inovatif Logo](https://github.com/KMIPN-2024/CerdasHukum/blob/main/public/assets/img/cerdashukum-logo.png)
 
 
 
