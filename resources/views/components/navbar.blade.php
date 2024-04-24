@@ -1,5 +1,5 @@
 {{-- navbar --}}
-    <nav class="bg-transparent  w-full top-0 left-0">
+    <nav class="bg-transparent w-full top-0 left-0 border-b border-b-blue-100">
         <div id="navbar" class="max-w-full flex flex-wrap items-center justify-between mx-auto lg:mx-20 p-4">
             <a href="#hero">
                 <img src="{{ asset('assets/img/cerdashukum-logo.png') }}" class="h-10 hidden md:block" alt="POS Logo" />
@@ -37,7 +37,7 @@
             <div class="ml-2 lg:ml-10 xl:ml-20 items-center justify-between hidden w-full md:flex md:w-auto"
                 id="navbar-default">
                 <ul
-                    class="flex flex-col lg:gap-2 p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-white-50 md:bg-white-100 md:flex-row md:space-x-4 lg:space-x-8 md:mt-0 md:border-0 md:dark:bg-gray-900 items-center">
+                    class="flex flex-col lg:gap-2 p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-white-50 md:bg-white-100 md:flex-row md:space-x-4 lg:space-x-8 md:mt-0 md:border-0 md:dark:bg-transparent items-center">
                     <li>
                         <a href="#home"
                             class="block py-2 pl-3 pr-4 text-primary rounded md:bg-transparent md:text-primary md:p-0 underline underline-offset-8"
@@ -45,24 +45,24 @@
                     </li>
                     <li>
                         <a href="#pengacara"
-                            class="block py-2 pl-3 pr-4 text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent">Pengacara</a>
+                            class="block py-2 pl-3 pr-4 text-secondary dark:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent">Pengacara</a>
                     </li>
                     <li>
                         <a href="#berita"
-                            class="block py-2 pl-3 pr-4 text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent">Berita</a>
+                            class="block py-2 pl-3 pr-4 text-secondary dark:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent">Berita</a>
                     </li>
                     <li>
                         <a href="#faq"
-                            class="block py-2 pl-3 pr-4 text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent">FAQ</a>
+                            class="block py-2 pl-3 pr-4 text-secondary dark:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent">FAQ</a>
                     </li>
                     <li>
                         <a href="#tentangkami"
-                            class="block py-2 pl-3 pr-4 text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent">Tentang Kami</a>
+                            class="block py-2 pl-3 pr-4 text-secondary dark:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent">Tentang Kami</a>
                     </li>
                     {{-- Mobile Screen --}}
                     <li>
                         <a href="route('register')"
-                            class="block md:hidden py-2 pl-3 pr-4 text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent">Get
+                            class="block md:hidden py-2 pl-3 pr-4 text-secondary dark:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent">Get
                             Started</a>
                     </li>
                     {{-- End Mobile Screen --}}

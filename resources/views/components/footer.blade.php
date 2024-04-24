@@ -1,5 +1,5 @@
 <div class="border-t border-secondary">
-    <div class="mx-20 pb-16 text-secondary  pt-5">
+    <div class="mx-20 pb-16 text-secondary pt-5 dark:text-white">
         <div class="flex flex-col md:flex-row justify-between gap-y-8 md:gap-y-0">
             <div class="flex flex-col gap-y-4">
                 <h3 class="font-semibold">Company</h3>

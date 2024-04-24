@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BantuanHukumController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,8 +18,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('landing');
 });
-Route::get('/bantuan-hukum', function () {
-    return view('bantuan-hukum');
+Route::get('/bantuan-hukum', [BantuanHukumController::class, 'index'])->name('bantuan-hukum');
+Route::post('/bantuan-hukum/pasal', [BantuanHukumController::class, 'getPasal'])->name('bantuan-hukum.getPasal');
+
+
+Route::get('/coming-soon', function () {
+    return view('comingsoon.index');
 });
 
 Route::get('/dashboard', function () {

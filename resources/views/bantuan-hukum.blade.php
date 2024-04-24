@@ -1,9 +1,9 @@
 <x-app-layout>
-    <div class="bg-white px-8 py-10 md:px-16 md:py-20">
-        <div class="text-primary grid gap-y-5">
+    <div class="bg-white px-8 py-10 md:px-16 md:py-20 dark:bg-[#191d3c]">
+        <div class="text-primary dark:text-[#b6b4fe] grid gap-y-4">
             <p class="font-semibold font-open text-base uppercase">artifical intelligence</p>
-            <h3 class="font-semibold font-inter text-5xl">Discover Legal Solutions Tailored Just for You</h3>
-            <p>A Variety of Lawyers Suitable for Your Consultation Needs</p>
+            <h3 class="font-semibold font-inter text-5xl">Temukan Solusi Hukum yang Sesuai Hanya untuk Anda</h3>
+            <p class="text-secondary dark:text-white">Beragam Pengacara yang Cocok untuk Kebutuhan Konsultasi Anda</p>
         </div>
 
         <div class="mt-12 md:px-20">
@@ -13,12 +13,12 @@
                     <div class="px-4 py-2 bg-[#F6F8FD] rounded-t-lg dark:bg-gray-800">
                         <label for="comment" class="sr-only">Your comment</label>
                         <textarea id="comment" rows="5"
-                            class="w-full px-0 text-base text-gray-900 bg-[#F6F8FD] border-0 dark:bg-gray-800 focus:ring-0 dark:text-white dark:placeholder-gray-400"
+                            class="w-full px-0 text-base text-gray-900 bg-[#F6F8FD] border-0 dark:bg-gray-800 focus:ring-0 dark:text-white dark:placeholder-white"
                             placeholder="Temukan solusi hukum yang tepat untuk setiap permasalahan perdata dengan platform CerdasHukum berbasis AI. Dengan fitur konsultasi kami, langkah hukum Anda menjadi lebih tepat dan fokus, sehingga menjamin kejelasan dan arah dalam perjalanan hukum Anda."
                             required /></textarea>
                     </div>
                     <div
-                        class="flex items-center justify-between px-3 py-2 border-t border-primary dark:border-gray-600">
+                        class="flex items-center justify-between px-3 py-2 border-t border-primary dark:border-primary">
                         <div class="flex items-center ps-0 space-x-3 rtl:space-x-reverse sm:ps-2">
                             <div class="">
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
@@ -31,8 +31,8 @@
                                         fill="#335EF7" />
                                 </svg>
                             </div>
-                            <div class="">
-                                <p>Tell AI what to do next...</p>
+                            <div class="dark:text-white">
+                                <p>Ceritakan masalah hukum anda...</p>
                             </div>
                         </div>
                         <button type="submit"
@@ -47,8 +47,7 @@
                     </div>
                 </div>
             </form>
-            <p class="ms-auto text-xs text-gray-500 dark:text-gray-400">Remember, contributions to this topic should
-                follow our <a href="#" class="text-blue-600 dark:text-blue-500 hover:underline">Community
+            <p class="ms-auto text-xs text-gray-500 dark:text-gray-400">Gunakan Bahasa Indonesia yang baik dan benar agar mendapat jawaban yang maksimal <a href="#" class="text-blue-600 dark:text-[#b6b4fe] hover:underline">Community
                     Guidelines</a>.</p>
         </div>
     </div>
@@ -56,10 +55,10 @@
     {{-- Section Bantuan Hukum --}}
     <div class="flex py-8 md:py-16">
         <div class="flex-grow overflow-x-auto px-8 md:ps-28">
-            <p class="font-medium text-lg text-secondary mb-4">Your complaint corresponds to Article</p>
-            <div class="bg-white rounded-lg shadow-md shadow-blue-200" id="accordion-flush" data-accordion="collapse"
+            <p class="font-medium text-lg text-secondary dark:text-[#b6b4fe] mb-4">Keluhan Anda sesuai dengan Pasal</p>
+            <div class="bg-white dark:bg-[#15152C] rounded-lg shadow-md shadow-blue-200" id="accordion-flush" data-accordion="collapse"
                 data-active-classes="bg-primary dark:bg-gray-800 text-white dark:text-white"
-                data-inactive-classes="bg-white text-gray-500 dark:text-gray-400">
+                data-inactive-classes="bg-white dark:bg-[#15152C] text-gray-500 dark:text-gray-400">
                 <h2 id="accordion-flush-heading-1">
                     <button type="button"
                         class="flex items-center justify-between w-full p-4 text-left rtl:text-right text-secondary border-b border-primary dark:border-gray-700 dark:text-gray-400 "
@@ -79,16 +78,16 @@
                     </button>
                 </h2>
                 <div id="accordion-flush-body-1" class="hidden" aria-labelledby="accordion-flush-heading-1">
-                    <div class="bg-white p-5 shadow-md rounded-b-xl">
+                    <div class="bg-white dark:bg-[#15152C] p-5 shadow-md rounded-b-xl">
                         <div class="py-5 border-b border-primary dark:border-gray-700">
-                            <div class="flex flex-col items-center">
-                                <p class="mb-2 font-semibold text-secondary dark:text-white">BAB 1 BUKU DAN
+                            <div class="flex flex-col items-center  text-secondary dark:text-gray-200">
+                                <p class="mb-2 font-semibold">BAB 1 BUKU DAN
                                     PEMBAGIANNYA
                                 </p>
-                                <p class="mb-2 font-semibold text-secondary dark:text-white">BAGIAN 1 BARANG PADA
+                                <p class="mb-2 font-semibold">BAGIAN 1 BARANG PADA
                                     UMUMNYA</p>
                             </div>
-                            <p class="text-[#6B7280] dark:text-gray-400">Syarat batal dianggap selalu dicantumkan
+                            <p class="text-[#6B7280] dark:text-gray-200">Syarat batal dianggap selalu dicantumkan
                                 dalam
                                 persetujuan yang timbal balik, andaikata salah satu pihak tidak memenuhi
                                 kewajibannya.
@@ -116,16 +115,16 @@
                     </button>
                 </h2>
                 <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
-                    <div class="bg-white p-5 shadow-md rounded-b-xl">
+                    <div class="bg-white dark:bg-[#15152C] p-5 shadow-md rounded-b-xl">
                         <div class="py-5 border-b border-primary dark:border-gray-700">
-                            <div class="flex flex-col items-center">
-                                <p class="mb-2 font-semibold text-secondary dark:text-white">BAB 1 BUKU DAN
+                            <div class="flex flex-col items-center  text-secondary dark:text-gray-200">
+                                <p class="mb-2 font-semibold">BAB 1 BUKU DAN
                                     PEMBAGIANNYA
                                 </p>
-                                <p class="mb-2 font-semibold text-secondary dark:text-white">BAGIAN 1 BARANG PADA
+                                <p class="mb-2 font-semibold">BAGIAN 1 BARANG PADA
                                     UMUMNYA</p>
                             </div>
-                            <p class="text-[#6B7280] dark:text-gray-400">Syarat batal dianggap selalu dicantumkan
+                            <p class="text-[#6B7280] dark:text-gray-200">Syarat batal dianggap selalu dicantumkan
                                 dalam
                                 persetujuan yang timbal balik, andaikata salah satu pihak tidak memenuhi
                                 kewajibannya.
@@ -147,22 +146,22 @@
                         </div>
                         <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2" d="M9 5 5 1 1 5" />
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 5 5 1 1 5" />
                         </svg>
                     </button>
                 </h2>
                 <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
-                    <div class="bg-white p-5 shadow-md rounded-b-xl">
+                    <div class="bg-white dark:bg-[#15152C] p-5 shadow-md rounded-b-xl">
                         <div class="py-5 border-b border-primary dark:border-gray-700">
-                            <div class="flex flex-col items-center">
-                                <p class="mb-2 font-semibold text-secondary dark:text-white">BAB 1 BUKU DAN
+                            <div class="flex flex-col items-center  text-secondary dark:text-gray-200">
+                                <p class="mb-2 font-semibold">BAB 1 BUKU DAN
                                     PEMBAGIANNYA
                                 </p>
-                                <p class="mb-2 font-semibold text-secondary dark:text-white">BAGIAN 1 BARANG PADA
+                                <p class="mb-2 font-semibold">BAGIAN 1 BARANG PADA
                                     UMUMNYA</p>
                             </div>
-                            <p class="text-[#6B7280] dark:text-gray-400">Syarat batal dianggap selalu dicantumkan
+                            <p class="text-[#6B7280] dark:text-gray-200">Syarat batal dianggap selalu dicantumkan
                                 dalam
                                 persetujuan yang timbal balik, andaikata salah satu pihak tidak memenuhi
                                 kewajibannya.
@@ -174,7 +173,7 @@
                 <h2 id="accordion-flush-heading-4">
                     <button type="button"
                         class="flex items-center justify-between w-full p-4 text-left rtl:text-right text-secondary border-b border-primary dark:border-gray-700 dark:text-gray-400 "
-                        data-accordion-target="#accordion-flush-body-" aria-controls="accordion-flush-body-">
+                        data-accordion-target="#accordion-flush-body-4" aria-controls="accordion-flush-body-4">
                         <div class="flex flex-col max-w-[calc(100%-1.25rem)]">
                             <span class="font-medium">Pasal 1266</span>
                             <span class="truncate">Syarat batal dianggap selalu dicantumkan dalam
@@ -184,22 +183,22 @@
                         </div>
                         <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2" d="M9 5 5 1 1 5" />
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 5 5 1 1 5" />
                         </svg>
                     </button>
                 </h2>
-                <div id="accordion-flush-body-" class="hidden" aria-labelledby="accordion-flush-heading-4">
-                    <div class="bg-white p-5 shadow-md rounded-b-xl">
+                <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
+                    <div class="bg-white dark:bg-[#15152C] p-5 shadow-md rounded-b-xl">
                         <div class="py-5 border-b border-primary dark:border-gray-700">
-                            <div class="flex flex-col items-center">
-                                <p class="mb-2 font-semibold text-secondary dark:text-white">BAB 1 BUKU DAN
+                            <div class="flex flex-col items-center  text-secondary dark:text-gray-200">
+                                <p class="mb-2 font-semibold">BAB 1 BUKU DAN
                                     PEMBAGIANNYA
                                 </p>
-                                <p class="mb-2 font-semibold text-secondary dark:text-white">BAGIAN 1 BARANG PADA
+                                <p class="mb-2 font-semibold">BAGIAN 1 BARANG PADA
                                     UMUMNYA</p>
                             </div>
-                            <p class="text-[#6B7280] dark:text-gray-400">Syarat batal dianggap selalu dicantumkan
+                            <p class="text-[#6B7280] dark:text-gray-200">Syarat batal dianggap selalu dicantumkan
                                 dalam
                                 persetujuan yang timbal balik, andaikata salah satu pihak tidak memenuhi
                                 kewajibannya.
@@ -221,22 +220,22 @@
                         </div>
                         <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2" d="M9 5 5 1 1 5" />
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 5 5 1 1 5" />
                         </svg>
                     </button>
                 </h2>
                 <div id="accordion-flush-body-5" class="hidden" aria-labelledby="accordion-flush-heading-5">
-                    <div class="bg-white p-5 shadow-md rounded-b-xl">
+                    <div class="bg-white dark:bg-[#15152C] p-5 shadow-md rounded-b-xl">
                         <div class="py-5 border-b border-primary dark:border-gray-700">
-                            <div class="flex flex-col items-center">
-                                <p class="mb-2 font-semibold text-secondary dark:text-white">BAB 1 BUKU DAN
+                            <div class="flex flex-col items-center  text-secondary dark:text-gray-200">
+                                <p class="mb-2 font-semibold">BAB 1 BUKU DAN
                                     PEMBAGIANNYA
                                 </p>
-                                <p class="mb-2 font-semibold text-secondary dark:text-white">BAGIAN 1 BARANG PADA
+                                <p class="mb-2 font-semibold">BAGIAN 1 BARANG PADA
                                     UMUMNYA</p>
                             </div>
-                            <p class="text-[#6B7280] dark:text-gray-400">Syarat batal dianggap selalu dicantumkan
+                            <p class="text-[#6B7280] dark:text-gray-200">Syarat batal dianggap selalu dicantumkan
                                 dalam
                                 persetujuan yang timbal balik, andaikata salah satu pihak tidak memenuhi
                                 kewajibannya.
@@ -248,7 +247,8 @@
             </div>
         </div>
         <div class="md:ms-5 flex justify-end">
-            <img src="{{ asset('assets/img/bantuan 1.png') }}" class="hidden md:block md:w-[1000px]" alt="">
+            <img src="{{ asset('assets/img/bantuan 1.png') }}"
+                class="hidden md:block md:w-[1000px] md:h-[460px] object-cover" alt="">
         </div>
     </div>
     {{-- End Section Bantuan Hukum --}}
@@ -257,16 +257,16 @@
     <div class="p-6 md:p-12">
         {{-- Title --}}
         <div class="flex flex-col items-center justify-center gap-y-5 text-center text-primary pb-8 md:pb-16">
-            <p class="font-semibold text-base">A Collection of Legal Attorneys</p>
-            <h1 class="font-inter font-semibold text-2xl md:text-4xl">Hundreds of Trusted Lawyers <br> Ready to Assist
-                You</h1>
+            <p class="font-semibold text-base">Kumpulan Pengacara Hukum</p>
+            <h1 class="font-inter font-semibold text-2xl md:text-4xl">Ratusan Pengacara Tepercaya <br> Siap Membantu
+                Anda</h1>
         </div>
         {{-- End Title --}}
 
         {{-- Card Pengacara --}}
         <div class="flex flex-col md:flex-row flex-wrap  gap-6 justify-center">
             <div
-                class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                class="max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-[#15152C] shadow-md shadow-blue-100">
                 <div class="p-6">
                     <a href="#">
                         <img class="rounded-lg" src="{{ asset('assets/img/lawyer.png') }}" alt="" />
@@ -293,20 +293,20 @@
                 </div>
             </div>
             <div
-                class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                class="max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-[#15152C] shadow-md shadow-blue-100">
                 <div class="p-6">
                     <a href="#">
                         <img class="rounded-lg" src="{{ asset('assets/img/lawyer.png') }}" alt="" />
                     </a>
                 </div>
                 <div class="px-6 pb-6">
-                    <div class="mb-3 flex">
+                    <div class="mb-3 flex flex-wrap md:flex-nowrap gap-3 md:gap-0">
                         <span
-                            class="bg-primary bg-opacity-10 grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Sengketa</span>
+                            class="bg-primary bg-opacity-10 md:grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Sengketa</span>
                         <span
-                            class="bg-primary bg-opacity-10 grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Perkawinan</span>
+                            class="bg-primary bg-opacity-10 md:grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Perkawinan</span>
                         <span
-                            class="bg-primary bg-opacity-10 grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Perjanjian</span>
+                            class="bg-primary bg-opacity-10 md:grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Perjanjian</span>
                     </div>
                     <a href="#">
                         <h5 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">M.
@@ -320,20 +320,20 @@
                 </div>
             </div>
             <div
-                class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                class="max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-[#15152C] shadow-md shadow-blue-100">
                 <div class="p-6">
                     <a href="#">
                         <img class="rounded-lg" src="{{ asset('assets/img/lawyer.png') }}" alt="" />
                     </a>
                 </div>
                 <div class="px-6 pb-6">
-                    <div class="mb-3 flex">
+                    <div class="mb-3 flex flex-wrap md:flex-nowrap gap-3 md:gap-0">
                         <span
-                            class="bg-primary bg-opacity-10 grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Sengketa</span>
+                            class="bg-primary bg-opacity-10 md:grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Sengketa</span>
                         <span
-                            class="bg-primary bg-opacity-10 grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Perkawinan</span>
+                            class="bg-primary bg-opacity-10 md:grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Perkawinan</span>
                         <span
-                            class="bg-primary bg-opacity-10 grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Perjanjian</span>
+                            class="bg-primary bg-opacity-10 md:grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Perjanjian</span>
                     </div>
                     <a href="#">
                         <h5 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">M.
@@ -362,14 +362,15 @@
             </h4>
         </div>
 
-        <div id="faq" class="my-10 grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div id="faq" class="my-10 grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-3 dark:text-white">
             <div class="" id="accordion-collapse" data-accordion="collapse2">
-                <h2 id="accordion-collapse-heading-1" class="bg-white shadow-md shadow-red-100 py-3 px-4 rounded-lg">
+                <h2 id="accordion-collapse-heading-1"
+                    class="bg-white dark:bg-[#15152C] shadow-md shadow-blue-100 py-3 px-4 rounded-lg transition duration-150 ease-in-out transform hover:-translate-y-1 hover:border-2 hover:border-primary">
                     <button type="button" class="flex justify-between gap-2 items-center w-full"
                         data-accordion-target="#accordion-collapse-body-1" aria-controls="accordion-collapse-body-1">
-                        <p class="text-sm md:text-base">Apa itu Point Of Sale (POS)?</p>
+                        <p class="text-sm md:text-base">Apa itu CerdasHukum</p>
 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 21 21"
                             fill="none">
                             <path
                                 d="M10.25 9.5C10.9404 9.5 11.5 9.50011 11.5 9.50011L19 9.50005C19.6904 9.50005 20.25 10.0597 20.25 10.7501C20.25 11.4404 19.6904 12.0001 19 12.0001H11.5H11.25C11.113 12.0001 10.4404 12.0001 9.75 12.0001C9.05964 12.0001 8.93429 12.0001 9 12.0001H1.5C0.809644 12.0001 0.25 11.4404 0.25 10.7501C0.25 10.0597 0.809644 9.50005 1.5 9.50005H9C9 9.50005 9.55964 9.5 10.25 9.5Z"
@@ -388,18 +389,19 @@
 
                     </button>
                 </h2>
-                <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+                <div id="accordion-collapse-body-1" class="hidden bg-white dark:bg-[#15152C] shadow-md shadow-blue-100"
+                    aria-labelledby="accordion-collapse-heading-1">
                     <div class="p-5 shadow-md rounded-b-xl">
                         <p class="text-sm md:text-base">Yo nda tau ko tanya sayaaa</p>
                     </div>
                 </div>
             </div>
             <div id="accordion-collapse" data-accordion="collapse2">
-                <h2 id="accordion-collapse-heading-2" class="bg-white shadow-md shadow-blue-100 py-3 px-4 rounded-lg">
+                <h2 id="accordion-collapse-heading-2" class="bg-white dark:bg-[#15152C] shadow-md shadow-blue-100 py-3 px-4 rounded-lg transition duration-150 ease-in-out transform hover:-translate-y-1 hover:border-2 hover:border-primary">
                     <button type="button" class="flex justify-between items-center gap-2 w-full"
                         data-accordion-target="#accordion-collapse-body-2" aria-controls="accordion-collapse-body-2">
-                        <p class="text-sm md:text-base">Bisakah saya pesan makanan dari tenant yang berbeda?</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
+                        <p class="text-sm md:text-base">Apakah jawaban yang diberikan akurat?</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 21 21"
                             fill="none">
                             <path
                                 d="M10.25 9.5C10.9404 9.5 11.5 9.50011 11.5 9.50011L19 9.50005C19.6904 9.50005 20.25 10.0597 20.25 10.7501C20.25 11.4404 19.6904 12.0001 19 12.0001H11.5H11.25C11.113 12.0001 10.4404 12.0001 9.75 12.0001C9.05964 12.0001 8.93429 12.0001 9 12.0001H1.5C0.809644 12.0001 0.25 11.4404 0.25 10.7501C0.25 10.0597 0.809644 9.50005 1.5 9.50005H9C9 9.50005 9.55964 9.5 10.25 9.5Z"
@@ -414,20 +416,21 @@
 
                     </button>
                 </h2>
-                <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
-                    <div class="p-5 shadow-md rounded-b-xl">
+                <div id="accordion-collapse-body-2" class="hidden bg-white dark:bg-[#15152C]"
+                    aria-labelledby="accordion-collapse-heading-2">
+                    <div class="p-5 shadow-md rounded-b-xl shadow-blue-100">
                         <p class="text-sm md:text-base">Yo nda tau ko tanya sayaaa</p>
                     </div>
                 </div>
             </div>
             <div id="accordion-collapse" data-accordion="collapse2">
-                <h2 id="accordion-collapse-heading-3" class="bg-white shadow-md shadow-blue-100 py-3 px-4 rounded-lg">
+                <h2 id="accordion-collapse-heading-3" class="bg-white dark:bg-[#15152C] shadow-md shadow-blue-100 py-3 px-4 rounded-lg transition duration-150 ease-in-out transform hover:-translate-y-1 hover:border-2 hover:border-primary">
                     <button type="button" class="flex justify-between gap-2 items-center w-full"
                         data-accordion-target="#accordion-collapse-body-3" aria-controls="accordion-collapse-body-3">
                         <p class="text-sm md:text-base">
-                            Bagaimana cara memesan?
+                            Apakah CerdasHukum gratis digunakan?
                         </p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 21 21"
                             fill="none">
                             <path
                                 d="M10.25 9.5C10.9404 9.5 11.5 9.50011 11.5 9.50011L19 9.50005C19.6904 9.50005 20.25 10.0597 20.25 10.7501C20.25 11.4404 19.6904 12.0001 19 12.0001H11.5H11.25C11.113 12.0001 10.4404 12.0001 9.75 12.0001C9.05964 12.0001 8.93429 12.0001 9 12.0001H1.5C0.809644 12.0001 0.25 11.4404 0.25 10.7501C0.25 10.0597 0.809644 9.50005 1.5 9.50005H9C9 9.50005 9.55964 9.5 10.25 9.5Z"
@@ -442,20 +445,21 @@
 
                     </button>
                 </h2>
-                <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
-                    <div class="p-5 shadow-md rounded-b-xl">
+                <div id="accordion-collapse-body-3" class="hidden bg-white dark:bg-[#15152C]"
+                    aria-labelledby="accordion-collapse-heading-3">
+                    <div class="p-5 shadow-md rounded-b-xl shadow-blue-100">
                         <p class="text-sm md:text-base">Yo nda tau ko tanya sayaaa</p>
                     </div>
                 </div>
             </div>
             <div id="accordion-collapse" data-accordion="collapse2">
-                <h2 id="accordion-collapse-heading-4" class="bg-white shadow-md shadow-blue-100 py-3 px-4 rounded-lg">
+                <h2 id="accordion-collapse-heading-4" class="bg-white dark:bg-[#15152C] shadow-md shadow-blue-100 py-3 px-4 rounded-lg transition duration-150 ease-in-out transform hover:-translate-y-1 hover:border-2 hover:border-primary">
                     <button type="button" class="flex justify-between gap-2 items-center w-full"
                         data-accordion-target="#accordion-collapse-body-4" aria-controls="accordion-collapse-body-4">
                         <p class="text-sm md:text-base">
-                            Apa saja pilihan pembayaran yang tersedia?
+                            Bagaimana CerdasHukum bekerja?
                         </p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 21 21"
                             fill="none">
                             <path
                                 d="M10.25 9.5C10.9404 9.5 11.5 9.50011 11.5 9.50011L19 9.50005C19.6904 9.50005 20.25 10.0597 20.25 10.7501C20.25 11.4404 19.6904 12.0001 19 12.0001H11.5H11.25C11.113 12.0001 10.4404 12.0001 9.75 12.0001C9.05964 12.0001 8.93429 12.0001 9 12.0001H1.5C0.809644 12.0001 0.25 11.4404 0.25 10.7501C0.25 10.0597 0.809644 9.50005 1.5 9.50005H9C9 9.50005 9.55964 9.5 10.25 9.5Z"
@@ -470,18 +474,19 @@
 
                     </button>
                 </h2>
-                <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
-                    <div class="p-5 shadow-md rounded-b-xl">
+                <div id="accordion-collapse-body-4" class="hidden bg-white dark:bg-[#15152C]"
+                    aria-labelledby="accordion-collapse-heading-4">
+                    <div class="p-5 shadow-md rounded-b-xl shadow-blue-100">
                         <p class="text-sm md:text-base">Yo nda tau ko tanya sayaaa</p>
                     </div>
                 </div>
             </div>
             <div id="accordion-collapse" data-accordion="collapse2">
-                <h2 id="accordion-collapse-heading-5" class="bg-white shadow-md shadow-blue-100 py-3 px-4 rounded-lg">
+                <h2 id="accordion-collapse-heading-5" class="bg-white dark:bg-[#15152C] shadow-md shadow-blue-100 py-3 px-4 rounded-lg transition duration-150 ease-in-out transform hover:-translate-y-1 hover:border-2 hover:border-primary">
                     <button type="button" class="flex justify-between gap-2 items-center w-full"
                         data-accordion-target="#accordion-collapse-body-5" aria-controls="accordion-collapse-body-5">
                         <p class="text-sm md:text-base">Berapa biaya layanan dari POS?</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 21 21"
                             fill="none">
                             <path
                                 d="M10.25 9.5C10.9404 9.5 11.5 9.50011 11.5 9.50011L19 9.50005C19.6904 9.50005 20.25 10.0597 20.25 10.7501C20.25 11.4404 19.6904 12.0001 19 12.0001H11.5H11.25C11.113 12.0001 10.4404 12.0001 9.75 12.0001C9.05964 12.0001 8.93429 12.0001 9 12.0001H1.5C0.809644 12.0001 0.25 11.4404 0.25 10.7501C0.25 10.0597 0.809644 9.50005 1.5 9.50005H9C9 9.50005 9.55964 9.5 10.25 9.5Z"
@@ -496,19 +501,21 @@
 
                     </button>
                 </h2>
-                <div id="accordion-collapse-body-5" class="hidden" aria-labelledby="accordion-collapse-heading-5">
-                    <div class="p-5 shadow-md rounded-b-xl">
+                <div id="accordion-collapse-body-5" class="hidden bg-white dark:bg-[#15152C]"
+                    aria-labelledby="accordion-collapse-heading-5">
+                    <div class="p-5 shadow-md rounded-b-xl shadow-blue-100">
                         <p class="text-sm md:text-base">Yo nda tau ko tanya sayaaa</p>
                     </div>
                 </div>
             </div>
             <div id="accordion-collapse" data-accordion="collapse2">
                 <h2 id="accordion-collapse-heading-6"
-                    class="bg-white shadow-md  shadow-blue-100 py-3 px-4 rounded-lg">
+                    class="bg-white dark:bg-[#15152C] shadow-md shadow-blue-100 py-3 px-4 rounded-lg transition duration-150 ease-in-out transform hover:-translate-y-1 hover:border-2 hover:border-primary">
                     <button type="button" class="flex justify-between gap-2 items-center w-full"
                         data-accordion-target="#accordion-collapse-body-6" aria-controls="accordion-collapse-body-6">
-                        <p class="text-sm md:text-base">Mengapa saya harus bergabung bersama POS?</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
+                        <p class="text-sm md:text-base">Apakah perlu pengetahuan hukum untuk menggunakan CerdasHukum?
+                        </p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 21 21"
                             fill="none">
                             <path
                                 d="M10.25 9.5C10.9404 9.5 11.5 9.50011 11.5 9.50011L19 9.50005C19.6904 9.50005 20.25 10.0597 20.25 10.7501C20.25 11.4404 19.6904 12.0001 19 12.0001H11.5H11.25C11.113 12.0001 10.4404 12.0001 9.75 12.0001C9.05964 12.0001 8.93429 12.0001 9 12.0001H1.5C0.809644 12.0001 0.25 11.4404 0.25 10.7501C0.25 10.0597 0.809644 9.50005 1.5 9.50005H9C9 9.50005 9.55964 9.5 10.25 9.5Z"
@@ -523,8 +530,9 @@
 
                     </button>
                 </h2>
-                <div id="accordion-collapse-body-6" class="hidden" aria-labelledby="accordion-collapse-heading-6">
-                    <div class="p-5 shadow-md rounded-b-xl">
+                <div id="accordion-collapse-body-6" class="hidden bg-white dark:bg-[#15152C]"
+                    aria-labelledby="accordion-collapse-heading-6">
+                    <div class="p-5 shadow-md rounded-b-xl shadow-blue-100">
                         <p class="text-sm md:text-base">Yo nda tau ko tanya sayaaa</p>
                     </div>
                 </div>
@@ -534,6 +542,27 @@
     {{-- End Section FAQ --}}
 
     @push('addon-script')
+        
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+
+                Swal.fire({
+                    title: 'Perhatian!',
+                    html: `
+                <div style="text-align: justify;">
+                    1. Fitur ini hanya memberikan informasi mengenai pasal yang sesuai dalam Kitab Undang-Undang Hukum Perdata (Burgelik Wetboek/BW).<br>
+                    2. Pemahaman dan interpretasi terhadap pasal yang dihasilkan sistem sepenuhnya merupakan tanggung jawab pengguna.<br>
+                    3. Informasi yang diberikan tidak dimaksudkan sebagai pengganti nasihat atau konsultasi hukum profesional.<br><br>
+                    <span style="display: block; text-align: center; font-weight: bold;">
+                        Disarankan untuk selalu berkonsultasi dengan ahli hukum untuk mendapatkan informasi yang lebih akurat dan terperinci.
+                    </span>
+                </div>
+            `,
+                    confirmButtonText: 'Saya Mengerti',
+                });
+            });
+        </script>
         <script>
             document.addEventListener('DOMContentLoaded', function() {
                 const accordions = document.querySelectorAll('[data-accordion="collapse2"]');
