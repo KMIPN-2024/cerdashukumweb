@@ -1,0 +1,2187 @@
+[
+  {
+    "nama": "Andi Setiawan",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Mengkhususkan diri dalam penyusunan dan peninjauan perjanjian kontrak, serta penyelesaian sengketa kontrak."
+  },
+  {
+    "nama": "Budi Pratama",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam hukum waris dan pembagian harta warisan dengan pengalaman lebih dari 10 tahun."
+  },
+  {
+    "nama": "Citra Dewi",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa tanah dan sertifikasi lahan."
+  },
+  {
+    "nama": "Dian Kurnia",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Menangani kasus perceraian dan perjanjian pra-nikah dengan pendekatan mediasi."
+  },
+  {
+    "nama": "Eko Santoso",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam hak asuh anak dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Fitriani Rahayu",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Memiliki keahlian dalam negosiasi dan penyusunan kontrak bisnis."
+  },
+  {
+    "nama": "Gunawan Subrata",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Pengalaman panjang dalam pengurusan harta waris dan sengketa keluarga."
+  },
+  {
+    "nama": "Hesti Wulandari",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Mengelola berbagai kasus pertanahan termasuk jual beli tanah dan sertifikasi."
+  },
+  {
+    "nama": "Indra Wijaya",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Berpengalaman dalam menangani kasus perceraian dan hak asuh anak."
+  },
+  {
+    "nama": "Joko Riyadi",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Fokus pada penyelesaian sengketa hak asuh anak dengan pendekatan humanis."
+  },
+  {
+    "nama": "Kurniawan",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Terampil dalam perancangan dan negosiasi kontrak bisnis."
+  },
+  {
+    "nama": "Lia Amalia",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli hukum waris dengan pengalaman menangani berbagai kasus sengketa waris."
+  },
+  {
+    "nama": "Mira Yulia",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berpengalaman dalam penyelesaian kasus pertanahan dan properti."
+  },
+  {
+    "nama": "Nanda Prasetya",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Mengkhususkan diri dalam perceraian dan mediasi pasangan."
+  },
+  {
+    "nama": "Oka Nugraha",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam penyelesaian sengketa hak asuh anak dan masalah keluarga lainnya."
+  },
+  {
+    "nama": "Putu Ayu",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Berpengalaman dalam pembuatan dan negosiasi perjanjian bisnis."
+  },
+  {
+    "nama": "Qori Ardiansyah",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Memiliki keahlian dalam mengurus masalah hukum waris dan sengketa keluarga."
+  },
+  {
+    "nama": "Rini Astuti",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Fokus pada penyelesaian sengketa tanah dan legalitas properti."
+  },
+  {
+    "nama": "Sandi Permana",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Berpengalaman dalam menangani proses perceraian dan hak asuh anak."
+  },
+  {
+    "nama": "Tia Lestari",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Menangani kasus hak asuh anak dengan pendekatan yang ramah anak."
+  },
+  {
+    "nama": "Udin Suryadi",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Ahli dalam penyusunan dan peninjauan kontrak kerja dan bisnis."
+  },
+  {
+    "nama": "Vina Maharani",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Spesialis dalam hukum waris dan penyelesaian sengketa warisan."
+  },
+  {
+    "nama": "Wahyu Purnama",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berpengalaman dalam pengurusan sertifikat tanah dan penyelesaian sengketa."
+  },
+  {
+    "nama": "Yudi Setiawan",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam menangani perceraian dan permasalahan rumah tangga lainnya."
+  },
+  {
+    "nama": "Zahra Fitria",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Fokus pada penyelesaian masalah hak asuh anak dan keluarga."
+  },
+  {
+    "nama": "Arif Pratama",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Mengkhususkan diri dalam pembuatan dan peninjauan kontrak bisnis."
+  },
+  {
+    "nama": "Bambang Sutrisno",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Pengalaman panjang dalam penyelesaian sengketa waris dan perencanaan warisan."
+  },
+  {
+    "nama": "Cici Nurhayati",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berfokus pada masalah pertanahan dan legalitas properti."
+  },
+  {
+    "nama": "Dwi Prasetya",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam penanganan perceraian dan mediasi pasangan."
+  },
+  {
+    "nama": "Eka Suryani",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Berpengalaman dalam menyelesaikan sengketa hak asuh anak."
+  },
+  {
+    "nama": "Faisal Rahman",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Terampil dalam pembuatan dan negosiasi kontrak bisnis dan komersial."
+  },
+  {
+    "nama": "Gita Anindita",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam hukum waris dan pengurusan warisan keluarga."
+  },
+  {
+    "nama": "Hendro Wibowo",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa tanah dan properti."
+  },
+  {
+    "nama": "Intan Permatasari",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Mengkhususkan diri dalam kasus perceraian dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Julianto",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Kiki Andriani",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Memiliki keahlian dalam pembuatan dan peninjauan kontrak bisnis."
+  },
+  {
+    "nama": "Lukman Hakim",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Berpengalaman dalam pengurusan warisan dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Maya Fitriani",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Ahli dalam penyelesaian masalah pertanahan dan legalitas properti."
+  },
+  {
+    "nama": "Nia Lestari",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Mengkhususkan diri dalam penanganan kasus perceraian dan sengketa hak asuh anak."
+  },
+  {
+    "nama": "Omar Syarif",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam penyelesaian sengketa hak asuh anak dan masalah keluarga lainnya."
+  },
+  {
+    "nama": "Putri Kartika",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Berpengalaman dalam negosiasi dan penyusunan kontrak bisnis."
+  },
+  {
+    "nama": "Qomaruddin",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam hukum waris dan pengurusan sengketa keluarga."
+  },
+  {
+    "nama": "Ratna Dewi",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berfokus pada penyelesaian masalah pertanahan dan properti."
+  },
+  {
+    "nama": "Santi Puspitasari",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam menangani proses perceraian dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Tomi Wijaya",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa hak asuh anak dan masalah keluarga."
+  },
+  {
+    "nama": "Umar Sulaiman",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Spesialis dalam pembuatan dan peninjauan kontrak bisnis dan komersial."
+  },
+  {
+    "nama": "Vivi Ariyanti",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam pengurusan warisan dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Wina Rahayu",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa tanah dan legalitas properti."
+  },
+  {
+    "nama": "Yusuf Iskandar",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Mengkhususkan diri dalam penyelesaian kasus perceraian dan sengketa keluarga."
+  },
+  {
+    "nama": "Zainal Arifin",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Fokus pada penyelesaian masalah hak asuh anak dan sengketa keluarga."
+  },
+  {
+    "nama": "Andi Saputra",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Mengkhususkan diri dalam negosiasi dan penyusunan kontrak bisnis."
+  },
+  {
+    "nama": "Budi Santoso",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Pengalaman panjang dalam penyelesaian sengketa waris dan perencanaan warisan."
+  },
+  {
+    "nama": "Cici Ratnasari",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berfokus pada masalah pertanahan dan legalitas properti."
+  },
+  {
+    "nama": "Dwi Andriani",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam penanganan perceraian dan mediasi pasangan."
+  },
+  {
+    "nama": "Eka Rahman",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Berpengalaman dalam menyelesaikan sengketa hak asuh anak."
+  },
+  {
+    "nama": "Faisal Hakim",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Terampil dalam pembuatan dan negosiasi kontrak bisnis dan komersial."
+  },
+  {
+    "nama": "Gita Nurhaliza",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam hukum waris dan pengurusan warisan keluarga."
+  },
+  {
+    "nama": "Hendro Pratama",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa tanah dan properti."
+  },
+  {
+    "nama": "Intan Suryani",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Mengkhususkan diri dalam kasus perceraian dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Juliarto",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Kiki Permana",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Memiliki keahlian dalam pembuatan dan peninjauan kontrak bisnis."
+  },
+  {
+    "nama": "Lukman Wahyu",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Berpengalaman dalam pengurusan warisan dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Maya Susanti",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Ahli dalam penyelesaian masalah pertanahan dan legalitas properti."
+  },
+  {
+    "nama": "Nia Saraswati",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Mengkhususkan diri dalam penanganan kasus perceraian dan sengketa hak asuh anak."
+  },
+  {
+    "nama": "Omar Dwi",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam penyelesaian sengketa hak asuh anak dan masalah keluarga lainnya."
+  },
+  {
+    "nama": "Putri Dewi",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Berpengalaman dalam negosiasi dan penyusunan kontrak bisnis."
+  },
+  {
+    "nama": "Qomar Arifin",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam hukum waris dan pengurusan sengketa keluarga."
+  },
+  {
+    "nama": "Ratna Kurnia",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berfokus pada penyelesaian masalah pertanahan dan properti."
+  },
+  {
+    "nama": "Santi Rahman",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam menangani proses perceraian dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Tomi Syahputra",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa hak asuh anak dan masalah keluarga."
+  },
+  {
+    "nama": "Umar Purnama",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Spesialis dalam pembuatan dan peninjauan kontrak bisnis dan komersial."
+  },
+  {
+    "nama": "Vivi Santoso",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam pengurusan warisan dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Wina Kurnia",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa tanah dan legalitas properti."
+  },
+  {
+    "nama": "Yusuf Hadi",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Mengkhususkan diri dalam penyelesaian kasus perceraian dan sengketa keluarga."
+  },
+  {
+    "nama": "Zainal Hakim",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Fokus pada penyelesaian masalah hak asuh anak dan sengketa keluarga."
+  },
+  {
+    "nama": "Andi Kurnia",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Mengkhususkan diri dalam negosiasi dan penyusunan kontrak bisnis."
+  },
+  {
+    "nama": "Budi Rahman",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Pengalaman panjang dalam penyelesaian sengketa waris dan perencanaan warisan."
+  },
+  {
+    "nama": "Cici Puspitasari",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berfokus pada masalah pertanahan dan legalitas properti."
+  },
+  {
+    "nama": "Dwi Saputra",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam penanganan perceraian dan mediasi pasangan."
+  },
+  {
+    "nama": "Eka Permata",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Berpengalaman dalam menyelesaikan sengketa hak asuh anak."
+  },
+  {
+    "nama": "Faisal Hadi",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Terampil dalam pembuatan dan negosiasi kontrak bisnis dan komersial."
+  },
+  {
+    "nama": "Gita Rahmawati",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam hukum waris dan pengurusan warisan keluarga."
+  },
+  {
+    "nama": "Hendro Ariyanto",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa tanah dan properti."
+  },
+  {
+    "nama": "Intan Wahyuni",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Mengkhususkan diri dalam kasus perceraian dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Juli Susanto",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Kiki Suryani",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Memiliki keahlian dalam pembuatan dan peninjauan kontrak bisnis."
+  },
+  {
+    "nama": "Lukman Rahman",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Berpengalaman dalam pengurusan warisan dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Maya Puspitasari",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Ahli dalam penyelesaian masalah pertanahan dan legalitas properti."
+  },
+  {
+    "nama": "Nia Andriani",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Mengkhususkan diri dalam penanganan kasus perceraian dan sengketa hak asuh anak."
+  },
+  {
+    "nama": "Omar Pratama",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam penyelesaian sengketa hak asuh anak dan masalah keluarga lainnya."
+  },
+  {
+    "nama": "Putri Rahman",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Berpengalaman dalam negosiasi dan penyusunan kontrak bisnis."
+  },
+  {
+    "nama": "Qomar Rahmawati",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam hukum waris dan pengurusan sengketa keluarga."
+  },
+  {
+    "nama": "Ratna Permata",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berfokus pada penyelesaian masalah pertanahan dan properti."
+  },
+  {
+    "nama": "Santi Hakim",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam menangani proses perceraian dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Tomi Nurhaliza",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa hak asuh anak dan masalah keluarga."
+  },
+  {
+    "nama": "Umar Ariyanto",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Spesialis dalam pembuatan dan peninjauan kontrak bisnis dan komersial."
+  },
+  {
+    "nama": "Vivi Rahmawati",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam pengurusan warisan dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Wina Rahman",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa tanah dan legalitas properti."
+  },
+  {
+    "nama": "Yusuf Ariyanto",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Mengkhususkan diri dalam penyelesaian kasus perceraian dan sengketa keluarga."
+  },
+  {
+    "nama": "Zainal Rahman",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Fokus pada penyelesaian masalah hak asuh anak dan sengketa keluarga."
+  },
+  {
+    "nama": "Andi Pratama",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Mengkhususkan diri dalam negosiasi dan penyusunan kontrak bisnis."
+  },
+  {
+    "nama": "Budi Nurhaliza",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Pengalaman panjang dalam penyelesaian sengketa waris dan perencanaan warisan."
+  },
+  {
+    "nama": "Cici Nurhaliza",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berfokus pada masalah pertanahan dan legalitas properti."
+  },
+  {
+    "nama": "Dwi Pratama",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam penanganan perceraian dan mediasi pasangan."
+  },
+  {
+    "nama": "Eka Suryani",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Berpengalaman dalam menyelesaikan sengketa hak asuh anak."
+  },
+  {
+    "nama": "Faisal Santoso",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Terampil dalam pembuatan dan negosiasi kontrak bisnis dan komersial."
+  },
+  {
+    "nama": "Gita Ariyanto",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam hukum waris dan pengurusan warisan keluarga."
+  },
+  {
+    "nama": "Hendro Rahmawati",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa tanah dan properti."
+  },
+  {
+    "nama": "Intan Ariyanto",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Mengkhususkan diri dalam kasus perceraian dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Julianto Rahman",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Kiki Nurhaliza",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Memiliki keahlian dalam pembuatan dan peninjauan kontrak bisnis."
+  },
+  {
+    "nama": "Lukman Ariyanto",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Berpengalaman dalam pengurusan warisan dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Maya Rahman",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Ahli dalam penyelesaian masalah pertanahan dan legalitas properti."
+  },
+  {
+    "nama": "Nia Permata",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Mengkhususkan diri dalam penanganan kasus perceraian dan sengketa hak asuh anak."
+  },
+  {
+    "nama": "Omar Permana",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam penyelesaian sengketa hak asuh anak dan masalah keluarga lainnya."
+  },
+  {
+    "nama": "Putri Permana",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Berpengalaman dalam negosiasi dan penyusunan kontrak bisnis."
+  },
+  {
+    "nama": "Qomar Hadi",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam hukum waris dan pengurusan sengketa keluarga."
+  },
+  {
+    "nama": "Ratna Susanti",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berfokus pada penyelesaian masalah pertanahan dan properti."
+  },
+  {
+    "nama": "Santi Susanti",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam menangani proses perceraian dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Tomi Hakim",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa hak asuh anak dan masalah keluarga."
+  },
+  {
+    "nama": "Umar Nurhaliza",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Spesialis dalam pembuatan dan peninjauan kontrak bisnis dan komersial."
+  },
+  {
+    "nama": "Vivi Nurhaliza",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam pengurusan warisan dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Wina Permana",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa tanah dan legalitas properti."
+  },
+  {
+    "nama": "Yusuf Susanto",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Mengkhususkan diri dalam penyelesaian kasus perceraian dan sengketa keluarga."
+  },
+  {
+    "nama": "Zainal Pratama",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Fokus pada penyelesaian masalah hak asuh anak dan sengketa keluarga."
+  },
+  {
+    "nama": "Andi Hakim",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Mengkhususkan diri dalam negosiasi dan penyusunan kontrak bisnis."
+  },
+  {
+    "nama": "Budi Hadi",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Pengalaman panjang dalam penyelesaian sengketa waris dan perencanaan warisan."
+  },
+  {
+    "nama": "Cici Hadi",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berfokus pada masalah pertanahan dan legalitas properti."
+  },
+  {
+    "nama": "Dwi Rahmawati",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam penanganan perceraian dan mediasi pasangan."
+  },
+  {
+    "nama": "Eka Susanto",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Berpengalaman dalam menyelesaikan sengketa hak asuh anak."
+  },
+  {
+    "nama": "Faisal Pratama",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Terampil dalam pembuatan dan negosiasi kontrak bisnis dan komersial."
+  },
+  {
+    "nama": "Gita Suryani",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam hukum waris dan pengurusan warisan keluarga."
+  },
+  {
+    "nama": "Hendro Permana",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa tanah dan properti."
+  },
+  {
+    "nama": "Intan Hakim",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Mengkhususkan diri dalam kasus perceraian dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Juli Susanto",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Kiki Hadi",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Memiliki keahlian dalam pembuatan dan peninjauan kontrak bisnis."
+  },
+  {
+    "nama": "Lukman Susanto",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Berpengalaman dalam pengurusan warisan dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Maya Hakim",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Ahli dalam penyelesaian masalah pertanahan dan legalitas properti."
+  },
+  {
+    "nama": "Nia Hakim",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Mengkhususkan diri dalam penanganan kasus perceraian dan sengketa hak asuh anak."
+  },
+  {
+    "nama": "Omar Hakim",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam penyelesaian sengketa hak asuh anak dan masalah keluarga lainnya."
+  },
+  {
+    "nama": "Putri Hadi",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Berpengalaman dalam negosiasi dan penyusunan kontrak bisnis."
+  },
+  {
+    "nama": "Qomar Nurhaliza",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam hukum waris dan pengurusan sengketa keluarga."
+  },
+  {
+    "nama": "Ratna Ariyanto",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berfokus pada penyelesaian masalah pertanahan dan properti."
+  },
+  {
+    "nama": "Santi Ariyanto",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam menangani proses perceraian dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Tomi Santoso",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa hak asuh anak dan masalah keluarga."
+  },
+  {
+    "nama": "Umar Permana",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Spesialis dalam pembuatan dan peninjauan kontrak bisnis dan komersial."
+  },
+  {
+    "nama": "Vivi Rahman",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam pengurusan warisan dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Wina Rahmawati",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa tanah dan legalitas properti."
+  },
+  {
+    "nama": "Yusuf Rahmawati",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Mengkhususkan diri dalam penyelesaian kasus perceraian dan sengketa keluarga."
+  },
+  {
+    "nama": "Zainal Nurhaliza",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Fokus pada penyelesaian masalah hak asuh anak dan sengketa keluarga."
+  },
+  {
+    "nama": "Agus Suryadi",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Berpengalaman dalam penyusunan dan negosiasi kontrak bisnis."
+  },
+  {
+    "nama": "Bambang Wijaya",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam penyelesaian sengketa warisan dan pembagian harta waris."
+  },
+  {
+    "nama": "Candra Pratama",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Mengkhususkan diri dalam masalah tanah dan properti."
+  },
+  {
+    "nama": "Dewi Kartika",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam penanganan kasus perceraian dan masalah hak asuh anak."
+  },
+  {
+    "nama": "Eko Wibowo",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam penyelesaian sengketa hak asuh anak."
+  },
+  {
+    "nama": "Fajar Nugroho",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Berpengalaman dalam penyusunan kontrak dan negosiasi bisnis."
+  },
+  {
+    "nama": "Gilang Mahendra",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam hukum waris dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Hendra Santoso",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Mengkhususkan diri dalam sengketa tanah dan legalitas properti."
+  },
+  {
+    "nama": "Indra Wijaya",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Berpengalaman dalam penanganan perceraian dan mediasi pasangan."
+  },
+  {
+    "nama": "Joko Pratama",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam sengketa hak asuh anak dan masalah keluarga."
+  },
+  {
+    "nama": "Kartika Sari",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Ahli dalam penyusunan dan peninjauan kontrak bisnis."
+  },
+  {
+    "nama": "Laila Amalia",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa waris dan pembagian harta."
+  },
+  {
+    "nama": "Mukti Rahman",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Ahli dalam masalah pertanahan dan sengketa properti."
+  },
+  {
+    "nama": "Nina Andriani",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Spesialis dalam penanganan kasus perceraian dan mediasi keluarga."
+  },
+  {
+    "nama": "Oka Permana",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Ahli dalam penyelesaian sengketa hak asuh anak."
+  },
+  {
+    "nama": "Putu Santoso",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Berpengalaman dalam penyusunan dan negosiasi kontrak komersial."
+  },
+  {
+    "nama": "Qori Maulana",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam penyelesaian sengketa waris dan pembagian harta keluarga."
+  },
+  {
+    "nama": "Rina Mahendra",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Mengkhususkan diri dalam masalah tanah dan legalitas properti."
+  },
+  {
+    "nama": "Sari Kartika",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam penanganan kasus perceraian dan sengketa keluarga."
+  },
+  {
+    "nama": "Tio Nugroho",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa hak asuh anak dan masalah keluarga."
+  },
+  {
+    "nama": "Umar Prasetyo",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Spesialis dalam penyusunan kontrak dan negosiasi bisnis."
+  },
+  {
+    "nama": "Vina Puspitasari",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam hukum waris dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Wawan Rahman",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Mengkhususkan diri dalam sengketa tanah dan legalitas properti."
+  },
+  {
+    "nama": "Yuni Wibowo",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Berpengalaman dalam penanganan perceraian dan sengketa hak asuh anak."
+  },
+  {
+    "nama": "Zaki Pratama",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam penyelesaian sengketa hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Abdul Rahman",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Ahli dalam penyusunan kontrak bisnis dan negosiasi komersial."
+  },
+  {
+    "nama": "Bagus Suryadi",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa waris dan perencanaan warisan."
+  },
+  {
+    "nama": "Citra Nugroho",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Spesialis dalam masalah tanah dan legalitas properti."
+  },
+  {
+    "nama": "Dian Pratama",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam penanganan perceraian dan mediasi pasangan."
+  },
+  {
+    "nama": "Eka Susanti",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam penyelesaian sengketa hak asuh anak."
+  },
+  {
+    "nama": "Fahri Pratama",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Berpengalaman dalam penyusunan dan negosiasi kontrak bisnis."
+  },
+  {
+    "nama": "Gani Rahman",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam penyelesaian sengketa waris dan perencanaan warisan keluarga."
+  },
+  {
+    "nama": "Heni Andriani",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Spesialis dalam masalah tanah dan sengketa properti."
+  },
+  {
+    "nama": "Indri Puspitasari",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Berpengalaman dalam penanganan perceraian dan mediasi keluarga."
+  },
+  {
+    "nama": "Jaka Santoso",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam penyelesaian sengketa hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Kartika Mahendra",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Ahli dalam penyusunan kontrak dan negosiasi bisnis."
+  },
+  {
+    "nama": "Lestari Suryani",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa waris dan perencanaan warisan."
+  },
+  {
+    "nama": "Mira Pratama",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Spesialis dalam masalah tanah dan legalitas properti."
+  },
+  {
+    "nama": "Nando Nugroho",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam penanganan perceraian dan mediasi pasangan."
+  },
+  {
+    "nama": "Oka Prasetyo",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Putu Suryadi",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Spesialis dalam penyusunan kontrak dan negosiasi bisnis."
+  },
+  {
+    "nama": "Qori Prasetyo",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam hukum waris dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Rina Pratama",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berpengalaman dalam masalah tanah dan sengketa properti."
+  },
+  {
+    "nama": "Sari Susanti",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Spesialis dalam penanganan kasus perceraian dan mediasi keluarga."
+  },
+  {
+    "nama": "Tio Mahendra",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Ahli dalam penyelesaian sengketa hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Umar Pratama",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Berpengalaman dalam penyusunan kontrak dan negosiasi bisnis."
+  },
+  {
+    "nama": "Vina Mahendra",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam penyelesaian sengketa waris dan perencanaan warisan."
+  },
+  {
+    "nama": "Wawan Pratama",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Spesialis dalam masalah tanah dan legalitas properti."
+  },
+  {
+    "nama": "Yuni Susanti",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam penanganan perceraian dan mediasi keluarga."
+  },
+  {
+    "nama": "Zaki Susanto",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam penyelesaian sengketa hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Adi Santoso",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Berpengalaman dalam penyusunan dan negosiasi kontrak bisnis."
+  },
+  {
+    "nama": "Budi Mahendra",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam hukum waris dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Citra Pratama",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berpengalaman dalam masalah tanah dan sengketa properti."
+  },
+  {
+    "nama": "Dian Suryadi",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam penanganan kasus perceraian dan mediasi pasangan."
+  },
+  {
+    "nama": "Eka Susanto",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Fahri Mahendra",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Ahli dalam penyusunan dan negosiasi kontrak bisnis."
+  },
+  {
+    "nama": "Gani Suryadi",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Spesialis dalam hukum waris dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Heni Pratama",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Ahli dalam masalah tanah dan sengketa properti."
+  },
+  {
+    "nama": "Indri Mahendra",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Berpengalaman dalam penanganan perceraian dan mediasi pasangan."
+  },
+  {
+    "nama": "Jaka Prasetyo",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam penyelesaian sengketa hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Kartika Nugroho",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Berpengalaman dalam penyusunan kontrak dan negosiasi bisnis."
+  },
+  {
+    "nama": "Lestari Nugroho",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam penyelesaian sengketa waris dan perencanaan warisan."
+  },
+  {
+    "nama": "Mira Nugroho",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Spesialis dalam masalah tanah dan legalitas properti."
+  },
+  {
+    "nama": "Nando Susanto",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam penanganan perceraian dan mediasi keluarga."
+  },
+  {
+    "nama": "Oka Nugroho",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Putu Mahendra",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Ahli dalam penyusunan kontrak dan negosiasi bisnis."
+  },
+  {
+    "nama": "Qori Nugroho",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Spesialis dalam hukum waris dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Rina Mahendra",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Ahli dalam masalah tanah dan sengketa properti."
+  },
+  {
+    "nama": "Sari Nugroho",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Berpengalaman dalam penanganan perceraian dan mediasi pasangan."
+  },
+  {
+    "nama": "Tio Susanto",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam penyelesaian sengketa hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Umar Nugroho",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Berpengalaman dalam penyusunan dan negosiasi kontrak bisnis."
+  },
+  {
+    "nama": "Vina Nugroho",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam hukum waris dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Wawan Susanto",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Spesialis dalam masalah tanah dan legalitas properti."
+  },
+  {
+    "nama": "Yuni Nugroho",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam penanganan perceraian dan mediasi keluarga."
+  },
+  {
+    "nama": "Zaki Nugroho",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Adi Pratama",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Spesialis dalam penyusunan kontrak dan negosiasi bisnis."
+  },
+  {
+    "nama": "Budi Susanto",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam penyelesaian sengketa waris dan perencanaan warisan."
+  },
+  {
+    "nama": "Citra Suryadi",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Berpengalaman dalam masalah tanah dan sengketa properti."
+  },
+  {
+    "nama": "Dian Nugroho",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam penanganan perceraian dan mediasi pasangan."
+  },
+  {
+    "nama": "Eka Suryadi",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Fahri Susanto",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Ahli dalam penyusunan dan negosiasi kontrak bisnis."
+  },
+  {
+    "nama": "Gani Pratama",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Spesialis dalam hukum waris dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Heni Nugroho",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Ahli dalam masalah tanah dan sengketa properti."
+  },
+  {
+    "nama": "Indri Suryadi",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Berpengalaman dalam penanganan perceraian dan mediasi pasangan."
+  },
+  {
+    "nama": "Jaka Susanto",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam penyelesaian sengketa hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Kartika Susanto",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Berpengalaman dalam penyusunan kontrak dan negosiasi bisnis."
+  },
+  {
+    "nama": "Lestari Pratama",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Ahli dalam penyelesaian sengketa waris dan perencanaan warisan."
+  },
+  {
+    "nama": "Mira Susanto",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Spesialis dalam masalah tanah dan legalitas properti."
+  },
+  {
+    "nama": "Nando Pratama",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Ahli dalam penanganan perceraian dan mediasi pasangan."
+  },
+  {
+    "nama": "Oka Suryadi",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Berpengalaman dalam penyelesaian sengketa hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Putu Nugroho",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Ahli dalam penyusunan dan negosiasi kontrak bisnis."
+  },
+  {
+    "nama": "Qori Susanto",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Spesialis dalam hukum waris dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Rina Nugroho",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Ahli dalam masalah tanah dan sengketa properti."
+  },
+  {
+    "nama": "Sari Pratama",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Berpengalaman dalam penanganan perceraian dan mediasi pasangan."
+  },
+  {
+    "nama": "Tio Pratama",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam penyelesaian sengketa hak asuh anak dan mediasi keluarga."
+  },
+  {
+    "nama": "Umar Susanto",
+    "lokasi": "Banjarmasin Utara",
+    "keahlian": "Perjanjian Kontrak",
+    "deskripsi": "Ahli dalam penyusunan dan negosiasi kontrak bisnis."
+  },
+  {
+    "nama": "Vina Susanto",
+    "lokasi": "Banjarmasin Selatan",
+    "keahlian": "Hukum Waris",
+    "deskripsi": "Spesialis dalam hukum waris dan penyelesaian sengketa keluarga."
+  },
+  {
+    "nama": "Wawan Nugroho",
+    "lokasi": "Banjarmasin Barat",
+    "keahlian": "Pertanahan",
+    "deskripsi": "Ahli dalam masalah tanah dan sengketa properti."
+  },
+  {
+    "nama": "Yuni Pratama",
+    "lokasi": "Banjarmasin Timur",
+    "keahlian": "Perceraian",
+    "deskripsi": "Berpengalaman dalam penanganan perceraian dan mediasi pasangan."
+  },
+  {
+    "nama": "Zaki Suryadi",
+    "lokasi": "Banjarmasin Tengah",
+    "keahlian": "Hak Asuh Anak",
+    "deskripsi": "Spesialis dalam penyelesaian sengketa hak asuh anak dan mediasi keluarga."
+  },
+  {
+        "nama": "Dewi Pratama",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Warisan", "Perdata Keluarga", "Hutang Piutang"],
+        "deskripsi": "Pengacara dengan pengalaman dalam Warisan, Perdata Keluarga, Hutang Piutang. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Guntur Kusuma",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Perdata Keluarga", "Arbitrase", "Kepailitan"],
+        "deskripsi": "Pengacara dengan pengalaman dalam Perdata Keluarga, Arbitrase, Kepailitan. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Joko Sari",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Umum", "Warisan", "Kontrak"],
+        "deskripsi": "Pengacara dengan pengalaman dalam Perdata Umum, Warisan, Kontrak. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Hilda Pratama",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Pertanahan", "Perdata Keluarga", "Perdata Bisnis"],
+        "deskripsi": "Pengacara dengan pengalaman dalam Pertanahan, Perdata Keluarga, Perdata Bisnis. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Fadilah Kusuma",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Perdata Keluarga", "Hutang Piutang", "Kepailitan"],
+        "deskripsi": "Pengacara dengan pengalaman dalam Perdata Keluarga, Hutang Piutang, Kepailitan. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Indra Wijaya",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Warisan", "Kontrak", "Perdata Bisnis"],
+        "deskripsi": "Pengacara dengan pengalaman dalam Warisan, Kontrak, Perdata Bisnis. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Kartika Sari",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Umum", "Hutang Piutang", "Arbitrase"],
+        "deskripsi": "Pengacara dengan pengalaman dalam Perdata Umum, Hutang Piutang, Arbitrase. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Joko Kusuma",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Warisan", "Pertanahan", "Perdata Bisnis"],
+        "deskripsi": "Pengacara dengan pengalaman dalam Warisan, Pertanahan, Perdata Bisnis. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Indra Sari",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Kontrak", "Perdata Keluarga", "Hutang Piutang"],
+        "deskripsi": "Pengacara dengan pengalaman dalam Kontrak, Perdata Keluarga, Hutang Piutang. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Maulana Santoso",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Pertanahan", "Kepailitan", "Arbitrase"],
+        "deskripsi": "Pengacara dengan pengalaman dalam Pertanahan, Kepailitan, Arbitrase. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Nurul Huda",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Perdata Umum", "Warisan", "Kontrak"],
+        "deskripsi": "Nurul Huda adalah pengacara yang ahli dalam Perdata Umum, Warisan, dan Kontrak. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Agung Santoso",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Pertanahan", "Perdata Keluarga"],
+        "deskripsi": "Agung Santoso adalah pengacara yang berpengalaman dalam Pertanahan dan Perdata Keluarga. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Rahma Putri",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Keluarga", "Arbitrase"],
+        "deskripsi": "Rahma Putri adalah pengacara yang ahli dalam Perdata Keluarga dan Arbitrase. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Budi Kusuma",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Pertanahan", "Perdata Umum", "Hutang Piutang"],
+        "deskripsi": "Budi Kusuma adalah pengacara yang berpengalaman dalam Pertanahan, Perdata Umum, dan Hutang Piutang. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Siti Pratiwi",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Perdata Bisnis", "Kepailitan"],
+        "deskripsi": "Siti Pratiwi adalah pengacara yang ahli dalam Perdata Bisnis dan Kepailitan. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Eko Wijaya",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Pertanahan", "Warisan", "Perdata Keluarga"],
+        "deskripsi": "Eko Wijaya adalah pengacara yang ahli dalam Pertanahan, Warisan, dan Perdata Keluarga. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Fitri Pratiwi",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Keluarga", "Kontrak", "Arbitrase"],
+        "deskripsi": "Fitri Pratiwi adalah pengacara yang ahli dalam Perdata Keluarga, Kontrak, dan Arbitrase. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Andi Santoso",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Pertanahan", "Perdata Umum", "Hutang Piutang"],
+        "deskripsi": "Andi Santoso adalah pengacara yang berpengalaman dalam Pertanahan, Perdata Umum, dan Hutang Piutang. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Rina Wijaya",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Perdata Bisnis", "Arbitrase"],
+        "deskripsi": "Rina Wijaya adalah pengacara yang ahli dalam Perdata Bisnis dan Arbitrase. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Dodi Pratama",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Perdata Keluarga", "Hutang Piutang", "Kepailitan"],
+        "deskripsi": "Dodi Pratama adalah pengacara yang ahli dalam Perdata Keluarga, Hutang Piutang, dan Kepailitan. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Siti Rahayu",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Perdata Keluarga", "Pertanahan"],
+        "deskripsi": "Siti Rahayu adalah pengacara yang ahli dalam Perdata Keluarga dan Pertanahan. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "M. Ali",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Warisan", "Arbitrase"],
+        "deskripsi": "M. Ali adalah pengacara yang ahli dalam Warisan dan Arbitrase. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Ani Wati",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Umum", "Kepailitan"],
+        "deskripsi": "Ani Wati adalah pengacara yang ahli dalam Perdata Umum dan Kepailitan. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Budi Hartono",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Kontrak", "Perdata Bisnis"],
+        "deskripsi": "Budi Hartono adalah pengacara yang ahli dalam Kontrak dan Perdata Bisnis. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Diana Septiani",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Hutang Piutang", "Warisan"],
+        "deskripsi": "Diana Septiani adalah pengacara yang ahli dalam Hutang Piutang dan Warisan. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Eko Santoso",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Perdata Keluarga", "Pertanahan"],
+        "deskripsi": "Eko Santoso adalah pengacara yang ahli dalam Perdata Keluarga dan Pertanahan. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Fitri Indah",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Arbitrase", "Kontrak"],
+        "deskripsi": "Fitri Indah adalah pengacara yang ahli dalam Arbitrase dan Kontrak. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Hadi Cahyono",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Perdata Bisnis", "Kepailitan"],
+        "deskripsi": "Hadi Cahyono adalah pengacara yang ahli dalam Perdata Bisnis dan Kepailitan. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Ina Susanti",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Warisan", "Pertanahan"],
+        "deskripsi": "Ina Susanti adalah pengacara yang ahli dalam Warisan dan Pertanahan. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Joko Santoso",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Hutang Piutang", "Perdata Keluarga"],
+        "deskripsi": "Joko Santoso adalah pengacara yang ahli dalam Hutang Piutang dan Perdata Keluarga. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Kartini Wijaya",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Perdata Keluarga", "Arbitrase"],
+        "deskripsi": "Kartini Wijaya adalah pengacara yang ahli dalam Perdata Keluarga dan Arbitrase. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Lukman Hakim",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Perdata Umum", "Hutang Piutang"],
+        "deskripsi": "Lukman Hakim adalah pengacara yang ahli dalam Perdata Umum dan Hutang Piutang. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Mira Permata",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Keluarga", "Pertanahan"],
+        "deskripsi": "Mira Permata adalah pengacara yang ahli dalam Perdata Keluarga dan Pertanahan. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Nur Cahyono",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Warisan", "Kontrak"],
+        "deskripsi": "Nur Cahyono adalah pengacara yang ahli dalam Warisan dan Kontrak. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Oki Setiawan",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Pertanahan", "Perdata Bisnis"],
+        "deskripsi": "Oki Setiawan adalah pengacara yang ahli dalam Pertanahan dan Perdata Bisnis. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Putri Permata",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Perdata Keluarga", "Arbitrase"],
+        "deskripsi": "Putri Permata adalah pengacara yang ahli dalam Perdata Keluarga dan Arbitrase. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Rudi Santoso",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Umum", "Hutang Piutang"],
+        "deskripsi": "Rudi Santoso adalah pengacara yang ahli dalam Perdata Umum dan Hutang Piutang. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Sari Pratiwi",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Warisan", "Kontrak"],
+        "deskripsi": "Sari Pratiwi adalah pengacara yang ahli dalam Warisan dan Kontrak. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Taufik Hidayat",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Pertanahan", "Perdata Bisnis"],
+        "deskripsi": "Taufik Hidayat adalah pengacara yang ahli dalam Pertanahan dan Perdata Bisnis. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Uci Kurniawan",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Perdata Keluarga", "Arbitrase"],
+        "deskripsi": "Uci Kurniawan adalah pengacara yang ahli dalam Perdata Keluarga dan Arbitrase. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Dian Pratiwi",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Warisan", "Perceraian"],
+        "deskripsi": "Dian Pratiwi adalah pengacara yang ahli dalam bidang Warisan dan Perceraian. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Ahmad Wijaya",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Hutang Piutang", "Perjanjian"],
+        "deskripsi": "Ahmad Wijaya adalah pengacara yang ahli dalam bidang Hutang Piutang dan Perjanjian. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Lia Kurniawan",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Gugatan", "Hak Waris"],
+        "deskripsi": "Lia Kurniawan adalah pengacara yang ahli dalam bidang Gugatan dan Hak Waris. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Faisal Santoso",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Pembagian Harta", "Sengketa Tanah"],
+        "deskripsi": "Faisal Santoso adalah pengacara yang ahli dalam bidang Pembagian Harta dan Sengketa Tanah. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Nadia Wijaya",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Perdata Keluarga", "Perceraian"],
+        "deskripsi": "Nadia Wijaya adalah pengacara yang ahli dalam bidang Perdata Keluarga dan Perceraian. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Andi Permana",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Perceraian", "Pemutusan Hubungan Kerja"],
+        "deskripsi": "Andi Permana adalah pengacara yang ahli dalam bidang Perceraian dan Pemutusan Hubungan Kerja. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Rina Kusuma",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Hutang Piutang", "Sengketa Tanah"],
+        "deskripsi": "Rina Kusuma adalah pengacara yang ahli dalam bidang Hutang Piutang dan Sengketa Tanah. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Budi Santoso",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Umum", "Perceraian"],
+        "deskripsi": "Budi Santoso adalah pengacara yang ahli dalam bidang Perdata Umum dan Perceraian. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Dewi Wijaya",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Warisan", "Pembagian Harta"],
+        "deskripsi": "Dewi Wijaya adalah pengacara yang ahli dalam bidang Warisan dan Pembagian Harta. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Arif Kurniawan",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Perceraian", "Perdata Keluarga"],
+        "deskripsi": "Arif Kurniawan adalah pengacara yang ahli dalam bidang Perceraian dan Perdata Keluarga. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Anita Pratiwi",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Warisan", "Perceraian"],
+        "deskripsi": "Anita Pratiwi adalah pengacara yang ahli dalam bidang Warisan dan Perceraian. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Bayu Santoso",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Pembagian Harta", "Sengketa Tanah"],
+        "deskripsi": "Bayu Santoso adalah pengacara yang ahli dalam bidang Pembagian Harta dan Sengketa Tanah. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Citra Kusuma",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Umum", "Perdata Keluarga"],
+        "deskripsi": "Citra Kusuma adalah pengacara yang ahli dalam bidang Perdata Umum dan Perdata Keluarga. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Dedi Wijaya",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Hutang Piutang", "Perceraian"],
+        "deskripsi": "Dedi Wijaya adalah pengacara yang ahli dalam bidang Hutang Piutang dan Perceraian. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Eka Pratiwi",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Warisan", "Perdata Keluarga"],
+        "deskripsi": "Eka Pratiwi adalah pengacara yang ahli dalam bidang Warisan dan Perdata Keluarga. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Fajar Kurniawan",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Perceraian", "Pembagian Harta"],
+        "deskripsi": "Fajar Kurniawan adalah pengacara yang ahli dalam bidang Perceraian dan Pembagian Harta. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Gita Santoso",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Hutang Piutang", "Warisan"],
+        "deskripsi": "Gita Santoso adalah pengacara yang ahli dalam bidang Hutang Piutang dan Warisan. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Hadi Wijaya",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Umum", "Perceraian"],
+        "deskripsi": "Hadi Wijaya adalah pengacara yang ahli dalam bidang Perdata Umum dan Perceraian. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Indah Kusuma",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Perdata Keluarga", "Pembagian Harta"],
+        "deskripsi": "Indah Kusuma adalah pengacara yang ahli dalam bidang Perdata Keluarga dan Pembagian Harta. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Jaya Santoso",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Hutang Piutang", "Perdata Umum"],
+        "deskripsi": "Jaya Santoso adalah pengacara yang ahli dalam bidang Hutang Piutang dan Perdata Umum. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Ahmad Santoso",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Warisan", "Perceraian"],
+        "deskripsi": "Ahmad Santoso adalah pengacara yang ahli dalam bidang Warisan dan Perceraian. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Budi Kurniawan",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Pembagian Harta", "Sengketa Tanah"],
+        "deskripsi": "Budi Kurniawan adalah pengacara yang ahli dalam bidang Pembagian Harta dan Sengketa Tanah. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Citra Pratiwi",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Umum", "Perdata Keluarga"],
+        "deskripsi": "Citra Pratiwi adalah pengacara yang ahli dalam bidang Perdata Umum dan Perdata Keluarga. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Dewi Santoso",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Hutang Piutang", "Perceraian"],
+        "deskripsi": "Dewi Santoso adalah pengacara yang ahli dalam bidang Hutang Piutang dan Perceraian. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Eko Wijaya",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Warisan", "Perdata Keluarga"],
+        "deskripsi": "Eko Wijaya adalah pengacara yang ahli dalam bidang Warisan dan Perdata Keluarga. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Fitri Pratiwi",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Perceraian", "Pembagian Harta"],
+        "deskripsi": "Fitri Pratiwi adalah pengacara yang ahli dalam bidang Perceraian dan Pembagian Harta. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Gita Santoso",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Hutang Piutang", "Warisan"],
+        "deskripsi": "Gita Santoso adalah pengacara yang ahli dalam bidang Hutang Piutang dan Warisan. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Hadi Wijaya",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Umum", "Perceraian"],
+        "deskripsi": "Hadi Wijaya adalah pengacara yang ahli dalam bidang Perdata Umum dan Perceraian. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Indah Kusuma",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Perdata Keluarga", "Pembagian Harta"],
+        "deskripsi": "Indah Kusuma adalah pengacara yang ahli dalam bidang Perdata Keluarga dan Pembagian Harta. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Jaya Santoso",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Hutang Piutang", "Perdata Umum"],
+        "deskripsi": "Jaya Santoso adalah pengacara yang ahli dalam bidang Hutang Piutang dan Perdata Umum. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Kartika Pratiwi",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Perdata Keluarga", "Perceraian"],
+        "deskripsi": "Kartika Pratiwi adalah pengacara yang ahli dalam bidang Perdata Keluarga dan Perceraian. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Lukman Santoso",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Pembagian Harta", "Sengketa Tanah"],
+        "deskripsi": "Lukman Santoso adalah pengacara yang ahli dalam bidang Pembagian Harta dan Sengketa Tanah. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Mira Pratiwi",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Umum", "Perdata Keluarga"],
+        "deskripsi": "Mira Pratiwi adalah pengacara yang ahli dalam bidang Perdata Umum dan Perdata Keluarga. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Nadia Santoso",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Hutang Piutang", "Perceraian"],
+        "deskripsi": "Nadia Santoso adalah pengacara yang ahli dalam bidang Hutang Piutang dan Perceraian. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Oscar Wijaya",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Warisan", "Perdata Keluarga"],
+        "deskripsi": "Oscar Wijaya adalah pengacara yang ahli dalam bidang Warisan dan Perdata Keluarga. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Putri Pratiwi",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Perceraian", "Pembagian Harta"],
+        "deskripsi": "Putri Pratiwi adalah pengacara yang ahli dalam bidang Perceraian dan Pembagian Harta. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Rudi Santoso",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Hutang Piutang", "Warisan"],
+        "deskripsi": "Rudi Santoso adalah pengacara yang ahli dalam bidang Hutang Piutang dan Warisan. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Sari Wijaya",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Umum", "Perceraian"],
+        "deskripsi": "Sari Wijaya adalah pengacara yang ahli dalam bidang Perdata Umum dan Perceraian. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Taufik Pratiwi",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Perdata Keluarga", "Pembagian Harta"],
+        "deskripsi": "Taufik Pratiwi adalah pengacara yang ahli dalam bidang Perdata Keluarga dan Pembagian Harta. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Uci Santoso",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Hutang Piutang", "Perdata Umum"],
+        "deskripsi": "Uci Santoso adalah pengacara yang ahli dalam bidang Hutang Piutang dan Perdata Umum. Beliau telah berhasil menyelesaikan berbagai kasus dengan efisien."
+    },
+    {
+        "nama": "Vina Wijaya",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Warisan", "Perceraian"],
+        "deskripsi": "Vina Wijaya adalah pengacara yang berpengalaman dan ahli dalam menangani kasus warisan dan perceraian. Dengan dedikasi tinggi, Vina telah membantu banyak klien untuk menyelesaikan masalah hukum mereka dengan efisien dan tepat waktu."
+    },
+    {
+        "nama": "Wahyu Santoso",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Pembagian Harta", "Sengketa Tanah"],
+        "deskripsi": "Wahyu Santoso adalah seorang pengacara yang kompeten dalam penyelesaian kasus pembagian harta dan sengketa tanah. Dengan pemahaman mendalam tentang hukum perdata, Wahyu telah membantu banyak klien dalam menemukan solusi yang adil dan efektif."
+    },
+    {
+        "nama": "Xena Pratiwi",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Umum", "Perdata Keluarga"],
+        "deskripsi": "Xena Pratiwi adalah pengacara yang terampil dalam menangani berbagai kasus perdata umum dan perdata keluarga. Dengan pendekatan yang teliti dan berpengetahuan luas tentang hukum, Xena siap membantu klien-kliennya untuk mencapai hasil yang terbaik."
+    },
+    {
+        "nama": "Yoga Santoso",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Hutang Piutang", "Perceraian"],
+        "deskripsi": "Yoga Santoso adalah seorang pengacara yang berdedikasi dalam menangani kasus hutang piutang dan perceraian. Dengan pendekatan yang profesional dan empati terhadap klien, Yoga telah membantu banyak individu dan keluarga untuk mengatasi masalah hukum mereka."
+    },
+    {
+        "nama": "Zara Wijaya",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Warisan", "Perdata Keluarga"],
+        "deskripsi": "Zara Wijaya adalah pengacara yang berpengalaman dalam menangani kasus warisan dan perdata keluarga. Dengan fokus pada kepentingan klien dan keahlian yang solid, Zara telah menjadi solusi yang handal bagi banyak klien yang membutuhkan bantuan hukum."
+    },
+    {
+        "nama": "Aldi Pratiwi",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Perceraian", "Pembagian Harta"],
+        "deskripsi": "Aldi Pratiwi adalah pengacara yang terampil dalam menangani kasus perceraian dan pembagian harta. Dengan pendekatan yang empatik dan komitmen terhadap keadilan, Aldi telah membantu banyak klien untuk melewati masa sulit dalam proses hukum."
+    },
+    {
+        "nama": "Bunga Santoso",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Hutang Piutang", "Warisan"],
+        "deskripsi": "Bunga Santoso adalah seorang pengacara yang berdedikasi dalam menangani kasus hutang piutang dan warisan. Dengan pengalaman yang luas dan ketekunan dalam mencari solusi, Bunga telah memberikan pelayanan hukum yang berkualitas kepada klien-kliennya."
+    },
+    {
+        "nama": "Candra Wijaya",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Umum", "Perceraian"],
+        "deskripsi": "Candra Wijaya adalah pengacara yang berkomitmen dalam menangani kasus perdata umum dan perceraian. Dengan pendekatan yang terarah dan keahlian yang solid, Candra siap memberikan bantuan hukum yang terpercaya kepada klien-kliennya."
+    },
+    {
+        "nama": "Dinda Pratiwi",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Perdata Keluarga", "Pembagian Harta"],
+        "deskripsi": "Dinda Pratiwi adalah seorang pengacara yang berpengalaman dalam menangani kasus perdata keluarga dan pembagian harta. Dengan komitmen yang tinggi dan penuh perhatian terhadap detail, Dinda telah membantu banyak klien untuk mencapai penyelesaian yang adil."
+    },
+    {
+        "nama": "Eka Santoso",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Hutang Piutang", "Perdata Umum"],
+        "deskripsi": "Eka Santoso adalah pengacara yang terampil dalam menangani kasus hutang piutang dan perdata umum. Dengan pendekatan yang profesional dan kejujuran dalam memberikan nasihat hukum, Eka telah menjadi solusi yang handal bagi banyak klien."
+    },
+    {
+        "nama": "Firda Kurniawan",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Warisan", "Perceraian"],
+        "deskripsi": "Firda Kurniawan adalah seorang pengacara yang berpengalaman dalam menangani kasus warisan dan perceraian. Dengan dedikasi tinggi dan pengetahuan yang luas tentang hukum perdata, Firda telah membantu banyak klien untuk menyelesaikan masalah hukum mereka dengan sukses."
+    },
+    {
+        "nama": "Gilang Santoso",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Pembagian Harta", "Sengketa Tanah"],
+        "deskripsi": "Gilang Santoso adalah seorang pengacara yang terampil dalam menangani kasus pembagian harta dan sengketa tanah. Dengan pendekatan yang teliti dan berpengetahuan luas tentang hukum perdata, Gilang telah menjadi solusi yang handal bagi banyak klien."
+    },
+    {
+        "nama": "Hana Pratiwi",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Umum", "Perdata Keluarga"],
+        "deskripsi": "Hana Pratiwi adalah pengacara yang kompeten dalam menangani berbagai kasus perdata umum dan perdata keluarga. Dengan pemahaman mendalam tentang hukum dan pelayanan yang profesional, Hana siap membantu klien-kliennya untuk mencapai hasil yang terbaik."
+    },
+    {
+        "nama": "Indra Santoso",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Hutang Piutang", "Perceraian"],
+        "deskripsi": "Indra Santoso adalah seorang pengacara yang berdedikasi dalam menangani kasus hutang piutang dan perceraian. Dengan pengalaman yang luas dan komitmen terhadap keadilan, Indra telah membantu banyak klien untuk mengatasi masalah hukum mereka dengan efektif."
+    },
+    {
+        "nama": "Jihan Wijaya",
+        "lokasi": "Banjarmasin Barat",
+        "keahlian": ["Warisan", "Perdata Keluarga"],
+        "deskripsi": "Jihan Wijaya adalah seorang pengacara yang berpengalaman dalam menangani kasus warisan dan perdata keluarga. Dengan fokus pada kepentingan klien dan pelayanan yang berkualitas, Jihan siap memberikan bantuan hukum yang terpercaya kepada klien-kliennya."
+    },
+    {
+        "nama": "Krisna Pratiwi",
+        "lokasi": "Banjarmasin Utara",
+        "keahlian": ["Perceraian", "Pembagian Harta"],
+        "deskripsi": "Krisna Pratiwi adalah pengacara yang berkomitmen dalam menangani kasus perceraian dan pembagian harta. Dengan pendekatan yang profesional dan empati terhadap klien, Krisna telah membantu banyak individu dan keluarga untuk menghadapi proses hukum dengan lebih baik."
+    },
+    {
+        "nama": "Laras Santoso",
+        "lokasi": "Banjarmasin Selatan",
+        "keahlian": ["Hutang Piutang", "Warisan"],
+        "deskripsi": "Laras Santoso adalah seorang pengacara yang ahli dalam menangani kasus hutang piutang dan warisan. Dengan pengetahuan yang mendalam tentang hukum perdata dan kemampuan komunikasi yang baik, Laras telah menjadi solusi yang handal bagi banyak klien."
+    },
+    {
+        "nama": "Mira Wijaya",
+        "lokasi": "Banjarmasin Timur",
+        "keahlian": ["Perdata Umum", "Perceraian"],
+        "deskripsi": "Mira Wijaya adalah pengacara yang terampil dalam menangani kasus perdata umum dan perceraian. Dengan pengalaman yang luas dan integritas yang tinggi, Mira siap memberikan pelayanan hukum yang berkualitas kepada klien-kliennya."
+    },
+    {
+        "nama": "Nanda Pratiwi",
+        "lokasi": "Banjarmasin Tengah",
+        "keahlian": ["Perdata Umum", "Pembagian Harta"],
+"deskripsi": "Nanda Pratiwi adalah seorang pengacara yang memiliki keahlian dalam menangani kasus perdata umum dan pembagian harta. Dengan pendekatan yang teliti dan penuh dedikasi, Nanda telah membantu banyak klien untuk mencapai penyelesaian hukum yang memuaskan."
+},
+{
+"nama": "Oscar Santoso",
+"lokasi": "Banjarmasin Barat",
+"keahlian": ["Hutang Piutang", "Perdata Umum"],
+"deskripsi": "Oscar Santoso adalah pengacara yang berpengalaman dalam menangani kasus hutang piutang dan perdata umum. Dengan keahlian yang solid dan integritas yang tinggi, Oscar siap memberikan bantuan hukum yang terpercaya kepada klien-kliennya."
+},
+{
+"nama": "Putri Wijaya",
+"lokasi": "Banjarmasin Utara",
+"keahlian": ["Warisan", "Perceraian"],
+"deskripsi": "Putri Wijaya adalah seorang pengacara yang berdedikasi dalam menangani kasus warisan dan perceraian. Dengan pengalaman yang luas dan komitmen terhadap keadilan, Putri telah membantu banyak klien untuk mengatasi masalah hukum mereka dengan efektif."
+},
+{
+"nama": "Qori Pratiwi",
+"lokasi": "Banjarmasin Selatan",
+"keahlian": ["Pembagian Harta", "Sengketa Tanah"],
+"deskripsi": "Qori Pratiwi adalah seorang pengacara yang terampil dalam menangani kasus pembagian harta dan sengketa tanah. Dengan fokus pada kepentingan klien dan pengetahuan yang luas tentang hukum perdata, Qori siap memberikan pelayanan hukum yang berkualitas kepada klien-kliennya."
+},
+{
+"nama": "Rani Santoso",
+"lokasi": "Banjarmasin Timur",
+"keahlian": ["Perdata Umum", "Perdata Keluarga"],
+"deskripsi": "Rani Santoso adalah seorang pengacara yang berpengalaman dalam menangani kasus perdata umum dan perdata keluarga. Dengan dedikasi yang tinggi dan penuh perhatian terhadap detail, Rani siap membantu klien-kliennya untuk mencapai penyelesaian yang adil."
+},
+{
+"nama": "Satria Wijaya",
+"lokasi": "Banjarmasin Tengah",
+"keahlian": ["Hutang Piutang", "Perceraian"],
+"deskripsi": "Satria Wijaya adalah seorang pengacara yang berdedikasi dalam menangani kasus hutang piutang dan perceraian. Dengan pengalaman yang luas dan kemampuan analisis yang baik, Satria siap memberikan solusi hukum yang efektif kepada klien-kliennya."
+},
+{
+"nama": "Tania Pratiwi",
+"lokasi": "Banjarmasin Barat",
+"keahlian": ["Warisan", "Perdata Keluarga"],
+"deskripsi": "Tania Pratiwi adalah pengacara yang berkomitmen dalam menangani kasus warisan dan perdata keluarga. Dengan pendekatan yang teliti dan penuh dedikasi, Tania telah membantu banyak klien untuk melewati proses hukum dengan lebih mudah."
+},
+{
+"nama": "Umar Santoso",
+"lokasi": "Banjarmasin Utara",
+"keahlian": ["Perceraian", "Pembagian Harta"],
+"deskripsi": "Umar Santoso adalah seorang pengacara yang berpengalaman dalam menangani kasus perceraian dan pembagian harta. Dengan pemahaman yang mendalam tentang hukum perdata dan kemampuan negosiasi yang baik, Umar siap memberikan solusi yang tepat kepada klien-kliennya."
+},
+{
+"nama": "Viona Wijaya",
+"lokasi": "Banjarmasin Selatan",
+"keahlian": ["Hutang Piutang", "Warisan"],
+"deskripsi": "Viona Wijaya adalah seorang pengacara yang ahli dalam menangani kasus hutang piutang dan warisan. Dengan pengalaman yang luas dan kepekaan terhadap kebutuhan klien, Viona telah membantu banyak individu dan keluarga untuk mengatasi masalah hukum mereka dengan efektif."
+},
+{
+"nama": "Wira Pratiwi",
+"lokasi": "Banjarmasin Timur",
+"keahlian": ["Perdata Umum", "Perceraian"],
+"deskripsi": "Wira Pratiwi adalah seorang pengacara yang berkomitmen dalam menangani kasus perdata umum dan perceraian. Dengan pendekatan yang berbasis pada keadilan dan integritas yang tinggi, Wira siap memberikan bantuan hukum yang berkualitas kepada klien-kliennya."
+},
+{
+"nama": "Yuli Santoso",
+"lokasi": "Banjarmasin Tengah",
+"keahlian": ["Hutang Piutang", "Perdata Keluarga"],
+"deskripsi": "Yuli Santoso adalah seorang pengacara yang terampil dalam menangani kasus hutang piutang dan perdata keluarga. Dengan pemahaman yang mendalam tentang hukum perdata dan kepedulian terhadap klien, Yuli siap memberikan solusi yang terbaik bagi mereka."
+},
+{
+"nama": "Zakaria Wijaya",
+"lokasi": "Banjarmasin Barat",
+"keahlian": ["Warisan", "Pembagian Harta"],
+"deskripsi": "Zakaria Wijaya adalah pengacara yang memiliki keahlian dalam menangani kasus warisan dan pembagian harta. Dengan pendekatan yang profesional dan pemahaman yang mendalam tentang hukum, Zakaria telah membantu banyak klien untuk mencapai penyelesaian yang adil."
+},
+{
+"nama": "Anisa Kurniawan",
+"lokasi": "Banjarmasin Utara",
+"keahlian": ["Perceraian", "Perdata Keluarga"],
+"deskripsi": "Anisa Kurniawan adalah seorang pengacara yang berdedikasi dalam menangani kasus perceraian dan perdata keluarga. Dengan pengalaman yang luas dan kepekaan terhadap kebutuhan klien, Anisa siap memberikan bantuan hukum yang terpercaya kepada mereka."
+},
+{
+"nama": "Bayu Santoso",
+"lokasi": "Banjarmasin Selatan",
+"keahlian": ["Pembagian Harta", "Sengketa Tanah"],
+"deskripsi": "Bayu Santoso adalah seorang pengacara yang ahli dalam menangani kasus pembagian harta dan sengketa tanah. Dengan fokus pada kepentingan klien dan kemampuan analisis yang baik, Bayu telah menjadi solusi yang handal bagi banyak klien."
+},
+{
+"nama": "Citra Pratiwi",
+"lokasi": "Banjarmasin Timur",
+"keahlian": ["Perdata Umum", "Perceraian"],
+"deskripsi": "Citra Pratiwi adalah seorang pengacara yang berpengalaman dalam menangani kasus perdata umum dan perceraian. Dengan pendekatan yang teliti dan kejujuran dalam memberikan nasihat hukum, Citra telah membantu banyak klien untuk mencapai hasil yang memuaskan."
+},
+{
+"nama": "Dedy Wijaya",
+"lokasi": "Banjarmasin Tengah",
+"keahlian": ["Hutang Piutang", "Warisan"],
+"deskripsi": "Dedy Wijaya adalah seorang pengacara yang berkomitmen dalam menangani kasus hutang piutang dan warisan. Dengan pemahaman yang mendalam tentang hukum perdata dan kemampuan negosiasi yang baik, Dedy siap memberikan solusi yang tepat kepada klien-kliennya."
+}
+]
+

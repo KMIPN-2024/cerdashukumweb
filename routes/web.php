@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BantuanHukumController;
+use App\Http\Controllers\PerdataController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -20,6 +21,10 @@ Route::get('/', function () {
 });
 Route::get('/bantuan-hukum', [BantuanHukumController::class, 'index'])->name('bantuan-hukum');
 Route::post('/bantuan-hukum/pasal', [BantuanHukumController::class, 'getPasal'])->name('bantuan-hukum.getPasal');
+
+Route::get('/get-pengacara', [BantuanHukumController::class, 'getPengacara'])->name('bantuan-hukum.getPengecara');
+
+Route::get('perdata', [PerdataController::class, 'index'])->name('perdata.index');
 
 
 Route::get('/coming-soon', function () {
