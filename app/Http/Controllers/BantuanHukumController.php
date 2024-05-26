@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Storage;
+use Stevebauman\Location\Facades\Location;
 
 class BantuanHukumController extends Controller
 {
@@ -31,18 +33,15 @@ class BantuanHukumController extends Controller
         return $payloads;
     }
 
-    public function getPengacara()
+    public function getLocation(Request $request)
     {
-        // Mendapatkan isi JSON dari file atau dari sumber data lainnya
-        // $jsonData = Storage::get("dummy-pengacara.json"); // Ganti dengan path sesuai kebutuhan
-        // $jsonData = public_path('dummy-pengacara.json'); // Ganti dengan path sesuai kebutuhan
-        $jsonData = file_get_contents(public_path('dummy-pengacara.json'));
-        // Mendekode JSON menjadi array PHP
-        $dataArray = json_decode($jsonData, true);
-
-        // Menghitung jumlah data dalam array
-        $dataCount = count($dataArray);
-
-        return response()->json(['data_count' => $dataCount]);
+        $latitude = $request->input('latitude');
+        $longitude = $request->input('longitude');
+        // Gunakan Guzzle untuk melakukan permintaan ke Google Maps Geocoding API
+        
+        return response()->json([
+            'latitude' => $latitude,
+            'longitude' => $longitude,
+        ]);
     }
 }

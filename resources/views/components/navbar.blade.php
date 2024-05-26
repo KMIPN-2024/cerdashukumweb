@@ -39,12 +39,13 @@
                 <ul
                     class="flex flex-col lg:gap-2 p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-white-50 md:bg-white-100 md:flex-row md:space-x-4 lg:space-x-8 md:mt-0 md:border-0 md:dark:bg-transparent items-center">
                     <li>
-                        <a href="#home"
+                        <a href="{{ route('landing') }}"
                             class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 {{ request()->is('/') ? ' md:text-primary text-primary underline underline-offset-8' : 'text-secondary dark:text-white hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent' }}"
                             aria-current="page">Home</a>
                     </li>
                     <li>
-                        <a href="#pengacara"
+                        {{-- <a href="#pengacara" --}}
+                        <a href="{{ route('pengacara') }}"
                             class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 {{ request()->is('') ? ' md:text-primary text-primary underline underline-offset-8' : 'text-secondary dark:text-white hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent' }}">Pengacara</a>
                     </li>
                     <li>
@@ -56,7 +57,7 @@
                             class="block py-2 pl-3 pr-4 text-secondary dark:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent">FAQ</a>
                     </li>
                     <li>
-                        <a href="#tentangkami"
+                        <a href="{{ route('tentang-kami') }}"
                             class="block py-2 pl-3 pr-4 text-secondary dark:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent">Tentang Kami</a>
                     </li>
                     {{-- Mobile Screen --}}
@@ -71,7 +72,7 @@
                     <li>
                         <a href="{{ route('bantuan-hukum') }}"
                             class="hidden md:block text-white bg-primary hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center">
-                            Coba Sekarang
+                            Tanya Hukum
                         </a>
                     </li>
                     {{-- End Desktop Screen --}}

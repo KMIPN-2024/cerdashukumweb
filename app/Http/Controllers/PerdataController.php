@@ -23,13 +23,6 @@ class PerdataController extends Controller
         foreach ($records as $offset => $record) {
 
             $data[] = $record;
-            //$offset : represents the record offset
-            //var_export($record) returns something like
-            // array(
-            //  'First Name' => 'jane',
-            //  'Last Name' => 'jane',
-            //  'E-mail' => null
-            // );
         }
 
         return view('data.perdata.index', compact('data'));

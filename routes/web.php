@@ -18,13 +18,26 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('landing');
-});
+})->name('landing');
+
+// Halaman data pengacara
+Route::get('/pengacara', function () {
+    return view('data.pengacara.index');
+})->name('pengacara');
+Route::post('/get-location', [BantuanHukumController::class, 'getLocation'])->name('getLocation');
+
+// Halaman pasal perdata
+Route::get('perdata', [PerdataController::class, 'index'])->name('perdata.index');
+
+// Halaman bantuan hukum
 Route::get('/bantuan-hukum', [BantuanHukumController::class, 'index'])->name('bantuan-hukum');
 Route::post('/bantuan-hukum/pasal', [BantuanHukumController::class, 'getPasal'])->name('bantuan-hukum.getPasal');
 
-Route::get('/get-pengacara', [BantuanHukumController::class, 'getPengacara'])->name('bantuan-hukum.getPengecara');
+// Halaman Tentang Kami
+Route::get('/tentang-kami', function () {
+    return view('tentang-kami');
+})->name('tentang-kami');
 
-Route::get('perdata', [PerdataController::class, 'index'])->name('perdata.index');
 
 
 Route::get('/coming-soon', function () {

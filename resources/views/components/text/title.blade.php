@@ -1,4 +1,4 @@
-@props(['title' => 'Title', 'subtitle' => 'Subtitle'])
+@props(['title' => '', 'subtitle' => ''])
 <div>
     <div data-aos="fade-down" {{ $attributes->merge(['class' => 'flex flex-col items-center text-primary font-semibold text-center']) }}>
         <p class="text-base uppercase">{{ $subtitle }}</p>

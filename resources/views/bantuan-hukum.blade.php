@@ -1,29 +1,4 @@
 <x-app-layout>
-    {{-- <style>
-        .loader {
-            width: 50px;
-            padding: 8px;
-            aspect-ratio: 1;
-            border-radius: 50%;
-            background: #25b09b;
-            --_m:
-                conic-gradient(#0000 10%, #000),
-                linear-gradient(#000 0 0) content-box;
-            -webkit-mask: var(--_m);
-            mask: var(--_m);
-            -webkit-mask-composite: source-out;
-            mask-composite: subtract;
-            animation: l3 1s infinite linear;
-        }
-
-        @keyframes l3 {
-            to {
-                transform: rotate(1turn)
-            }
-        }
-    </style>
-    /* HTML: <div class="loader"></div> */ --}}
-
     <livewire:bantuan-hukum>
 
         {{-- Section Rekomendasi Pengacara --}}
@@ -384,6 +359,25 @@
                         document.querySelector('.putarputar').classList.add('hidden');
                     });
                 });
+            </script>
+
+            <script>
+                function getLocation() {
+                    if (navigator.geolocation) {
+                        navigator.geolocation.getCurrentPosition(showPosition);
+                    } else {
+                        alert("Geolocation is not supported by this browser.");
+                    }
+                }
+
+                function showPosition(position) {
+                    var latitude = position.coords.latitude;
+                    var longitude = position.coords.longitude;
+                    console.log(latitude)
+                }
+
+                document.addEventListener('DOMContentLoaded', (event) => {});
+                getLocation();
             </script>
         @endpush
 </x-app-layout>

@@ -15,8 +15,7 @@
                     tepat dan fokus, sehingga menjamin kejelasan dan arah dalam perjalanan hukum Anda.</p>
                 <div class="flex gap-x-6 items-center">
                     <a href="{{ route('bantuan-hukum') }}"
-                        class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-white bg-primary rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Coba
-                        Sekarang</a>
+                        class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-white bg-primary rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Tanya Hukum</a>
                     <p class="text-secondary">24K+ learners enrolled</p>
                 </div>
             </div>
@@ -29,12 +28,10 @@
     <section id="hero2">
         <div class="p-6 md:p-16">
             <div class="text-primary font-semibold" data-aos="fade-right">
-                <p class="text-base uppercase">Smart Legal Solutions</p>
-                <h1 class="text-3xl md:text-5xl pb-5 pt-2">Unlock the expertise of hundreds of trusted attorneys ready
-                    to assist
-                    you!
+                <p class="text-base uppercase">SOLUSI HUKUM CERDAS</p>
+                <h1 class="text-3xl md:text-5xl pb-5 pt-2">Temukan ratusan pengacara tepercaya yang siap membantu Anda!
                 </h1>
-                <p class="text-secondary pb-12">A Variety of Lawyers Suitable for Your Consultation Needs</p>
+                <p class="text-secondary pb-12">Beragam Pengacara yang Cocok untuk Kebutuhan Konsultasi Anda</p>
             </div>
             <div class="md:grid md:grid-cols-2 md:space-x-28 overflow-x-hidden">
                 <img data-aos="fade-right" src="{{ asset('assets/img/section2.png') }}" alt="">
@@ -45,14 +42,14 @@
                     </div>
                     <div data-aos="fade-left" class="flex items-center h-16 md:h-24 px-4 py-3">
                         <hr>
-                        <p>Access to various legal <br class="hidden md:block"> articles and resources.</p>
+                        <p>Akses ke berbagai hukum <br class="hidden md:block"> artikel dan sumber daya.</p>
                     </div>
                     <div data-aos="fade-left" class="flex items-center h-16 md:h-24 px-4 py-3">
                         <hr>
-                        <p>Direct consultation with <br class="hidden md:block"> legal experts</p>
+                        <p>Konsultasi langsung dengan <br class="hidden md:block"> ahli hukum</p>
                     </div>
                     <div data-aos="fade-left" class="text-base text-primary font-semibold py-6 md:py-9">
-                        <p>Discover Your Legal Solutions</p>
+                        <p>Temukan Solusi Hukum Anda</p>
                     </div>
                 </div>
             </div>
@@ -62,7 +59,7 @@
     <section id="coba-sekarang">
         <div class="bg-white px-10 md:px-24 xl:px-80 pt-16 pb-24">
             <x-text.title subtitle="Artificial Intelligence"
-                title="Discover Legal Solutions Tailored <br> Just for You" />
+                title="Temukan Solusi Hukum yang Sesuai Hanya untukmu" />
 
             <div data-aos="fade-up" class="pt-7 md:pt-14">
                 <form>
@@ -112,7 +109,7 @@
         {{-- Section Artikel --}}
         <div class="p-6 md:p-12">
             {{-- Title --}}
-            <x-text.title subtitle="Other Legal News" title="Explore More Legal Insights" class="pb-8 md:pb-16" />
+            <x-text.title subtitle="BERITA HUKUM LAINNYA" title="Jelajahi Lebih Banyak Wawasan Hukum" class="pb-8 md:pb-16" />
             {{-- End Title --}}
 
             {{-- Card Artikel --}}
@@ -146,10 +143,9 @@
                 alt="">
             <div data-aos="fade-left" class="flex flex-col gap-y-4 text-primary">
                 {{-- <p class="text-[#BFC0C2] font-medium">SELAMAT DATANG DI WEBSITE CerdasHukum 👋🏻</p> --}}
-                <h1 class="font-semibold text-3xl md:text-4xl">Have a Question? <br class="hidden md:block"> <span
-                        class="font-bold">CerdasHukum</span> is
-                    Ready to Help 24 Hours</h1>
-                <p class="font-medium">Get more detailed information about the CerdasHukum website application</p>
+                <h1 class="font-semibold text-3xl md:text-4xl">Punya Pertanyaan? <br class="hidden md:block"> <span
+                        class="font-bold">CerdasHukum</span> Siap Membantu 24 Jam</h1>
+                <p class="font-medium">Dapatkan informasi tentang hukum perdata hanya di CerdasHukum</p>
                 <div
                     class="bg-[#E9F5FF] text-primary text-sm font-medium me-2 px-2 py-2 rounded-full dark:bg-blue-900 dark:text-blue-300">
                     <span
@@ -159,8 +155,7 @@
                 </div>
                 <div class="flex gap-x-6 items-center">
                     <a href="{{ route('bantuan-hukum') }}"
-                        class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-white bg-primary rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Coba
-                        Sekarang</a>
+                        class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-white bg-primary rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Tanya Hukum</a>
                     <a href="{{ route('bantuan-hukum') }}"
                         class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-primary bg-transparent border border-primary rounded-lg hover:border-blue-800 hover:text-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Hubungi
                         Kami</a>
