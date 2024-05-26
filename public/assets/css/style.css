@@ -1,0 +1,134 @@
+    :root {
+        --thm-base: #335EF7;
+        --thm-base-rgb: 255, 108, 30;
+    }
+
+    /* Cursor */
+    .cursor {
+        position: fixed;
+        background-color: var(--thm-base);
+        width: 6px;
+        height: 6px;
+        border-radius: 100%;
+        z-index: 1;
+        -webkit-transition: 0.2s cubic-bezier(0.75, -0.27, 0.3, 1.33) opacity, 0.3s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+        transition: 0.2s cubic-bezier(0.75, -0.27, 0.3, 1.33) opacity, 0.3s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+        transition: 0.3s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -0.27, 0.3, 1.33) opacity;
+        transition: 0.3s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -0.27, 0.3, 1.33) opacity, 0.3s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        pointer-events: none;
+        z-index: 10000;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .cursor::before {
+        content: "";
+        position: absolute;
+        top: -7px;
+        left: -7px;
+        bottom: -7px;
+        right: -7px;
+        border: 1px solid var(--thm-base);
+        border-radius: 50%;
+    }
+
+    .cursor.active {
+        opacity: 1;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    .cursor.menu-active {
+        opacity: 1;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    .cursor.hovered {
+        opacity: 1;
+    }
+
+    .cursor-follower {
+        position: fixed;
+        background-color: var(--thm-base);
+        opacity: 0.30;
+        width: 33px;
+        height: 33px;
+        border-radius: 100%;
+        z-index: 1;
+        -webkit-transition: 0.2s cubic-bezier(0.75, -0.27, 0.3, 1.33) opacity, 0.2s cubic-bezier(0.75, -0.27, 0.3, 1.33) background, 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+        transition: 0.2s cubic-bezier(0.75, -0.27, 0.3, 1.33) opacity, 0.2s cubic-bezier(0.75, -0.27, 0.3, 1.33) background, 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+        transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -0.27, 0.3, 1.33) opacity, 0.2s cubic-bezier(0.75, -0.27, 0.3, 1.33) background;
+        transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -0.27, 0.3, 1.33) opacity, 0.2s cubic-bezier(0.75, -0.27, 0.3, 1.33) background, 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        pointer-events: none;
+        z-index: 10000;
+        -webkit-transform: translate(2px, 2px);
+        transform: translate(2px, 2px);
+    }
+
+    .cursor-follower.active {
+        opacity: 0.10;
+        -webkit-transform: scale(1.03);
+        transform: scale(1.03);
+    }
+
+    .cursor-follower.menu-active {
+        opacity: 1;
+        -webkit-transform: scale(3);
+        transform: scale(3);
+    }
+
+    .cursor-follower.hovered {
+        opacity: 1;
+    }
+
+    /* Cursor End */
+        .btn-secondary {
+            color: #fff;
+            background-color: #6c757d;
+            border-color: #6c757d;
+            box-shadow: none
+        }
+    
+        .btn-secondary:hover {
+            color: #fff;
+            background-color: #5a6268;
+            border-color: #545b62
+        }
+    
+        .btn-secondary.focus,
+        .btn-secondary:focus {
+            color: #fff;
+            background-color: #5a6268;
+            border-color: #545b62;
+            box-shadow: 0 0 0 0 rgba(130, 138, 145, .5)
+        }
+    
+        .btn-secondary.disabled,
+        .btn-secondary:disabled {
+            color: #fff;
+            background-color: #6c757d;
+            border-color: #6c757d
+        }
+    
+        .btn-secondary:not(:disabled):not(.disabled).active,
+        .btn-secondary:not(:disabled):not(.disabled):active,
+        .show>.btn-secondary.dropdown-toggle {
+            color: #fff;
+            background-color: #545b62;
+            border-color: #4e555b
+        }
+    
+        .btn-secondary:not(:disabled):not(.disabled).active:focus,
+        .btn-secondary:not(:disabled):not(.disabled):active:focus,
+        .show>.btn-secondary.dropdown-toggle:focus {
+            box-shadow: 0 0 0 0 rgba(130, 138, 145, .5)
+        }
