@@ -6,7 +6,7 @@
                     class="px-4 py-2 border rounded-lg shadow-sm" />
             </div>
             <div>
-                <select wire:model="filterBab" wire:change="resetPage" class="px-4 py-2 border rounded-lg shadow-sm max-w-xs">
+                <select wire:model.live="filterBab" wire:change="resetPage" class="px-4 py-2 border rounded-lg shadow-sm max-w-xs">
                     <option value="">Semua Bab</option>
                     @foreach (collect($data)->pluck('Bab')->unique() as $bab)
                         <option value="{{ $bab }}">{{ $bab }}</option>
