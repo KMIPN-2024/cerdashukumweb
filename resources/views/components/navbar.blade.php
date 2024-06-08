@@ -30,7 +30,7 @@
                     <span class="sr-only">Open main menu</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="31" height="21" viewBox="0 0 31 21"
                         fill="none">
-                        <path d="M2.50098 2.50001H28.501M2.50098 10.5H28.501M2.50098 18.5H28.501" stroke="#F54748"
+                        <path d="M2.50098 2.50001H28.501M2.50098 10.5H28.501M2.50098 18.5H28.501" stroke="#335EF7"
                             stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                 </button>
@@ -45,7 +45,7 @@
                     </li>
                     <li>
                         {{-- <a href="#pengacara" --}}
-                        <a href="{{ route('pengacara') }}"
+                        <a href="{{ route('pengacara.index') }}"
                             class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 {{ request()->is('') ? ' md:text-primary text-primary underline underline-offset-8' : 'text-secondary dark:text-white hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent' }}">Pengacara</a>
                     </li>
                     <li>

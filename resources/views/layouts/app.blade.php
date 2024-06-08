@@ -50,6 +50,7 @@
     <script src="{{ asset('assets/js/jquery.js') }}"></script>
     <script src="{{ asset('assets/js/12-gsap.min.js') }}"></script>
     <script src="{{ asset('assets/js/script.js') }}"></script>
+    @include('sweetalert::alert')
     @stack('addon-script')
 </body>
 

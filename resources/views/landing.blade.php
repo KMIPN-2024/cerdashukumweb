@@ -15,7 +15,8 @@
                     tepat dan fokus, sehingga menjamin kejelasan dan arah dalam perjalanan hukum Anda.</p>
                 <div class="flex gap-x-6 items-center">
                     <a href="{{ route('bantuan-hukum') }}"
-                        class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-white bg-primary rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Tanya Hukum</a>
+                        class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-white bg-primary rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Tanya
+                        Hukum</a>
                     <p class="text-secondary">24K+ learners enrolled</p>
                 </div>
             </div>
@@ -58,8 +59,7 @@
 
     <section id="coba-sekarang">
         <div class="bg-white px-10 md:px-24 xl:px-80 pt-16 pb-24">
-            <x-text.title subtitle="Artificial Intelligence"
-                title="Temukan Solusi Hukum yang Sesuai Hanya untukmu" />
+            <x-text.title subtitle="Artificial Intelligence" title="Temukan Solusi Hukum yang Sesuai Hanya untukmu" />
 
             <div data-aos="fade-up" class="pt-7 md:pt-14">
                 <form>
@@ -109,7 +109,8 @@
         {{-- Section Artikel --}}
         <div class="p-6 md:p-12">
             {{-- Title --}}
-            <x-text.title subtitle="BERITA HUKUM LAINNYA" title="Jelajahi Lebih Banyak Wawasan Hukum" class="pb-8 md:pb-16" />
+            <x-text.title subtitle="BERITA HUKUM LAINNYA" title="Jelajahi Lebih Banyak Wawasan Hukum"
+                class="pb-8 md:pb-16" />
             {{-- End Title --}}
 
             {{-- Card Artikel --}}
@@ -155,10 +156,10 @@
                 </div>
                 <div class="flex gap-x-6 items-center">
                     <a href="{{ route('bantuan-hukum') }}"
-                        class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-white bg-primary rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Tanya Hukum</a>
-                    <a href="{{ route('bantuan-hukum') }}"
-                        class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-primary bg-transparent border border-primary rounded-lg hover:border-blue-800 hover:text-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Hubungi
-                        Kami</a>
+                        class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-white bg-primary rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Tanya
+                        Hukum</a>
+                    <a href="{{ route('pengacara.create') }}"
+                        class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-primary bg-transparent border border-primary rounded-lg hover:border-blue-800 hover:text-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Daftar Menjadi Kontribut</a>
 
                 </div>
             </div>
@@ -178,7 +179,13 @@
 
             {{-- Card Pengacara --}}
             <div class="flex flex-col md:flex-row flex-wrap  gap-6 justify-center">
-                <x-card.card>
+                @foreach ($pengacara as $lawyer)
+                    <x-card.card>
+                        <x-card.pengacara img="{{ $lawyer->foto }}" name="{{ $lawyer->nama }}" :specialties="$lawyer->keahlian"
+                            location="{{ $lawyer->alamat }}" />
+                    </x-card.card>
+                @endforeach
+                {{-- <x-card.card>
                     <x-card.pengacara img="assets/img/lawyer.png" name="Ahay" specialties="Perceraian"
                         experience="5 Tahun" />
                 </x-card.card>
@@ -189,7 +196,7 @@
                 <x-card.card>
                     <x-card.pengacara img="assets/img/lawyer.png" name="Ahay" specialties="Perceraian"
                         experience="5 Tahun" />
-                </x-card.card>
+                </x-card.card> --}}
             </div>
             {{-- End Card Pengacara --}}
         </div>

@@ -1,8 +1,11 @@
 <?php
 
 use App\Http\Controllers\BantuanHukumController;
+use App\Http\Controllers\PengacaraController;
 use App\Http\Controllers\PerdataController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UnverifiedPengacaraController;
+use App\Models\Pengacara;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,13 +20,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('landing');
+    $pengacara = Pengacara::all();
+    return view('landing', compact('pengacara'));
 })->name('landing');
 
 // Halaman data pengacara
-Route::get('/pengacara', function () {
-    return view('data.pengacara.index');
-})->name('pengacara');
+Route::resource('/pengacara', PengacaraController::class);
+Route::get('/daftar/pengacara/sukses', function () {
+    return view('data.pengacara.create-success');
+})->name('pengacara.success');
+Route::post('/daftar/pengacara', [UnverifiedPengacaraController::class, 'store'])->name('daftar.pengacara');
 Route::post('/get-location', [BantuanHukumController::class, 'getLocation'])->name('getLocation');
 
 // Halaman pasal perdata
@@ -48,10 +54,5 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-});
-
 require __DIR__.'/auth.php';
+require __DIR__.'/admin.php';
