@@ -33,7 +33,7 @@
                                 Lengkap</label>
                             <div class="mt-1 relative rounded-md shadow-sm">
                                 <input id="name" name="nama" placeholder="John Doe" type="text"
-                                    required="" value="Ahay"
+                                    required=""
                                     class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5">
                                 <div
                                     class="hidden absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
@@ -57,7 +57,7 @@
                                     +62
                                 </span>
                                 <input id="no_hp" name="no_hp" placeholder="8xx-xxxx-xxxx" type="text"
-                                    required="" value="81348133839"
+                                    required=""
                                     class="flex-1 form-input pl-3 block w-full rounded-none rounded-r-md transition duration-150 ease-in-out sm:text-sm sm:leading-5 ">
                             </div>
                         </div>
@@ -68,7 +68,7 @@
                             </label>
                             <div class="mt-1 relative rounded-md shadow-sm">
                                 <input id="alamat" name="alamat" placeholder="Jl. Padat Karya" type="text"
-                                    required="" value="Jl. Padat Karya komp.pondok sungai andai permai No.23,, Sungai Jingah, Kec. Banjarmasin Utara, Kota Banjarmasin, Kalimantan Selatan 70122, Indonesia"
+                                    required=""
                                     class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5">
                                 <div
                                     class="hidden absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
@@ -86,7 +86,7 @@
                             </label>
                             <div class="flex flex-row gap-x-3 mt-1 relative rounded-md shadow-sm">
                                 <input id="latitude" name="latitude" placeholder="-3.3150282857767372" type="text"
-                                    required="" value="-3.294452722105827"
+                                    required=""
                                     class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5">
                                 <div
                                     class="hidden absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
@@ -97,7 +97,7 @@
                                     </svg>
                                 </div>
                                 <input id="longitude" name="longitude" placeholder="114.59254545318201" type="text"
-                                    required="" value="114.61100682247618"
+                                    required=""
                                     class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5">
                                 <div
                                     class="hidden absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
@@ -141,7 +141,7 @@
                             </label>
                             <div class="mt-1 relative rounded-md shadow-sm">
                                 <input id="keahlian" name="keahlian" placeholder="Kontrak" type="text"
-                                    required="" value="Kontrak, Waris, Hak Asuh Anak"
+                                    required="" 
                                     class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5">
                                 <div
                                     class="hidden absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
@@ -159,8 +159,8 @@
                                 Tentang Anda
                             </label>
                             <div class="mt-1 rounded-md shadow-sm">
-                                <textarea rows="10" name="deskripsi"
-                                    class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">ahay gans</textarea>
+                                <textarea rows="10" name="deskripsi" placeholder="Deskripsi tentang anda, pengalaman, dan apa yang bisa anda bantu."
+                                    class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"></textarea>
                             </div>
                         </div>
 
@@ -197,8 +197,8 @@
     </section>
 
     @push('addon-script')
-        {{-- <script async
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQB3o1zDyyD2GhVCvW9faesL0IQaIe5CU&loading=async&libraries=places&callback=initMap">
+        <script async
+            src="https://maps.googleapis.com/maps/api/js?key={{ config('services.google.maps_api_key') }}&loading=async&libraries=places&callback=initMap">
         </script>
         <script>
             let map;
@@ -305,7 +305,7 @@
             }
 
             window.initMap = initMap;
-        </script> --}}
+        </script>
     @endpush
 
 </x-app-layout>
