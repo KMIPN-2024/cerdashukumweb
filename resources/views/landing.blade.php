@@ -1,7 +1,7 @@
 <x-app-layout>
     <section id="hero">
         <img src="{{ asset('assets/img/hero.png') }}" class="block md:hidden" alt="">
-        <div class="bg-white md:grid md:grid-cols-2 justify-center items-center px-6 pt-10 md:px-24 md:pt-24 pb-16">
+        <div class="dark:bg-transparent bg-white md:grid md:grid-cols-2 justify-center items-center px-6 pt-10 md:px-24 md:pt-24 pb-16">
 
             <div class="flex flex-col gap-y-4">
                 <p class="text-[#BFC0C2] font-medium">SELAMAT DATANG DI WEBSITE CerdasHukum 👋🏻</p>
@@ -32,11 +32,11 @@
                 <p class="text-base uppercase">SOLUSI HUKUM CERDAS</p>
                 <h1 class="text-3xl md:text-5xl pb-5 pt-2">Temukan ratusan pengacara tepercaya yang siap membantu Anda!
                 </h1>
-                <p class="text-secondary pb-12">Beragam Pengacara yang Cocok untuk Kebutuhan Konsultasi Anda</p>
+                <p class="text-secondary dark:text-gray-400 pb-12">Beragam Pengacara yang Cocok untuk Kebutuhan Konsultasi Anda</p>
             </div>
             <div class="md:grid md:grid-cols-2 md:space-x-28 overflow-x-hidden">
                 <img data-aos="fade-right" src="{{ asset('assets/img/section2.png') }}" alt="">
-                <div class="flex flex-col text-[#565656] text-xl md:text-2xl md:mt-0 mt-4">
+                <div class="flex flex-col text-[#565656] dark:text-gray-400 text-xl md:text-2xl md:mt-0 mt-4">
                     <div data-aos="fade-left"
                         class="flex md:items-center text-primary h-16 md:h-24 px-4 py-3 border-l-8 border-l-primary">
                         <p>Artificial Intelligence</p>
@@ -58,7 +58,7 @@
     </section>
 
     <section id="coba-sekarang">
-        <div class="bg-white px-10 md:px-24 xl:px-80 pt-16 pb-24">
+        <div class="bg-white dark:bg-transparent px-10 md:px-24 xl:px-80 pt-16 pb-24">
             <x-text.title subtitle="Artificial Intelligence" title="Temukan Solusi Hukum yang Sesuai Hanya untukmu" />
 
             <div data-aos="fade-up" class="pt-7 md:pt-14">
@@ -139,7 +139,7 @@
 
     <section id="demo-now">
         <div
-            class="bg-white md:grid md:grid-cols-2 justify-center items-center px-6 pt-4 md:pt-0 md:px-24 pb-16 overflow-x-hidden">
+            class="bg-white dark:bg-transparent md:grid md:grid-cols-2 justify-center items-center px-6 pt-4 md:pt-0 md:px-24 pb-16 overflow-x-hidden">
             <img data-aos="fade-right" src="{{ asset('assets/img/Frame 1171277302.png') }}" class="hidden md:block"
                 alt="">
             <div data-aos="fade-left" class="flex flex-col gap-y-4 text-primary">
@@ -148,9 +148,9 @@
                         class="font-bold">CerdasHukum</span> Siap Membantu 24 Jam</h1>
                 <p class="font-medium">Dapatkan informasi tentang hukum perdata hanya di CerdasHukum</p>
                 <div
-                    class="bg-[#E9F5FF] text-primary text-sm font-medium me-2 px-2 py-2 rounded-full dark:bg-blue-900 dark:text-blue-300">
+                    class="bg-[#E9F5FF] text-primary text-sm font-medium me-2 px-2 py-2 rounded-full dark:bg-blue-900 dark:text-blue-300 text-center">
                     <span
-                        class="bg-primary text-sm text-white font-medium me-2 px-2.5 py-1 rounded-full dark:bg-blue-900 dark:text-blue-300">Masih
+                        class="hidden md:block bg-primary text-sm text-white font-medium me-2 px-2.5 py-1 rounded-full dark:bg-blue-900 dark:text-blue-300">Masih
                         ragu?</span>
                     Pelajari bagaimana CerdasHukum dapat memberikan Anda rekomendasi hukum!
                 </div>
@@ -159,7 +159,7 @@
                         class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-white bg-primary rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Tanya
                         Hukum</a>
                     <a href="{{ route('pengacara.create') }}"
-                        class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-primary bg-transparent border border-primary rounded-lg hover:border-blue-800 hover:text-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Daftar Menjadi Kontribut</a>
+                        class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-primary dark:text-white bg-transparent border border-primary rounded-lg hover:border-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Daftar Jadi Kontributor</a>
 
                 </div>
             </div>
@@ -210,194 +210,7 @@
             <x-text.title subtitle="CerdasHukum" title="Frequently Asked Questions" />
             {{-- End Title --}}
 
-            <div id="faq" class="my-10 grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-3 dark:text-white">
-                <div class="" id="accordion-collapse" data-accordion="collapse2">
-                    <h2 id="accordion-collapse-heading-1"
-                        class="bg-white dark:bg-[#15152C] shadow-md shadow-blue-100 py-3 px-4 rounded-lg transition duration-150 ease-in-out transform hover:-translate-y-1 hover:border-2 hover:border-primary">
-                        <button type="button" class="flex justify-between gap-2 items-center w-full"
-                            data-accordion-target="#accordion-collapse-body-1"
-                            aria-controls="accordion-collapse-body-1">
-                            <p class="text-sm md:text-base">Apa itu CerdasHukum</p>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
-                                viewBox="0 0 21 21" fill="none">
-                                <path
-                                    d="M10.25 9.5C10.9404 9.5 11.5 9.50011 11.5 9.50011L19 9.50005C19.6904 9.50005 20.25 10.0597 20.25 10.7501C20.25 11.4404 19.6904 12.0001 19 12.0001H11.5H11.25C11.113 12.0001 10.4404 12.0001 9.75 12.0001C9.05964 12.0001 8.93429 12.0001 9 12.0001H1.5C0.809644 12.0001 0.25 11.4404 0.25 10.7501C0.25 10.0597 0.809644 9.50005 1.5 9.50005H9C9 9.50005 9.55964 9.5 10.25 9.5Z"
-                                    fill="#3258E8" />
-                                <path
-                                    d="M10.5 9.25C11.1904 9.25 11.75 9.25011 11.75 9.25011L19.25 9.25005C19.9404 9.25005 20.5 9.8097 20.5 10.5001C20.5 11.1904 19.9404 11.7501 19.25 11.7501H11.75H11.5C11.363 11.7501 10.6904 11.7501 10 11.7501C9.30964 11.7501 9.18429 11.7501 9.25 11.7501H1.75C1.05964 11.7501 0.5 11.1904 0.5 10.5001C0.5 9.8097 1.05964 9.25005 1.75 9.25005H9.25C9.25 9.25005 9.80964 9.25 10.5 9.25Z"
-                                    fill="#3258E8" />
-                                <path
-                                    d="M9.25 10.5C9.25 9.80964 9.25011 9.25 9.25011 9.25L9.25005 1.75C9.25005 1.05964 9.8097 0.5 10.5001 0.5C11.1904 0.5 11.7501 1.05964 11.7501 1.75L11.7501 9.25V9.5C11.7501 9.637 11.7501 10.3096 11.7501 11C11.7501 11.6904 11.7501 11.8157 11.7501 11.75V19.25C11.7501 19.9404 11.1904 20.5 10.5001 20.5C9.8097 20.5 9.25005 19.9404 9.25005 19.25V11.75C9.25005 11.75 9.25 11.1904 9.25 10.5Z"
-                                    fill="#3258E8" />
-                            </svg>
-                            {{-- <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-                          </svg> --}}
-
-
-                        </button>
-                    </h2>
-                    <div id="accordion-collapse-body-1"
-                        class="hidden bg-white dark:bg-[#15152C] shadow-md shadow-blue-100"
-                        aria-labelledby="accordion-collapse-heading-1">
-                        <div class="p-5 shadow-md rounded-b-xl">
-                            <p class="text-sm md:text-base">Yo nda tau ko tanya sayaaa</p>
-                        </div>
-                    </div>
-                </div>
-                <div id="accordion-collapse" data-accordion="collapse2">
-                    <h2 id="accordion-collapse-heading-2"
-                        class="bg-white dark:bg-[#15152C] shadow-md shadow-blue-100 py-3 px-4 rounded-lg transition duration-150 ease-in-out transform hover:-translate-y-1 hover:border-2 hover:border-primary">
-                        <button type="button" class="flex justify-between items-center gap-2 w-full"
-                            data-accordion-target="#accordion-collapse-body-2"
-                            aria-controls="accordion-collapse-body-2">
-                            <p class="text-sm md:text-base">Apakah jawaban yang diberikan akurat?</p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
-                                viewBox="0 0 21 21" fill="none">
-                                <path
-                                    d="M10.25 9.5C10.9404 9.5 11.5 9.50011 11.5 9.50011L19 9.50005C19.6904 9.50005 20.25 10.0597 20.25 10.7501C20.25 11.4404 19.6904 12.0001 19 12.0001H11.5H11.25C11.113 12.0001 10.4404 12.0001 9.75 12.0001C9.05964 12.0001 8.93429 12.0001 9 12.0001H1.5C0.809644 12.0001 0.25 11.4404 0.25 10.7501C0.25 10.0597 0.809644 9.50005 1.5 9.50005H9C9 9.50005 9.55964 9.5 10.25 9.5Z"
-                                    fill="#3258E8" />
-                                <path
-                                    d="M10.5 9.25C11.1904 9.25 11.75 9.25011 11.75 9.25011L19.25 9.25005C19.9404 9.25005 20.5 9.8097 20.5 10.5001C20.5 11.1904 19.9404 11.7501 19.25 11.7501H11.75H11.5C11.363 11.7501 10.6904 11.7501 10 11.7501C9.30964 11.7501 9.18429 11.7501 9.25 11.7501H1.75C1.05964 11.7501 0.5 11.1904 0.5 10.5001C0.5 9.8097 1.05964 9.25005 1.75 9.25005H9.25C9.25 9.25005 9.80964 9.25 10.5 9.25Z"
-                                    fill="#3258E8" />
-                                <path
-                                    d="M9.25 10.5C9.25 9.80964 9.25011 9.25 9.25011 9.25L9.25005 1.75C9.25005 1.05964 9.8097 0.5 10.5001 0.5C11.1904 0.5 11.7501 1.05964 11.7501 1.75L11.7501 9.25V9.5C11.7501 9.637 11.7501 10.3096 11.7501 11C11.7501 11.6904 11.7501 11.8157 11.7501 11.75V19.25C11.7501 19.9404 11.1904 20.5 10.5001 20.5C9.8097 20.5 9.25005 19.9404 9.25005 19.25V11.75C9.25005 11.75 9.25 11.1904 9.25 10.5Z"
-                                    fill="#3258E8" />
-                            </svg>
-
-                        </button>
-                    </h2>
-                    <div id="accordion-collapse-body-2" class="hidden bg-white dark:bg-[#15152C]"
-                        aria-labelledby="accordion-collapse-heading-2">
-                        <div class="p-5 shadow-md rounded-b-xl shadow-blue-100">
-                            <p class="text-sm md:text-base">Yo nda tau ko tanya sayaaa</p>
-                        </div>
-                    </div>
-                </div>
-                <div id="accordion-collapse" data-accordion="collapse2">
-                    <h2 id="accordion-collapse-heading-3"
-                        class="bg-white dark:bg-[#15152C] shadow-md shadow-blue-100 py-3 px-4 rounded-lg transition duration-150 ease-in-out transform hover:-translate-y-1 hover:border-2 hover:border-primary">
-                        <button type="button" class="flex justify-between gap-2 items-center w-full"
-                            data-accordion-target="#accordion-collapse-body-3"
-                            aria-controls="accordion-collapse-body-3">
-                            <p class="text-sm md:text-base">
-                                Apakah CerdasHukum gratis digunakan?
-                            </p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
-                                viewBox="0 0 21 21" fill="none">
-                                <path
-                                    d="M10.25 9.5C10.9404 9.5 11.5 9.50011 11.5 9.50011L19 9.50005C19.6904 9.50005 20.25 10.0597 20.25 10.7501C20.25 11.4404 19.6904 12.0001 19 12.0001H11.5H11.25C11.113 12.0001 10.4404 12.0001 9.75 12.0001C9.05964 12.0001 8.93429 12.0001 9 12.0001H1.5C0.809644 12.0001 0.25 11.4404 0.25 10.7501C0.25 10.0597 0.809644 9.50005 1.5 9.50005H9C9 9.50005 9.55964 9.5 10.25 9.5Z"
-                                    fill="#3258E8" />
-                                <path
-                                    d="M10.5 9.25C11.1904 9.25 11.75 9.25011 11.75 9.25011L19.25 9.25005C19.9404 9.25005 20.5 9.8097 20.5 10.5001C20.5 11.1904 19.9404 11.7501 19.25 11.7501H11.75H11.5C11.363 11.7501 10.6904 11.7501 10 11.7501C9.30964 11.7501 9.18429 11.7501 9.25 11.7501H1.75C1.05964 11.7501 0.5 11.1904 0.5 10.5001C0.5 9.8097 1.05964 9.25005 1.75 9.25005H9.25C9.25 9.25005 9.80964 9.25 10.5 9.25Z"
-                                    fill="#3258E8" />
-                                <path
-                                    d="M9.25 10.5C9.25 9.80964 9.25011 9.25 9.25011 9.25L9.25005 1.75C9.25005 1.05964 9.8097 0.5 10.5001 0.5C11.1904 0.5 11.7501 1.05964 11.7501 1.75L11.7501 9.25V9.5C11.7501 9.637 11.7501 10.3096 11.7501 11C11.7501 11.6904 11.7501 11.8157 11.7501 11.75V19.25C11.7501 19.9404 11.1904 20.5 10.5001 20.5C9.8097 20.5 9.25005 19.9404 9.25005 19.25V11.75C9.25005 11.75 9.25 11.1904 9.25 10.5Z"
-                                    fill="#3258E8" />
-                            </svg>
-
-                        </button>
-                    </h2>
-                    <div id="accordion-collapse-body-3" class="hidden bg-white dark:bg-[#15152C]"
-                        aria-labelledby="accordion-collapse-heading-3">
-                        <div class="p-5 shadow-md rounded-b-xl shadow-blue-100">
-                            <p class="text-sm md:text-base">Yo nda tau ko tanya sayaaa</p>
-                        </div>
-                    </div>
-                </div>
-                <div id="accordion-collapse" data-accordion="collapse2">
-                    <h2 id="accordion-collapse-heading-4"
-                        class="bg-white dark:bg-[#15152C] shadow-md shadow-blue-100 py-3 px-4 rounded-lg transition duration-150 ease-in-out transform hover:-translate-y-1 hover:border-2 hover:border-primary">
-                        <button type="button" class="flex justify-between gap-2 items-center w-full"
-                            data-accordion-target="#accordion-collapse-body-4"
-                            aria-controls="accordion-collapse-body-4">
-                            <p class="text-sm md:text-base">
-                                Bagaimana CerdasHukum bekerja?
-                            </p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
-                                viewBox="0 0 21 21" fill="none">
-                                <path
-                                    d="M10.25 9.5C10.9404 9.5 11.5 9.50011 11.5 9.50011L19 9.50005C19.6904 9.50005 20.25 10.0597 20.25 10.7501C20.25 11.4404 19.6904 12.0001 19 12.0001H11.5H11.25C11.113 12.0001 10.4404 12.0001 9.75 12.0001C9.05964 12.0001 8.93429 12.0001 9 12.0001H1.5C0.809644 12.0001 0.25 11.4404 0.25 10.7501C0.25 10.0597 0.809644 9.50005 1.5 9.50005H9C9 9.50005 9.55964 9.5 10.25 9.5Z"
-                                    fill="#3258E8" />
-                                <path
-                                    d="M10.5 9.25C11.1904 9.25 11.75 9.25011 11.75 9.25011L19.25 9.25005C19.9404 9.25005 20.5 9.8097 20.5 10.5001C20.5 11.1904 19.9404 11.7501 19.25 11.7501H11.75H11.5C11.363 11.7501 10.6904 11.7501 10 11.7501C9.30964 11.7501 9.18429 11.7501 9.25 11.7501H1.75C1.05964 11.7501 0.5 11.1904 0.5 10.5001C0.5 9.8097 1.05964 9.25005 1.75 9.25005H9.25C9.25 9.25005 9.80964 9.25 10.5 9.25Z"
-                                    fill="#3258E8" />
-                                <path
-                                    d="M9.25 10.5C9.25 9.80964 9.25011 9.25 9.25011 9.25L9.25005 1.75C9.25005 1.05964 9.8097 0.5 10.5001 0.5C11.1904 0.5 11.7501 1.05964 11.7501 1.75L11.7501 9.25V9.5C11.7501 9.637 11.7501 10.3096 11.7501 11C11.7501 11.6904 11.7501 11.8157 11.7501 11.75V19.25C11.7501 19.9404 11.1904 20.5 10.5001 20.5C9.8097 20.5 9.25005 19.9404 9.25005 19.25V11.75C9.25005 11.75 9.25 11.1904 9.25 10.5Z"
-                                    fill="#3258E8" />
-                            </svg>
-
-                        </button>
-                    </h2>
-                    <div id="accordion-collapse-body-4" class="hidden bg-white dark:bg-[#15152C]"
-                        aria-labelledby="accordion-collapse-heading-4">
-                        <div class="p-5 shadow-md rounded-b-xl shadow-blue-100">
-                            <p class="text-sm md:text-base">Yo nda tau ko tanya sayaaa</p>
-                        </div>
-                    </div>
-                </div>
-                <div id="accordion-collapse" data-accordion="collapse2">
-                    <h2 id="accordion-collapse-heading-5"
-                        class="bg-white dark:bg-[#15152C] shadow-md shadow-blue-100 py-3 px-4 rounded-lg transition duration-150 ease-in-out transform hover:-translate-y-1 hover:border-2 hover:border-primary">
-                        <button type="button" class="flex justify-between gap-2 items-center w-full"
-                            data-accordion-target="#accordion-collapse-body-5"
-                            aria-controls="accordion-collapse-body-5">
-                            <p class="text-sm md:text-base">Berapa biaya layanan dari POS?</p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
-                                viewBox="0 0 21 21" fill="none">
-                                <path
-                                    d="M10.25 9.5C10.9404 9.5 11.5 9.50011 11.5 9.50011L19 9.50005C19.6904 9.50005 20.25 10.0597 20.25 10.7501C20.25 11.4404 19.6904 12.0001 19 12.0001H11.5H11.25C11.113 12.0001 10.4404 12.0001 9.75 12.0001C9.05964 12.0001 8.93429 12.0001 9 12.0001H1.5C0.809644 12.0001 0.25 11.4404 0.25 10.7501C0.25 10.0597 0.809644 9.50005 1.5 9.50005H9C9 9.50005 9.55964 9.5 10.25 9.5Z"
-                                    fill="#3258E8" />
-                                <path
-                                    d="M10.5 9.25C11.1904 9.25 11.75 9.25011 11.75 9.25011L19.25 9.25005C19.9404 9.25005 20.5 9.8097 20.5 10.5001C20.5 11.1904 19.9404 11.7501 19.25 11.7501H11.75H11.5C11.363 11.7501 10.6904 11.7501 10 11.7501C9.30964 11.7501 9.18429 11.7501 9.25 11.7501H1.75C1.05964 11.7501 0.5 11.1904 0.5 10.5001C0.5 9.8097 1.05964 9.25005 1.75 9.25005H9.25C9.25 9.25005 9.80964 9.25 10.5 9.25Z"
-                                    fill="#3258E8" />
-                                <path
-                                    d="M9.25 10.5C9.25 9.80964 9.25011 9.25 9.25011 9.25L9.25005 1.75C9.25005 1.05964 9.8097 0.5 10.5001 0.5C11.1904 0.5 11.7501 1.05964 11.7501 1.75L11.7501 9.25V9.5C11.7501 9.637 11.7501 10.3096 11.7501 11C11.7501 11.6904 11.7501 11.8157 11.7501 11.75V19.25C11.7501 19.9404 11.1904 20.5 10.5001 20.5C9.8097 20.5 9.25005 19.9404 9.25005 19.25V11.75C9.25005 11.75 9.25 11.1904 9.25 10.5Z"
-                                    fill="#3258E8" />
-                            </svg>
-
-                        </button>
-                    </h2>
-                    <div id="accordion-collapse-body-5" class="hidden bg-white dark:bg-[#15152C]"
-                        aria-labelledby="accordion-collapse-heading-5">
-                        <div class="p-5 shadow-md rounded-b-xl shadow-blue-100">
-                            <p class="text-sm md:text-base">Yo nda tau ko tanya sayaaa</p>
-                        </div>
-                    </div>
-                </div>
-                <div id="accordion-collapse" data-accordion="collapse2">
-                    <h2 id="accordion-collapse-heading-6"
-                        class="bg-white dark:bg-[#15152C] shadow-md shadow-blue-100 py-3 px-4 rounded-lg transition duration-150 ease-in-out transform hover:-translate-y-1 hover:border-2 hover:border-primary">
-                        <button type="button" class="flex justify-between gap-2 items-center w-full"
-                            data-accordion-target="#accordion-collapse-body-6"
-                            aria-controls="accordion-collapse-body-6">
-                            <p class="text-sm md:text-base">Apakah perlu pengetahuan hukum untuk menggunakan
-                                CerdasHukum?
-                            </p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
-                                viewBox="0 0 21 21" fill="none">
-                                <path
-                                    d="M10.25 9.5C10.9404 9.5 11.5 9.50011 11.5 9.50011L19 9.50005C19.6904 9.50005 20.25 10.0597 20.25 10.7501C20.25 11.4404 19.6904 12.0001 19 12.0001H11.5H11.25C11.113 12.0001 10.4404 12.0001 9.75 12.0001C9.05964 12.0001 8.93429 12.0001 9 12.0001H1.5C0.809644 12.0001 0.25 11.4404 0.25 10.7501C0.25 10.0597 0.809644 9.50005 1.5 9.50005H9C9 9.50005 9.55964 9.5 10.25 9.5Z"
-                                    fill="#3258E8" />
-                                <path
-                                    d="M10.5 9.25C11.1904 9.25 11.75 9.25011 11.75 9.25011L19.25 9.25005C19.9404 9.25005 20.5 9.8097 20.5 10.5001C20.5 11.1904 19.9404 11.7501 19.25 11.7501H11.75H11.5C11.363 11.7501 10.6904 11.7501 10 11.7501C9.30964 11.7501 9.18429 11.7501 9.25 11.7501H1.75C1.05964 11.7501 0.5 11.1904 0.5 10.5001C0.5 9.8097 1.05964 9.25005 1.75 9.25005H9.25C9.25 9.25005 9.80964 9.25 10.5 9.25Z"
-                                    fill="#3258E8" />
-                                <path
-                                    d="M9.25 10.5C9.25 9.80964 9.25011 9.25 9.25011 9.25L9.25005 1.75C9.25005 1.05964 9.8097 0.5 10.5001 0.5C11.1904 0.5 11.7501 1.05964 11.7501 1.75L11.7501 9.25V9.5C11.7501 9.637 11.7501 10.3096 11.7501 11C11.7501 11.6904 11.7501 11.8157 11.7501 11.75V19.25C11.7501 19.9404 11.1904 20.5 10.5001 20.5C9.8097 20.5 9.25005 19.9404 9.25005 19.25V11.75C9.25005 11.75 9.25 11.1904 9.25 10.5Z"
-                                    fill="#3258E8" />
-                            </svg>
-
-                        </button>
-                    </h2>
-                    <div id="accordion-collapse-body-6" class="hidden bg-white dark:bg-[#15152C]"
-                        aria-labelledby="accordion-collapse-heading-6">
-                        <div class="p-5 shadow-md rounded-b-xl shadow-blue-100">
-                            <p class="text-sm md:text-base">Yo nda tau ko tanya sayaaa</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           <x-faq-list />
         </div>
         {{-- End Section FAQ --}}
     </section>

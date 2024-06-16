@@ -48,7 +48,7 @@
                     location="{{ $lawyer->alamat }}" id="{{ $lawyer->id }}" />
             </x-card.card>
         @empty
-            <h1>Tidak ada pengacara dengan keahlian tersebut</h1>
+            <h1 class="dark:text-gray-400">Tidak ada pengacara</h1>
         @endforelse
     </div>
 </div>

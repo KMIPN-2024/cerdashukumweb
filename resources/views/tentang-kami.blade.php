@@ -1,5 +1,5 @@
 <x-app-layout>
-    <div class="p-6 md:p-12">
+    <div class="p-6 md:p-12 dark:text-gray-400">
         {{-- Title --}}
         <div class="flex flex-col items-center justify-center gap-y-5 text-center text-primary pb-8 md:pb-10">
             <p class="font-semibold text-base">Tentang Kami</p>
