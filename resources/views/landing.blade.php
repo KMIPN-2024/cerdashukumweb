@@ -114,7 +114,7 @@
             {{-- End Title --}}
 
             {{-- Card Artikel --}}
-            <div class="flex flex-col md:flex-row flex-wrap  gap-6 justify-center">
+            <div class="grid grid-rows md:grid-cols-3 gap-y-5 md:gap-y-0 md:gap-6 justify-center">
 
                 <x-card.card>
                     <x-card.artikel img="assets/img/legal-article.png"

@@ -1,26 +1,27 @@
 <div>
-    <div class="flex justify-between items-center mb-4">
-        <div class="flex gap-3">
-            <div>
-                <input wire:model.live.debounce.300ms="search" type="text" placeholder="Search..."
-                    class="px-4 py-2 border rounded-lg shadow-sm" />
-            </div>
-            <div>
-                <select wire:model.live="filterBab" wire:change="resetPage" class="px-4 py-2 border rounded-lg shadow-sm max-w-xs">
-                    <option value="">Semua Bab</option>
-                    @foreach (collect($data)->pluck('Bab')->unique() as $bab)
-                        <option value="{{ $bab }}">{{ $bab }}</option>
-                    @endforeach
-                </select>
-            </div>
-            <div>
-                <select wire:model="filterBagian" wire:change="resetPage" class="px-4 py-2 border rounded-lg shadow-sm max-w-xs">
-                    <option value="">Semua Bagian</option>
-                    @foreach (collect($data)->pluck('Bagian')->unique() as $bagian)
-                        <option value="{{ $bagian }}">{{ $bagian }}</option>
-                    @endforeach
-                </select>
-            </div>
+    <div class="flex flex-col md:flex-row items-center mb-4 gap-3">
+
+        <div>
+            <input wire:model.live.debounce.300ms="search" type="text" placeholder="Search..."
+                class="px-4 py-2 border rounded-lg shadow-sm" />
+        </div>
+        <div>
+            <select wire:model.live="filterBab" wire:change="resetPage"
+                class="px-4 py-2 border rounded-lg shadow-sm max-w-xs">
+                <option value="">Semua Bab</option>
+                @foreach (collect($data)->pluck('Bab')->unique() as $bab)
+                    <option value="{{ $bab }}">{{ $bab }}</option>
+                @endforeach
+            </select>
+        </div>
+        <div>
+            <select wire:model="filterBagian" wire:change="resetPage"
+                class="px-4 py-2 border rounded-lg shadow-sm max-w-xs">
+                <option value="">Semua Bagian</option>
+                @foreach (collect($data)->pluck('Bagian')->unique() as $bagian)
+                    <option value="{{ $bagian }}">{{ $bagian }}</option>
+                @endforeach
+            </select>
         </div>
         <div>
             <select wire:model="perPage" wire:change="resetPage" class="px-4 py-2 border rounded-lg shadow-sm">
