@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $pengacara = Pengacara::all();
+    $pengacara = Pengacara::latest()->paginate(4);
     return view('landing', compact('pengacara'));
 })->name('landing');
 

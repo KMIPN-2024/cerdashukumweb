@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Pengacara;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
@@ -12,7 +13,8 @@ class BantuanHukumController extends Controller
 {
     public function index()
     {
-        return view('bantuan-hukum');
+        $lawyers = Pengacara::latest()->paginate(4);
+        return view('bantuan-hukum', compact('lawyers'));
     }
 
     public function getPasal(Request $request)

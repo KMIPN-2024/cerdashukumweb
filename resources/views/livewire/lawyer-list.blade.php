@@ -10,7 +10,7 @@
             @foreach ($keahlians as $keahlian)
                 <li class="me-2" role="presentation">
                     <button wire:click="filterBySpecialty('{{ $keahlian->keahlian }}')"
-                        class="inline-block p-4 border-b-2 rounded-t-lg hover:bg-white rounded-md {{ $selectedSpecialty === $keahlian->keahlian ? 'border-blue-500 text-blue-600' : '' }}">
+                        class="inline-block p-4 border-b-2 rounded-t-lg hover:bg-white rounded-md {{ $selectedSpecialty === $keahlian->keahlian ? 'border-blue-500 text-blue-600' : '' }} dark:text-white dark:hover:text-black">
                         {{ $keahlian->keahlian }}
                     </button>
                 </li>
@@ -41,7 +41,7 @@
             </li> --}}
         </ul>
     </div>
-    <div class="grid grid-cols-2 gap-4 md:grid-cols-4">
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-4">
         @forelse ($filteredLawyers as $lawyer)
             <x-card.card>
                 <x-card.pengacara img="{{ $lawyer->foto }}" name="{{ $lawyer->nama }}" :specialties="$lawyer->keahlian"

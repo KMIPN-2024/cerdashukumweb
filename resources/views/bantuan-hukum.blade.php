@@ -12,88 +12,15 @@
             {{-- End Title --}}
 
             {{-- Card Pengacara --}}
-            <div class="flex flex-col md:flex-row flex-wrap  gap-6 justify-center">
-                <div
-                    class="max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-[#15152C] shadow-md shadow-blue-100">
-                    <div class="p-6">
-                        <a href="#">
-                            <img class="rounded-lg" src="{{ asset('assets/img/lawyer.png') }}" alt="" />
-                        </a>
-                    </div>
-                    <div class="px-6 pb-6">
-                        <div class="mb-3 flex flex-wrap md:flex-nowrap gap-3 md:gap-0">
-                            <span
-                                class="bg-primary bg-opacity-10 md:grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Sengketa</span>
-                            <span
-                                class="bg-primary bg-opacity-10 md:grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Perkawinan</span>
-                            <span
-                                class="bg-primary bg-opacity-10 md:grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Perjanjian</span>
-                        </div>
-                        <a href="#">
-                            <h5 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">M.
-                                Sohiburroihan Akbar</h5>
-                        </a>
-                        <p class="mb-3 font-normal text-secondary dark:text-gray-400">Pengalaman 33 Tahun</p>
-                        <a href="#"
-                            class="w-full inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-white bg-primary rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Konsultasi Sekarang
-                        </a>
-                    </div>
-                </div>
-                <div
-                    class="max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-[#15152C] shadow-md shadow-blue-100">
-                    <div class="p-6">
-                        <a href="#">
-                            <img class="rounded-lg" src="{{ asset('assets/img/lawyer.png') }}" alt="" />
-                        </a>
-                    </div>
-                    <div class="px-6 pb-6">
-                        <div class="mb-3 flex flex-wrap md:flex-nowrap gap-3 md:gap-0">
-                            <span
-                                class="bg-primary bg-opacity-10 md:grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Sengketa</span>
-                            <span
-                                class="bg-primary bg-opacity-10 md:grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Perkawinan</span>
-                            <span
-                                class="bg-primary bg-opacity-10 md:grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Perjanjian</span>
-                        </div>
-                        <a href="#">
-                            <h5 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">M.
-                                Sohiburroihan Akbar</h5>
-                        </a>
-                        <p class="mb-3 font-normal text-secondary dark:text-gray-400">Pengalaman 33 Tahun</p>
-                        <a href="#"
-                            class="w-full inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-white bg-primary rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Konsultasi Sekarang
-                        </a>
-                    </div>
-                </div>
-                <div
-                    class="max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-[#15152C] shadow-md shadow-blue-100">
-                    <div class="p-6">
-                        <a href="#">
-                            <img class="rounded-lg" src="{{ asset('assets/img/lawyer.png') }}" alt="" />
-                        </a>
-                    </div>
-                    <div class="px-6 pb-6">
-                        <div class="mb-3 flex flex-wrap md:flex-nowrap gap-3 md:gap-0">
-                            <span
-                                class="bg-primary bg-opacity-10 md:grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Sengketa</span>
-                            <span
-                                class="bg-primary bg-opacity-10 md:grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Perkawinan</span>
-                            <span
-                                class="bg-primary bg-opacity-10 md:grow text-center text-primary text-sm font-medium me-2 px-4 py-1 rounded-lg dark:bg-blue-900 dark:text-blue-300">Perjanjian</span>
-                        </div>
-                        <a href="#">
-                            <h5 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">M.
-                                Sohiburroihan Akbar</h5>
-                        </a>
-                        <p class="mb-3 font-normal text-secondary dark:text-gray-400">Pengalaman 33 Tahun</p>
-                        <a href="#"
-                            class="w-full inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-white bg-primary rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Konsultasi Sekarang
-                        </a>
-                    </div>
-                </div>
+            <div class="grid grid-cols-1 gap-4 md:grid-cols-4">
+                @forelse ($lawyers as $lawyer)
+                    <x-card.card>
+                        <x-card.pengacara img="{{ $lawyer->foto }}" name="{{ $lawyer->nama }}" :specialties="$lawyer->keahlian"
+                            location="{{ $lawyer->alamat }}" id="{{ $lawyer->id }}" />
+                    </x-card.card>
+                @empty
+                    <h1 class="dark:text-gray-400">Tidak ada pengacara</h1>
+                @endforelse
             </div>
             {{-- End Card Pengacara --}}
         </div>

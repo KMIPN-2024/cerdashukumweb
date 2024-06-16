@@ -1,7 +1,7 @@
 <x-app-layout>
     <section id="hero">
         <img src="{{ asset('assets/img/hero.png') }}" class="block md:hidden" alt="">
-        <div class="dark:bg-transparent bg-white md:grid md:grid-cols-2 justify-center items-center px-6 pt-10 md:px-24 md:pt-24 pb-16">
+        <div class="bg-white dark:bg-transparent md:grid md:grid-cols-2 justify-center items-center px-6 pt-10 md:px-24 md:pt-24 pb-16">
 
             <div class="flex flex-col gap-y-4">
                 <p class="text-[#BFC0C2] font-medium">SELAMAT DATANG DI WEBSITE CerdasHukum 👋🏻</p>
@@ -178,7 +178,7 @@
             {{-- End Title --}}
 
             {{-- Card Pengacara --}}
-            <div class="flex flex-col md:flex-row flex-wrap  gap-6 justify-center">
+            <div class="grid grid-cols-1 gap-4 md:grid-cols-4  justify-center">
                 @foreach ($pengacara as $lawyer)
                     <x-card.card>
                         <x-card.pengacara img="{{ $lawyer->foto }}" name="{{ $lawyer->nama }}" :specialties="$lawyer->keahlian"

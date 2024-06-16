@@ -23,13 +23,13 @@
         @endif
         <div class="p-6 md:p-12">
             <div class="p-10">
-                <h1 class="mb-8 font-extrabold text-4xl">Daftar Sebagai Kontributor</h1>
+                <h1 class="mb-8 font-extrabold text-4xl dark:text-white">Daftar Sebagai Kontributor</h1>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
                     <form method="POST" action="{{ route('daftar.pengacara') }}" enctype="multipart/form-data">
                         @csrf
                         <div>
-                            <label for="name" class="block text-sm font-medium leading-5  text-gray-700">Nama
+                            <label for="name" class="block text-sm font-medium leading-5  text-gray-700 dark:text-white">Nama
                                 Lengkap</label>
                             <div class="mt-1 relative rounded-md shadow-sm">
                                 <input id="name" name="nama" placeholder="John Doe" type="text"
@@ -48,7 +48,7 @@
                         </div>
 
                         <div class="mt-6">
-                            <label for="no_hp" class="block text-sm font-medium leading-5 text-gray-700">Nomor
+                            <label for="no_hp" class="block text-sm font-medium leading-5 text-gray-700 dark:text-white" >Nomor
                                 HP/WA</label>
                             <div class="mt-1 flex rounded-md shadow-sm">
 
@@ -63,7 +63,7 @@
                         </div>
 
                         <div class="mt-6">
-                            <label for="alamat" class="block text-sm font-medium leading-5  text-gray-700">
+                            <label for="alamat" class="block text-sm font-medium leading-5  text-gray-700 dark:text-white">
                                 Alamat
                             </label>
                             <div class="mt-1 relative rounded-md shadow-sm">
@@ -81,7 +81,7 @@
                             </div>
                         </div>
                         <div class="mt-6">
-                            <label for="lokasi" class="block text-sm font-medium leading-5  text-gray-700">
+                            <label for="lokasi" class="block text-sm font-medium leading-5  text-gray-700 dark:text-white">
                                 Lokasi (Latitude, Longitude)
                             </label>
                             <div class="flex flex-row gap-x-3 mt-1 relative rounded-md shadow-sm">
@@ -118,7 +118,7 @@
                             </div>
                         </div>
                         <div class="mt-6">
-                            <label for="profile" class="block text-sm font-medium leading-5  text-gray-700">
+                            <label for="profile" class="block text-sm font-medium leading-5  text-gray-700 dark:text-white">
                                 Foto Profil
                             </label>
                             <div class="mt-1 relative rounded-md shadow-sm">
@@ -136,7 +136,7 @@
                             </div>
                         </div>
                         <div class="mt-6">
-                            <label for="keahlian" class="block text-sm font-medium leading-5  text-gray-700">
+                            <label for="keahlian" class="block text-sm font-medium leading-5  text-gray-700 dark:text-white">
                                 Keahlian
                             </label>
                             <div class="mt-1 relative rounded-md shadow-sm">
@@ -155,7 +155,7 @@
                         </div>
                         <div class="mt-6">
                             <label for="password_confirmation"
-                                class="block text-sm font-medium leading-5 text-gray-700">
+                                class="block text-sm font-medium leading-5 text-gray-700 dark:text-white" >
                                 Tentang Anda
                             </label>
                             <div class="mt-1 rounded-md shadow-sm">
@@ -177,7 +177,7 @@
                     </form>
 
                     <aside class="">
-                        <div class="bg-gray-100 p-8 rounded">
+                        <div class="bg-gray-100 dark:text-black p-8 rounded">
                             <h2 class="font-bold text-2xl">Instructions</h2>
                             <ul class="list-disc mt-4 list-inside">
                                 <li>Masukkan alamat yang terdaftar di Google Maps</li>

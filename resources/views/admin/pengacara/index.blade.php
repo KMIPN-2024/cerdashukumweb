@@ -26,13 +26,13 @@
                         </td>
                         <td class="px-6 py-4">
                             @foreach ($pengacara->keahlian as $keahlian)
-                                <span class="text-green-600 hover:text-green-900 focus:outline-none inline-flex rounded-full bg-green-600 bg-opacity-10 px-3 py-1 text-sm font-medium">{{ $keahlian->keahlian }}</span>
+                                <span class="text-green-600 hover:text-green-900 focus:outline-none inline-flex rounded-full bg-green-600 dark:bg-green-300 bg-opacity-10 px-3 py-1 text-sm font-medium">{{ $keahlian->keahlian }}</span>
                             @endforeach
                         </td>
                         <td class="px-6 py-4">{{ $pengacara->alamat }}</td>
                         <td class="px-6 py-4">
                             <a href="{{ route('verifikasi-pengacara.show', $pengacara->id) }}"
-                                class="text-indigo-600 hover:text-indigo-900 inline-flex rounded-full bg-indigo-600 bg-opacity-10 px-3 py-1 text-sm font-medium">
+                                class="text-indigo-600 hover:text-indigo-900 inline-flex rounded-full bg-indigo-600 bg-opacity-10 px-3 py-1 text-sm font-medium dark:bg-indigo-300">
                                 Detail
                             </a>
                             <form action="{{ route('verifikasi-pengacara.destroy', $pengacara->id) }}" method="POST"
@@ -40,7 +40,7 @@
                                 @csrf
                                 @method('DELETE')
                                 <button type="submit"
-                                    class="text-red-600 hover:text-red-900 focus:outline-none inline-flex rounded-full bg-red-600 bg-opacity-10 px-3 py-1 text-sm font-medium">Hapus</button>
+                                    class="text-red-600 hover:text-red-900 focus:outline-none inline-flex rounded-full bg-red-600 bg-opacity-10 px-3 py-1 text-sm font-medium dark:bg-red-300">Hapus</button>
                             </form>
                         </td>
                     </tr>

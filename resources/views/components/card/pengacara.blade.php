@@ -39,7 +39,7 @@
             Konsultasi Sekarang
             </a>
             <a href="{{ route('pengacara.show', $id) }}"
-                class="w-full inline-flex items-center px-1.5 py-3 text-sm font-medium text-center justify-center text-primary hover:text-blue-950 hover:border-blue-950 border-primary bg-transparent rounded-lg hover:bg-border border focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                class="w-full inline-flex items-center px-1.5 py-3 text-sm font-medium text-center justify-center text-primary hover:text-blue-950 hover:border-blue-950 border-primary bg-transparent rounded-lg hover:bg-border border focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 dark:text-white dark:hover:text-white">
                 Detail
             </a>
         </div>
