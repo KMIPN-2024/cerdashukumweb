@@ -12,6 +12,17 @@ class BantuanHukum extends Component
     public $activeAccordionIndex = null;
     public $loading = false;
 
+    // Atur aturan validasi untuk input
+    protected $rules = [
+        'input' => 'required|string|min_words:10|max_words:250', // Minimal 50 kata, maksimal 250 kata
+    ];
+    protected $messages = [
+        'input.required' => 'Masukkan cerita permasalahan hukum perdata Anda.',
+        'input.string' => 'Input harus berupa teks.',
+        'input.min_words' => 'Cerita permasalahan hukum perdata minimal 50 kata.',
+        'input.max_words' => 'Cerita permasalahan hukum perdata maksimal 250 kata.',
+    ];
+
     public function render()
     {
         return view('livewire.bantuan-hukum');
@@ -28,10 +39,11 @@ class BantuanHukum extends Component
 
     public function submitForm()
     {
+        $this->validate(); // Jalankan validasi
         $this->loading = true;
 
         // Fetch data from the API
-        $getPasal = Http::timeout(60)->post('https://cerdashukumapi-ktmv6bjp4q-as.a.run.app/get-pasal', [
+        $getPasal = Http::timeout(60)->withoutVerifying()->post('https://cerdashukumapi-ktmv6bjp4q-as.a.run.app/get-pasal', [
             'sentence' => $this->input,
             'returnPasal' => true,
         ]);
@@ -42,14 +54,18 @@ class BantuanHukum extends Component
         // Iterate over each element in the response and add it to $this->response
         foreach ($response['data'] as $item) {
             // Merge 'score' into 'payload' array
-            $item['payload']['score'] = $item['score'];
-            $this->response[] = $item['payload'];
+            if ($item['score'] > 0.55) {
+                $item['payload']['score'] = $item['score'];
+                $this->response[] = $item['payload'];
+            }
         }
-        
-        $this->loading = false;
-        return $this->response;
 
-        // Output the response for debugging
-        dd($this->response);
+        $this->loading = false;
+        // Check if no items were added to the response
+        if (empty($this->response)) {
+            $this->dispatch('noDataFound'); // Emit event to indicate no data found
+        } else {
+            return $this->response;
+        }
     }
 }

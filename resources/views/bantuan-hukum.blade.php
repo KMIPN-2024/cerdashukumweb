@@ -100,6 +100,15 @@
                         document.querySelector('.putarputar').classList.add('hidden');
                     });
                 });
+
+                Livewire.on('noDataFound', () => {
+                    Swal.fire({
+                        icon: 'warning',
+                        title: 'Tidak Ada Pasal yang Ditemukan',
+                        text: 'Tidak ada pasal dengan tingkat kemiripan di atas 55% yang ditemukan.',
+                        confirmButtonText: 'OK'
+                    });
+                });
             </script>
 
             <script>

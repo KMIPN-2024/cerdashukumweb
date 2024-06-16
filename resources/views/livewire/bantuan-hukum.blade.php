@@ -2,7 +2,8 @@
     <div class="bg-white px-8 py-10 md:px-16 md:py-20 dark:bg-[#191d3c]">
         <div class="text-primary dark:text-[#b6b4fe] grid gap-y-4">
             <p class="font-semibold font-open text-base uppercase">artifical intelligence</p>
-            <h3 class="font-semibold font-inter text-5xl">Temukan Solusi Hukum yang Sesuai <br class="hidden md:block"> Hanya untuk Anda</h3>
+            <h3 class="font-semibold font-inter text-5xl">Temukan Solusi Hukum yang Sesuai <br class="hidden md:block">
+                Hanya untuk Anda</h3>
             <p class="text-secondary dark:text-white">Beragam Pengacara yang Cocok untuk Kebutuhan Konsultasi Anda</p>
         </div>
 
@@ -13,10 +14,10 @@
                     class="w-full mb-4 border border-primary rounded-lg bg-[#F6F8FD] dark:bg-gray-700 dark:border-gray-600">
                     <div class="px-4 py-2 bg-[#F6F8FD] rounded-t-lg dark:bg-gray-800">
                         <label for="comment" class="sr-only">Your comment</label>
-                        <textarea id="comment" rows="5" wire:loading.attr="disabled"
+                        <textarea id="comment" rows="5" wire:loading.attr="disabled" wire:model="input"
                             class="w-full px-0 text-base text-gray-900 bg-[#F6F8FD] border-0 dark:bg-gray-800 focus:ring-0 dark:text-white dark:placeholder-white"
                             placeholder="Temukan solusi hukum yang tepat untuk setiap permasalahan perdata dengan platform CerdasHukum berbasis AI. Dengan fitur konsultasi kami, langkah hukum Anda menjadi lebih tepat dan fokus, sehingga menjamin kejelasan dan arah dalam perjalanan hukum Anda."
-                            required wire:model="input" /></textarea>
+                            required wire:model="input"></textarea>
                     </div>
                     <div
                         class="flex items-center justify-between px-3 py-2 border-t border-primary dark:border-primary">
@@ -65,6 +66,20 @@
                     </div>
                 </div>
             </form>
+            @error('input')
+                <div class="flex items-center p-4 mb-4 text-sm text-yellow-800 border border-yellow-300 rounded-lg bg-yellow-50 dark:bg-gray-800 dark:text-yellow-300 dark:border-yellow-800"
+                    role="alert">
+                    <svg class="flex-shrink-0 inline w-4 h-4 me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                            d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z" />
+                    </svg>
+                    <span class="sr-only">Perhatian</span>
+                    <div>
+                        <span class="font-medium">Perhatian!</span> {{ $message }}
+                    </div>
+                </div>
+            @enderror
             <p class="ms-auto text-xs text-gray-500 dark:text-gray-400">Gunakan Bahasa Indonesia yang baik dan benar
                 agar mendapat jawaban yang maksimal <a href="#"
                     class="text-blue-600 dark:text-[#b6b4fe] hover:underline">Community
