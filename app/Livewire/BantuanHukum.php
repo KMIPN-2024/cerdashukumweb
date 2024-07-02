@@ -9,6 +9,7 @@ class BantuanHukum extends Component
 {
     public $input;
     public $response;
+    public $step;
     public $activeAccordionIndex = null;
     public $loading = false;
 
@@ -42,24 +43,25 @@ class BantuanHukum extends Component
         $this->validate(); // Jalankan validasi
         $this->loading = true;
 
-        // Fetch data from the API
-        $getPasal = Http::timeout(60)->post('https://cerdashukumapi-ktmv6bjp4q-as.a.run.app/get-pasal', [
-            'sentence' => $this->input,
-            'returnPasal' => true,
-        ]);
-        $response = $getPasal->json();
+        // // Fetch data from the API
+        // $getPasal = Http::timeout(60)->post('https://cerdashukumapi-ktmv6bjp4q-as.a.run.app/get-pasal', [
+        //     'sentence' => $this->input,
+        //     'returnPasal' => true,
+        // ]);
+        // $response = $getPasal->json();
 
-        $this->response = [];
+        // $this->response = [];
 
-        // Iterate over each element in the response and add it to $this->response
-        foreach ($response['data'] as $item) {
-            // Merge 'score' into 'payload' array
-            if ($item['score'] > 0.55) {
-                $item['payload']['score'] = $item['score'];
-                $this->response[] = $item['payload'];
-            }
-        }
+        // // Iterate over each element in the response and add it to $this->response
+        // foreach ($response['data'] as $item) {
+        //     // Merge 'score' into 'payload' array
+        //     if ($item['score'] > 0.55) {
+        //         $item['payload']['score'] = $item['score'];
+        //         $this->response[] = $item['payload'];
+        //     }
+        // }
 
+        $this->langkahHukum();
         $this->loading = false;
         // Check if no items were added to the response
         if (empty($this->response)) {
@@ -67,5 +69,13 @@ class BantuanHukum extends Component
         } else {
             return $this->response;
         }
+    }
+
+    public function langkahHukum()
+    {
+        $getStep = Http::timeout(60)->post('http://api.cerdashukum.com:8080/langkah-hukum', [
+                'sentence' => $this->input,
+            ]);
+        $this->step = $getStep->json();
     }
 }
