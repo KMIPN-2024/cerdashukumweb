@@ -147,9 +147,8 @@
             </div>
             <div class="flex-grow overflow-x-auto px-8 md:px-28">
                 {!! $step !!}
-                <p class="ms-auto text-xs text-gray-500 dark:text-gray-400 mt-4">Hasil yang diberikan hanya berupa
-                    rekomendasi. Disarankan untuk berkonsultasi dengan advokat atau pengacara yang berpengalaman dalam
-                    menangani kasus anda!</p>
+                <p class="ms-auto text-xs text-gray-500 dark:text-gray-400 mt-4">Rekomendasi langkah hukum ini disusun
+                    berdasarkan informasi dari Gemini API.</p>
             </div>
         </div>
     @endif
