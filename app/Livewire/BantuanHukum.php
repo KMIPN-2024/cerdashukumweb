@@ -18,7 +18,7 @@ class BantuanHukum extends Component
 
     // Atur aturan validasi untuk input
     protected $rules = [
-        'input' => 'required|string|min_words:10|max_words:250', // Minimal 50 kata, maksimal 250 kata
+        'input' => 'required|string|min_words:50|max_words:250', // Minimal 50 kata, maksimal 250 kata
     ];
     protected $messages = [
         'input.required' => 'Masukkan cerita permasalahan hukum perdata Anda.',
