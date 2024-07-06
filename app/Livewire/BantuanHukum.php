@@ -58,7 +58,7 @@ class BantuanHukum extends Component
         // Iterate over each element in the response and add it to $this->response
         foreach ($response['data'] as $item) {
             // Merge 'score' into 'payload' array
-            if ($item['score'] > 0.55) {
+            if ($item['score'] > 0.60) {
                 $item['payload']['score'] = $item['score'];
                 $this->response[] = $item['payload'];
             }
@@ -77,30 +77,32 @@ class BantuanHukum extends Component
     public function langkahHukum()
     {
         $getStep = Http::timeout(60)->post('http://api.cerdashukum.com:8080/langkah-hukum', [
-                'sentence' => $this->input,
-            ]);
+            'sentence' => $this->input,
+        ]);
 
-            
-            $this->step = Str::markdown($getStep->body());
-            $this->step = str_replace([
+
+        $this->step = Str::markdown($getStep->body());
+        $this->step = str_replace(
+            [
+                '<p><strong>', // Ini harus diubah terlebih dahulu untuk mencegah konflik dengan <p> dan <strong>
+                '</strong></p>', // Ini harus diubah terlebih dahulu untuk mencegah konflik dengan </p> dan </strong>
                 '<p>',
                 '</p>',
-                '<p><strong>',
-                '</strong></p>',
                 '<ul>',
                 '<ol>',
                 '<li>'
             ],
             [
-                '<h2 class="mb-2 text-lg font-semibold text-gray-900 space-y-4"></h2>',
-                '</h2>',
-                '<h2 class="mb-2 text-lg font-semibold text-gray-900">',
-                '</h2>',
-                '<ul class="pl-5">',
-                '<ol class="list-decimal pl-5">',
-                '<li class="pl-5">'
+                '<h2 class="mt-4 mb-1 text-lg font-semibold text-gray-900">', // Pengganti untuk <p><strong>
+                '</h2>', // Pengganti untuk </strong></p>
+                '<p class="mt-4 mb-1 text-xl font-normal text-gray-900 space-y-4">', // Pengganti untuk <p>
+                '</h2>', // Pengganti untuk </p>
+                '<ul class="pl-5">', // Pengganti untuk <ul>
+                '<ol class="list-decimal pl-5">', // Pengganti untuk <ol>
+                '<li class="pl-5">' // Pengganti untuk <li>
+            ],
+            $this->step
+        );
 
-            ], 
-            $this->step);
     }
 }

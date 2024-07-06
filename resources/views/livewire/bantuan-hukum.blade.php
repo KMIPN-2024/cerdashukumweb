@@ -140,12 +140,18 @@
 
     {{-- Section Langkah Hukum --}}
     @if ($step)
-    <div class="flex gap-4 py-8 md:py-16">
-        <div class="flex-grow overflow-x-auto px-8 md:ps-28">
-            {!! $step !!}
-            <p class="ms-auto text-xs text-gray-500 dark:text-gray-400 mt-4">Rekomendasi langkah hukum ini disusun berdasarkan informasi dari Gemini API.</p>
+        <div class="flex flex-col gap-4 py-8 md:py-16">
+            <div data-aos="fade-down"
+                class="flex flex-col items-center text-primary font-semibold text-center aos-init aos-animate">
+                <p class="text-base uppercase">Rekomendasi Penyelesaian Kasus</p>
+            </div>
+            <div class="flex-grow overflow-x-auto px-8 md:px-28">
+                {!! $step !!}
+                <p class="ms-auto text-xs text-gray-500 dark:text-gray-400 mt-4">Hasil yang diberikan hanya berupa
+                    rekomendasi. Disarankan untuk berkonsultasi dengan advokat atau pengacara yang berpengalaman dalam
+                    menangani kasus anda!</p>
+            </div>
         </div>
-    </div>
     @endif
     {{-- End Section Langkah Hukum --}}
 
