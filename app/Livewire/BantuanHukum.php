@@ -3,7 +3,10 @@
 namespace App\Livewire;
 
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Str;
 use Livewire\Component;
+
+
 
 class BantuanHukum extends Component
 {
@@ -76,6 +79,28 @@ class BantuanHukum extends Component
         $getStep = Http::timeout(60)->post('http://api.cerdashukum.com:8080/langkah-hukum', [
                 'sentence' => $this->input,
             ]);
-        $this->step = $getStep->json();
+
+            
+            $this->step = Str::markdown($getStep->body());
+            $this->step = str_replace([
+                '<p>',
+                '</p>',
+                '<p><strong>',
+                '</strong></p>',
+                '<ul>',
+                '<ol>',
+                '<li>'
+            ],
+            [
+                '<h2 class="mb-2 text-lg font-semibold text-gray-900 space-y-4"></h2>',
+                '</h2>',
+                '<h2 class="mb-2 text-lg font-semibold text-gray-900">',
+                '</h2>',
+                '<ul class="pl-5">',
+                '<ol class="list-decimal pl-5">',
+                '<li class="pl-5">'
+
+            ], 
+            $this->step);
     }
 }

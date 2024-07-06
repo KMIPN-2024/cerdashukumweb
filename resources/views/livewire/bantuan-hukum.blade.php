@@ -139,53 +139,11 @@
     {{-- End Section Bantuan Hukum --}}
 
     {{-- Section Langkah Hukum --}}
-    @if (!empty($this->step))
-    <div class="flex py-8 md:py-16">
+    @if ($step)
+    <div class="flex gap-4 py-8 md:py-16">
         <div class="flex-grow overflow-x-auto px-8 md:ps-28">
-            <p class="font-medium text-lg text-secondary dark:text-[#b6b4fe] mb-4">Rekomendasi Langkah hukum lanjutan
-            </p>
-            <div class="bg-white dark:bg-[#15152C] rounded-lg shadow-md shadow-blue-200 max-w-xl" id="accordion-open"
-                data-accordion="collapse"
-                data-active-classes="bg-primary dark:bg-gray-800 text-white dark:text-white"
-                data-inactive-classes="bg-white dark:bg-[#15152C] text-gray-500 dark:text-gray-400">
-                @foreach ($this->step['step'] as $index => $item)
-                    <h2 id="accordion-open-heading-{{ $index + 1 }}">
-                        <button type="button" wire:click="toggleAccordion({{ $index }})"
-                            class="flex items-center justify-between w-full p-4 text-left rtl:text-right text-secondary border-b border-primary dark:border-gray-700 dark:text-gray-400 "
-                            data-accordion-target="#accordion-open-body-{{ $index + 1 }}"
-                            aria-controls="accordion-open-body-{{ $index + 1 }}">
-                            <div class="flex flex-col max-w-[calc(100%-1.25rem)]">
-                                <span class="font-medium">Langkah {{ $index + 1 }}</span>
-                                <span class="truncate">{{ $item['name'] }}</span>
-                            </div>
-                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="M9 5 5 1 1 5" />
-                            </svg>
-                        </button>
-                    </h2>
-                    <div id="accordion-open-body-{{ $index + 1 }}"
-                        class="{{ $activeAccordionIndex === $index ? '' : 'hidden' }}"
-                        aria-labelledby="accordion-open-heading-{{ $index + 1 }}">
-                        <div class="bg-white dark:bg-[#15152C] p-5 shadow-md rounded-b-2xl">
-                            <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-                                <div class="flex flex-col text-justify text-secondary dark:text-gray-200">
-                                    <p class="mb-2 font-semibold">{{ $item['description'] }}</p>
-                                </div>
-                                <h2 class="mb-2 text-lg font-semibold text-secondary dark:text-white">Bukti yang perlu disiapkan:</h2>
-                                @foreach ($item['bukti'] as $bukti)
-                                <ul class="max-w-lg space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
-                                    <li>
-                                        {{ $bukti }}
-                                    </li>
-                                </ul>
-                                @endforeach
-                            </div>
-                        </div>
-                    </div>
-                @endforeach
-            </div>
+            {!! $step !!}
+            <p class="ms-auto text-xs text-gray-500 dark:text-gray-400 mt-4">Rekomendasi langkah hukum ini disusun berdasarkan informasi dari Gemini API.</p>
         </div>
     </div>
     @endif
