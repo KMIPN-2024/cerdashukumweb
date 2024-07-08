@@ -98,7 +98,8 @@ class LawyerList extends Component
         // Convert specialties to string if they are arrays
         foreach ($this->filteredLawyers as &$lawyer) {
             if ($lawyer['foto'] == null) {
-                $lawyer['foto'] = $this->getImageUrl($lawyer['nama']);
+                // $lawyer['foto'] = $this->getImageUrl($lawyer['nama']);
+                $lawyer['foto'] = 'assets/img/default-lawyer-img.jpg';
             }
         };
 

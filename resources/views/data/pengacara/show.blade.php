@@ -32,7 +32,7 @@
                                 <div class="md:flex">
                                     <div class="md:shrink-0">
                                         <img class="h-48 w-full object-cover md:h-full md:w-48"
-                                            src="{{ asset('/storage/' . $pengacara->foto) }}">
+                                            src="{{ $pengacara->foto ? asset('/storage/' . $pengacara->foto) : '/assets/img/default-lawyer-img.jpg' }}">
                                     </div>
                                     <div class="p-8">
                                         <div class="uppercase tracking-wide text-lg text-indigo-500 font-semibold">

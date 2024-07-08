@@ -1,6 +1,6 @@
 @props([
     'id' => 1,
-    'img' => 'assets/img/lawyer.png',
+    'img' => 'assets/img/default-lawyer-img.jpg',
     'name' => 'Ahay',
     'specialties' => ['Perceraian'],
     'location' => 'Banjarmasin Utara',
@@ -8,7 +8,11 @@
 
 @php
     // Mengonversi jalur dari 'assets/img/...' menjadi 'storage/assets/img/...'
-    $imgPath = str_replace('assets/img/', 'storage/assets/img/', $img);
+    if ($img != 'assets/img/default-lawyer-img.jpg') {
+        $imgPath = str_replace('assets/img/', 'storage/assets/img/', $img);
+    } else {
+        $imgPath = $img;
+    }
 @endphp
 
 <div>

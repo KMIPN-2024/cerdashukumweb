@@ -181,7 +181,7 @@
             <div class="grid grid-cols-1 gap-4 md:grid-cols-4  justify-center">
                 @foreach ($pengacara as $lawyer)
                     <x-card.card>
-                        <x-card.pengacara img="{{ $lawyer->foto }}" name="{{ $lawyer->nama }}" :specialties="$lawyer->keahlian"
+                        <x-card.pengacara img="{{ $lawyer->foto ?? 'assets/img/default-lawyer-img.jpg' }}" name="{{ $lawyer->nama }}" :specialties="$lawyer->keahlian"
                             location="{{ $lawyer->alamat }}" />
                     </x-card.card>
                 @endforeach
