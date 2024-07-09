@@ -57,7 +57,7 @@
         </div>
     </section>
 
-    <section id="coba-sekarang">
+    {{-- <section id="coba-sekarang">
         <div class="bg-white dark:bg-transparent px-10 md:px-24 xl:px-80 pt-16 pb-24">
             <x-text.title subtitle="Artificial Intelligence" title="Temukan Solusi Hukum yang Sesuai Hanya untukmu" />
 
@@ -103,17 +103,14 @@
                 </form>
             </div>
         </div>
-    </section>
+    </section> --}}
 
-    <section id="artikel">
-        {{-- Section Artikel --}}
+    {{-- Section Artikel --}}
+    {{-- <section id="artikel">
         <div class="p-6 md:p-12">
-            {{-- Title --}}
             <x-text.title subtitle="BERITA HUKUM LAINNYA" title="Jelajahi Lebih Banyak Wawasan Hukum"
                 class="pb-8 md:pb-16" />
-            {{-- End Title --}}
 
-            {{-- Card Artikel --}}
             <div class="grid grid-rows md:grid-cols-3 gap-y-5 md:gap-y-0 md:gap-6 justify-center">
 
                 <x-card.card>
@@ -132,10 +129,9 @@
                         desc="Learn the steps to report fraudulent schemes occurring through WhatsApp messages to protect yourself and others from online scams" />
                 </x-card.card>
             </div>
-            {{-- End Card Artikel --}}
         </div>
-        {{-- End Section Artikel --}}
-    </section>
+    </section> --}}
+    {{-- End Section Artikel --}}
 
     <section id="demo-now">
         <div
