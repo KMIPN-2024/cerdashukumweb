@@ -15,7 +15,7 @@
             <div class="grid grid-cols-1 gap-4 md:grid-cols-4">
                 @forelse ($lawyers as $lawyer)
                     <x-card.card>
-                        <x-card.pengacara img="{{ $lawyer->foto }}" name="{{ $lawyer->nama }}" :specialties="$lawyer->keahlian"
+                        <x-card.pengacara img="{{ $lawyer->foto ?? 'assets/img/default-lawyer-img.jpg' }}" name="{{ $lawyer->nama }}" :specialties="$lawyer->keahlian"
                             location="{{ $lawyer->alamat }}" id="{{ $lawyer->id }}" />
                     </x-card.card>
                 @empty
