@@ -7,12 +7,11 @@
         </div>
         {{-- End Title --}}
 
-        <div class="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-y-5 md:gap-y-0 md:gap-x-14 pb-5">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, deleniti non sequi nesciunt esse, laboriosam ipsam maxime doloribus a consequatur suscipit placeat deserunt labore! Nobis, est cupiditate animi, iure laboriosam quae ullam tenetur adipisci atque modi laudantium inventore similique placeat voluptatum, itaque incidunt repellat esse corrupti natus. Consequuntur, omnis quibusdam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, deleniti non sequi nesciunt esse, laboriosam ipsam maxime doloribus a consequatur suscipit placeat deserunt labore! Nobis, est cupiditate animi, iure laboriosam quae ullam tenetur adipisci atque modi laudantium inventore similique placeat voluptatum, itaque incidunt repellat esse corrupti natus. Consequuntur, omnis quibusdam.</p>
+        <div class="grid grid-rows-1 justify-center md:grid-rows-1 md:grid-cols-1 gap-y-5 md:gap-y-0 md:gap-x-14 pb-5">
+            <p>CerdasHukum.com merupakan platform yang dirancang khusus untuk membantu masyarakat dalam memberikan pertolongan pertama ketika menghadapi permasalahan hukum. Dengan fitur-fitur inovatif seperti bantuan hukum dan rekomendasi penyelesaian masalah berbasis machine learning, aplikasi ini memberikan solusi cerdas untuk meningkatkan literasi hukum di kalangan masyarakat. Selain itu, CerdasHukum juga menawarkan fitur rekomendasi pengacara. Dengan antarmuka yang intuitif dan fungsionalitas yang komprehensif, Cerdas Hukum menjadi mitra terpercaya baik bagi masyarakat maupun profesional hukum dalam mencari solusi atas permasalahan hukum yang mereka hadapi.</p>
         </div>
 
-        <x-text.title subtitle="Tim CerdasHukum" class="pt-12 md:pt-6" />
+        {{-- <x-text.title subtitle="Tim CerdasHukum" class="pt-12 md:pt-6" />
 
         <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
             <div class="relative " data-sr-id="9"
@@ -48,7 +47,7 @@
                     <a class="text-white text-xs" href="">@landi.sumari_</a>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
 
     </div>
