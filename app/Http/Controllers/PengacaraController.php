@@ -16,7 +16,7 @@ class PengacaraController extends Controller
      */
     public function index()
     {
-        $data = Pengacara::with('keahlian')->get();
+        $data = Pengacara::with('keahlian')->latest()->get();
 
         return view('data.pengacara.index', compact('data'));
     }
