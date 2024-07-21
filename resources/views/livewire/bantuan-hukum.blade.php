@@ -81,9 +81,7 @@
                 </div>
             @enderror
             <p class="ms-auto text-xs text-gray-500 dark:text-gray-400">Gunakan Bahasa Indonesia yang baik dan benar
-                agar mendapat jawaban yang maksimal <a href="#"
-                    class="text-blue-600 dark:text-[#b6b4fe] hover:underline">Community
-                    Guidelines</a>.</p>
+                agar mendapat jawaban yang maksimal</p>
         </div>
     </div>
 
