@@ -21,7 +21,7 @@ class LawyerList extends Component
     public function mount()
     {
         // $json = file_get_contents(public_path('dummy-pengacara.json'));
-        $data = Pengacara::all();
+        $data = Pengacara::latest()->get();
         $keahlians = Keahlian::all();
 
         $this->lawyers = $data;
