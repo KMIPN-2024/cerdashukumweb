@@ -33,10 +33,10 @@
                         <a href="{{ route('perdata.index') }}"
                             class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 {{ request()->is('perdata') ? 'md:text-primary text-primary underline underline-offset-8' : 'text-secondary dark:text-white hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent' }}">Perdata</a>
                     </li>
-                    <li>
+                    {{-- <li>
                         <a href="#faq"
                             class="block py-2 pl-3 pr-4 text-secondary dark:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent">FAQ</a>
-                    </li>
+                    </li> --}}
                     <li>
                         <a href="{{ route('tentang-kami') }}"
                             class="block py-2 pl-3 pr-4 text-secondary dark:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:hover:underline md:hover:underline-offset-8 md:p-0 md:dark:hover:bg-transparent">Tentang Kami</a>
