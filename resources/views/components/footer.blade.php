@@ -21,7 +21,7 @@
         </div>
 
         <div class="flex flex-col items-center justify-center mt-16 gap-y-5 text-center">
-            <img src="{{ asset('assets/img/cerdashukum-logo.png') }}" class="w-52" alt="CerdasHukum Logo" />
+            <img src="{{ asset('assets/img/CerdasHukum-logo-landscape-dark.png') }}" class="w-52" alt="CerdasHukum Logo" />
             <p>&copy; 2024 CerdasHukum, Inc. All rights reserved.</p>
 
             <div class="flex gap-x-5">
