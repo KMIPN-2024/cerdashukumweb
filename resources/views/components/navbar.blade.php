@@ -2,8 +2,10 @@
     <nav class="bg-transparent w-full top-0 left-0 border-b border-b-blue-100">
         <div id="navbar" class="max-w-full flex flex-wrap items-center justify-between mx-auto xl:mx-20 p-4">
             <a href="#hero">
-                <img src="{{ asset('assets/img/CerdasHukum-logo-landscape-dark.png') }}" class="h-12 hidden md:block" alt="POS Logo" />
-                <img src="{{ asset('assets/img/CerdasHukum-logo-landscape-dark.png') }}" class="h-10 block md:hidden" alt="POS Logo" />
+                <img src="{{ asset('assets/img/CerdasHukum-logo-landscape-dark.png') }}" class="h-12 hidden md:block dark:hidden" alt="POS Logo" />
+                <img src="{{ asset('assets/img/CerdasHukum-Logo-light-landscape.png') }}" class="h-12 hidden dark:block dark:md:hidden" alt="POS Logo" />
+                <img src="{{ asset('assets/img/CerdasHukum-logo-landscape-dark.png') }}" class="h-10 block md:hidden dark:hidden" alt="POS Logo" />
+                <img src="{{ asset('assets/img/CerdasHukum-Logo-light-landscape.png') }}" class="h-10 hidden md:hidden dark:hidden dark:md:block" alt="POS Logo" />
             </a>
                 <button data-collapse-toggle="navbar-default" type="button"
                     class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"

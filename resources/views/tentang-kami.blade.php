@@ -42,7 +42,7 @@
             </p>
         </div>
 
-        <x-text.title subtitle="Tim Sistem Informasi Hukum (SI-LAW)" class="pt-12 md:pt-6" />
+        <x-text.title subtitle="Tim CERDASHUKUM" class="pt-12 md:pt-6" />
 
         <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
             <div class="relative shadow-md shadow-blue-100" data-sr-id="9"
