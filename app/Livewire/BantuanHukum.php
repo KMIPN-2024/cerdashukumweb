@@ -47,7 +47,7 @@ class BantuanHukum extends Component
         $this->loading = true;
 
         // Fetch data from the API
-        $getPasal = Http::timeout(60)->post('https://cerdashukumapi-ktmv6bjp4q-as.a.run.app/get-pasal', [
+        $getPasal = Http::timeout(60)->post('http://103.76.120.96:8000/get-pasal', [
             'sentence' => $this->input,
             'returnPasal' => true,
         ]);
