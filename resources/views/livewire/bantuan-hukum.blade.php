@@ -1,5 +1,5 @@
 <div>
-    <div class="bg-white px-8 py-10 md:px-16 md:py-20 dark:bg-[#191d3c]">
+    <div class="bg-white px-8 pt-10 md:px-16 md:pt-20 dark:bg-[#191d3c]">
         <div class="text-primary dark:text-[#b6b4fe] grid gap-y-4">
             <p class="font-semibold font-open text-base uppercase">artifical intelligence</p>
             <h3 class="font-semibold font-inter text-5xl">Temukan Solusi Hukum yang Sesuai <br class="hidden md:block">
@@ -85,8 +85,7 @@
         </div>
     </div>
 
-    {{-- Section Bantuan Hukum --}}
-    @if (!empty($this->response))
+    {{-- @if (!empty($this->response))
         <div class="flex py-8 md:py-16">
             <div class="flex-grow overflow-x-auto px-8 md:ps-28">
                 <p class="font-medium text-lg text-secondary dark:text-[#b6b4fe] mb-4">Keluhan Anda sesuai dengan Pasal
@@ -133,24 +132,42 @@
                     class="hidden md:block md:w-[1000px] md:h-[460px] object-cover" alt="">
             </div>
         </div>
-    @endif
-    {{-- End Section Bantuan Hukum --}}
-
-    {{-- Section Langkah Hukum --}}
-    @if ($step)
-        <div class="flex flex-col gap-4 py-8 md:py-16">
-            <div data-aos="fade-down"
-                class="flex flex-col items-center text-primary font-semibold text-center aos-init aos-animate">
-                <p class="text-base uppercase">Rekomendasi Penyelesaian Kasus</p>
-            </div>
-            <div class="flex-grow overflow-x-auto px-8 md:px-28">
-                {!! $step !!}
-                <p class="ms-auto text-xs text-gray-500 dark:text-gray-400 mt-4">Rekomendasi langkah hukum ini disusun
-                    berdasarkan informasi dari Gemini API.</p>
+    @endif --}}
+    <div class="grid grid-cols md:grid-cols-2">
+        {{-- Section Bantuan Hukum --}}
+        @if (!empty($response_pasal))
+        <div class="flex py-8 md:py-16">
+            <div class="flex-grow overflow-x-auto px-8 md:ps-28">
+                <p class="uppercase font-medium text-center text-lg text-secondary dark:text-[#b6b4fe] mb-4">Keluhan
+                    Anda sesuai dengan
+                    Pasal
+                </p>
+                <div class="border rounded-2xl shadow-md p-4 dark:text-gray-300">
+                    {!! $response_pasal !!}
+                </div>
             </div>
         </div>
-    @endif
-    {{-- End Section Langkah Hukum --}}
+        @endif
+        {{-- End Section Bantuan Hukum --}}
+
+        {{-- Section Langkah Hukum --}}
+        @if ($step)
+        <div class="flex flex-col py-8 md:py-16">
+            <div class="flex-grow overflow-x-auto px-8 md:pe-28">
+                <div data-aos="fade-down" class="flex flex-col items-center text-primary font-semibold text-center">
+                    <p class="uppercase font-medium text-lg text-secondary dark:text-[#b6b4fe] mb-4">Rekomendasi
+                        Penyelesaian Kasus</p>
+                </div>
+                <div class="border rounded-2xl shadow-md p-4 dark:text-gray-300">
+                    {!! $step !!}
+                </div>
+                <p class="ms-auto text-xs text-gray-500 dark:text-gray-300 mt-4">Rekomendasi yang diberikan berdasarkan
+                    informasi yang digenerate dari Gemini API</p>
+            </div>
+        </div>
+        @endif
+        {{-- End Section Langkah Hukum --}}
+    </div>
 
 
     @if ($loading)
