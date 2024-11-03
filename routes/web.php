@@ -43,6 +43,14 @@ Route::post('/bantuan-hukum/pasal', [BantuanHukumController::class, 'getPasal'])
 Route::get('/tentang-kami', function () {
     return view('tentang-kami');
 })->name('tentang-kami');
+// Halaman Privacy Policy
+Route::get('/privacy-policy', function () {
+    return view('privacy-policy');
+})->name('privacy-policy');
+// Halaman Terms & Conditions
+Route::get('/terms-condition', function () {
+    return view('terms-condition');
+})->name('terms-condition');
 
 
 

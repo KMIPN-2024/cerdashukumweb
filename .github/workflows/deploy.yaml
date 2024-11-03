@@ -21,4 +21,3 @@ jobs:
             n
             cd /www/wwwroot/cerdashukumweb
             git pull origin main
-            

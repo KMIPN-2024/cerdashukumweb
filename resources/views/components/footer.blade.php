@@ -2,28 +2,26 @@
     <div class="mx-20 pb-16 text-secondary pt-5 dark:text-white">
         <div class="flex flex-col md:flex-row justify-between gap-y-8 md:gap-y-0">
             <div class="flex flex-col gap-y-4">
-                <h3 class="font-semibold">Company</h3>
-                <a href="#" class="hover:text-primary">About</a>
-                <a href="#" class="hover:text-primary">Lawyers</a>
-                <a href="#" class="hover:text-primary">News</a>
-                <a href="#" class="hover:text-primary">Help</a>
+                <h3 class="font-semibold">Feature</h3>
+                <a href="{{ route('tentang-kami') }}" class="hover:text-primary">About</a>
+                <a href="{{ route('pengacara.index') }}" class="hover:text-primary">Lawyers</a>
+                <a href="{{ route('bantuan-hukum') }}" class="hover:text-primary">Bantuan Hukum</a>
             </div>
             <div class="flex flex-col gap-y-4">
                 <h3 class="font-semibold">Help and Support</h3>
-                <a href="#" class="hover:text-primary">Contact Us</a>
-                <a href="#" class="hover:text-primary">Knowledge Center</a>
-                <a href="#" class="hover:text-primary">Premium Support</a>
-                <a href="#" class="hover:text-primary">Sponsorships</a>
+                <a href="https://wa.me/6289691973981" class="hover:text-primary">Contact Us</a>
+                <a href="#faq" class="hover:text-primary">Knowledge Center</a>
+                <a href="https://wa.me/6289691973981" class="hover:text-primary">Partnership & Sponsorship</a>
             </div>
             <div class="flex flex-col gap-y-4">
                 <h3 class="font-semibold">Legal</h3>
-                <a href="#" class="hover:text-primary">Privacy Policy</a>
-                <a href="#" class="hover:text-primary">Terms & Conditions</a>
+                <a href="{{ route('privacy-policy') }}" class="hover:text-primary">Privacy Policy</a>
+                <a href="{{ route('terms-condition') }}" class="hover:text-primary">Terms & Conditions</a>
             </div>
         </div>
 
         <div class="flex flex-col items-center justify-center mt-16 gap-y-5 text-center">
-            <img src="{{ asset('assets/img/cerdashukum-logo-dark.png') }}" class="w-52" alt="CerdasHukum Logo" />
+            <img src="{{ asset('assets/img/CerdasHukum-logo-landscape-dark.png') }}" class="w-52" alt="CerdasHukum Logo" />
             <p>&copy; 2024 CerdasHukum, Inc. All rights reserved.</p>
 
             <div class="flex gap-x-5">

@@ -1,7 +1,8 @@
 <x-app-layout>
     <section id="hero">
         <img src="{{ asset('assets/img/hero.png') }}" class="block md:hidden" alt="">
-        <div class="bg-white dark:bg-transparent md:grid md:grid-cols-2 justify-center items-center px-6 pt-10 md:px-24 md:pt-24 pb-16">
+        <div
+            class="bg-white dark:bg-transparent md:grid md:grid-cols-2 justify-center items-center px-6 pt-10 md:px-24 md:pt-24 pb-16">
 
             <div class="flex flex-col gap-y-4">
                 <p class="text-[#BFC0C2] font-medium">SELAMAT DATANG DI WEBSITE CerdasHukum 👋🏻</p>
@@ -9,7 +10,7 @@
                     masalah hukum
                     meski
                     di hari libur</h1>
-                <p class="text-secondary font-medium">Temukan solusi hukum yang tepat untuk setiap permasalahan perdata
+                <p class="text-secondary dark:text-gray-500 font-medium">Temukan solusi hukum yang tepat untuk setiap permasalahan perdata
                     dengan platform CerdasHukum berbasis AI. Dengan fitur konsultasi kami, langkah hukum Anda menjadi
                     lebih
                     tepat dan fokus, sehingga menjamin kejelasan dan arah dalam perjalanan hukum Anda.</p>
@@ -17,22 +18,22 @@
                     <a href="{{ route('bantuan-hukum') }}"
                         class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-white bg-primary rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Tanya
                         Hukum</a>
-                    <p class="text-secondary">24K+ learners enrolled</p>
                 </div>
             </div>
             <div class="">
-                <img src="{{ asset('assets/img/hero.png') }}" class="hidden md:block" alt="">
+                <img src="{{ asset('assets/img/hero.png') }}" class="hidden md:block    " alt="">
             </div>
         </div>
     </section>
 
     <section id="hero2">
-        <div class="p-6 md:p-16">
+        <div class="p-6 md:p-16 dark:border-t">
             <div class="text-primary font-semibold" data-aos="fade-right">
                 <p class="text-base uppercase">SOLUSI HUKUM CERDAS</p>
-                <h1 class="text-3xl md:text-5xl pb-5 pt-2">Temukan ratusan pengacara tepercaya yang siap membantu Anda!
+                <h1 class="text-3xl md:text-5xl pb-5 pt-2">Selesaikan Masalah Hukum Perdata Anda dengan Efisiensi AI
                 </h1>
-                <p class="text-secondary dark:text-gray-400 pb-12">Beragam Pengacara yang Cocok untuk Kebutuhan Konsultasi Anda</p>
+                <p class="text-secondary dark:text-gray-400 pb-12">Teknologi AI kami yang canggih membantu Anda
+                    menavigasi dan menyelesaikan masalah hukum perdata Anda dengan cepat dan efektif.</p>
             </div>
             <div class="md:grid md:grid-cols-2 md:space-x-28 overflow-x-hidden">
                 <img data-aos="fade-right" src="{{ asset('assets/img/section2.png') }}" alt="">
@@ -135,7 +136,7 @@
 
     <section id="demo-now">
         <div
-            class="bg-white dark:bg-transparent md:grid md:grid-cols-2 justify-center items-center px-6 pt-4 md:pt-0 md:px-24 pb-16 overflow-x-hidden">
+            class="bg-white dark:bg-transparent md:grid md:grid-cols-2 justify-center items-center px-6 pt-4 md:pt-0 md:px-24 pb-16 overflow-x-hidden dark:border-t">
             <img data-aos="fade-right" src="{{ asset('assets/img/Frame 1171277302.png') }}" class="hidden md:block"
                 alt="">
             <div data-aos="fade-left" class="flex flex-col gap-y-4 text-primary">
@@ -155,7 +156,8 @@
                         class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-white bg-primary rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Tanya
                         Hukum</a>
                     <a href="{{ route('pengacara.create') }}"
-                        class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-primary dark:text-white bg-transparent border border-primary rounded-lg hover:border-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Daftar Jadi Kontributor</a>
+                        class="inline-flex items-center px-3 py-3 text-sm font-medium justify-center text-primary dark:text-white bg-transparent border border-primary rounded-lg hover:border-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Daftar
+                        Jadi Kontributor</a>
 
                 </div>
             </div>
@@ -164,10 +166,10 @@
 
     <section id="pengacara">
         {{-- Section Rekomendasi Pengacara --}}
-        <div class="p-6 md:p-12">
+        <div class="p-6 md:p-12 dark:border-t">
             {{-- Title --}}
             <x-text.title subtitle="Kumpulan Pengacara Hukum"
-                title="Ratusan Pengacara Tepercaya <br> Siap
+                title="Ratusan Ahli Hukum Tepercaya <br> Siap
                     Membantu
                     Anda"
                 class="pb-8 md:pb-16" />
@@ -177,8 +179,8 @@
             <div class="grid grid-cols-1 gap-4 md:grid-cols-4  justify-center">
                 @foreach ($pengacara as $lawyer)
                     <x-card.card>
-                        <x-card.pengacara img="{{ $lawyer->foto ?? 'assets/img/default-lawyer-img.jpg' }}" name="{{ $lawyer->nama }}" :specialties="$lawyer->keahlian"
-                            location="{{ $lawyer->alamat }}" />
+                        <x-card.pengacara img="{{ $lawyer->foto ?? 'assets/img/default-lawyer-img.jpg' }}"
+                            name="{{ $lawyer->nama }}" :specialties="$lawyer->keahlian" location="{{ $lawyer->alamat }}" />
                     </x-card.card>
                 @endforeach
                 {{-- <x-card.card>
@@ -206,9 +208,41 @@
             <x-text.title subtitle="CerdasHukum" title="Frequently Asked Questions" />
             {{-- End Title --}}
 
-           <x-faq-list />
+            <x-faq-list />
         </div>
         {{-- End Section FAQ --}}
     </section>
+
+    @push('addon-script')
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const accordions = document.querySelectorAll('[data-accordion="collapse2"]');
+
+                accordions.forEach(function(accordion) {
+                    const button = accordion.querySelector('button');
+                    const target = accordion.querySelector(button.getAttribute('data-accordion-target'));
+
+                    button.addEventListener('click', function() {
+                        const expanded = button.getAttribute('aria-expanded') === 'true' || false;
+
+                        // Tutup semua akordeon yang tidak sedang diklik
+                        accordions.forEach(function(otherAccordion) {
+                            const otherButton = otherAccordion.querySelector('button');
+                            const otherTarget = otherAccordion.querySelector(otherButton
+                                .getAttribute('data-accordion-target'));
+
+                            if (accordion !== otherAccordion) {
+                                otherButton.setAttribute('aria-expanded', 'false');
+                                otherTarget.classList.add('hidden');
+                            }
+                        });
+
+                        button.setAttribute('aria-expanded', !expanded);
+                        target.classList.toggle('hidden');
+                    });
+                });
+            });
+        </script>
+    @endpush
 
 </x-app-layout>
